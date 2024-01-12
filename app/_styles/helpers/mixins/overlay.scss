@@ -1,0 +1,8 @@
+@mixin overlay {
+  position: absolute;
+  inset: 0;
+  background-color: var(--overlay-color);
+  opacity: var(--overlay-opacity);
+  border-radius: inherit;
+  content: '';
+}

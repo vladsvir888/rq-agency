@@ -1,0 +1,49 @@
+// style
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition-property: background-color, color, border-color;
+  transition-duration: var(--transition300ms);
+
+  &--primary {
+    color: #fff;
+    background-color: var(--palette-primary);
+
+    @include hover {
+      background-color: #5912D1;
+    }
+  }
+
+  &--pill {
+    border-radius: var(--bdrs32);
+  }
+
+  &--outline {
+    border: rem(1) solid #fff;
+
+    @include hover {
+      border-color: #5912D1;
+      color: #5912D1;
+      background-color: #E6DAFC;
+    }
+  }
+
+  &--small {
+    @include base14;
+
+    min-height: rem(38);
+    padding: 0 rem(32);
+  }
+
+  &--large {
+    @include base24;
+
+    min-height: rem(45);
+    padding: 0 rem(32);
+  }
+}

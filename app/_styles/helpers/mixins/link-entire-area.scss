@@ -1,0 +1,5 @@
+@mixin link-entire-area {
+  position: absolute;
+  inset: 0;
+  content: '';
+}

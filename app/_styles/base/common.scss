@@ -1,0 +1,199 @@
+@font-face {
+  font-family: GothamPro;
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('../assets/GothamPro-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: GothamPro;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('../assets/GothamPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: GothamPro;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('../assets/GothamPro-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: GothamPro;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('../assets/GothamPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: GothamPro;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('../assets/GothamPro-Black.woff2') format('woff2');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-wrap: balance;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  color: currentColor;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select,
+address,
+small {
+  font: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+body,
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  border: 0;
+}
+
+input[type='search'] {
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    appearance: none;
+  }
+}
+
+input {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    margin: 0;
+    appearance: none;
+  }
+}
+
+input[type='number'] {
+  appearance: textfield;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.scroll-lock {
+  overflow: hidden;
+  padding-right: var(--scrollbar-width);
+}
+
+[hidden],
+.swiper-pagination-lock {
+  display: none !important;
+}
+
+html,
+body {
+  scrollbar-gutter: stable;
+}
+
+html {
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: var(--font-primary);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+}
+
+.section {
+  &__title {
+    @include heading2;
+
+    padding-left: rem(83);
+    padding-bottom: rem(50);
+    color: var(--palette-primary);
+  }
+}

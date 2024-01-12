@@ -1,0 +1,5 @@
+<!--- template --->
+<div class="icon-card">
+  <slot name="icon"></slot>
+  <slot name="text"></slot>
+</div>

@@ -1,0 +1,27 @@
+<header class="header">
+  <div class="container header__container">
+    <a class="header__logo" href="/">
+      <img class="header__logo-img" src="assets/images/icons/logo.svg" alt="Главня" width="87" height="51">
+    </a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <app-link class="header__link" href="#">Компания</app-link>
+        </li>
+        <li class="header__item">
+          <app-link class="header__link" href="#">Услуги</app-link>
+        </li>
+        <li class="header__item">
+          <app-link class="header__link" href="#">Кейсы</app-link>
+        </li>
+        <li class="header__item">
+          <app-link class="header__link" href="#">Новости</app-link>
+        </li>
+        <li class="header__item">
+          <app-link class="header__link" href="#">Контакты</app-link>
+        </li>
+      </ul>
+    </nav>
+    <app-button class="button--primary button--pill header__callback-btn">Заказать звонок</app-button>
+  </div>
+</header>

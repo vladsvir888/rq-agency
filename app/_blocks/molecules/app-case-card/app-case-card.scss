@@ -1,0 +1,74 @@
+// style
+.case-card {
+  $this: &;
+
+  position: relative;
+  height: 100%;
+  min-height: rem(382);
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: var(--bdrs16);
+
+  &::before {
+    @include overlay;
+  }
+
+  &--big {
+    border-radius: var(--bdrs32);
+
+    &::before {
+      border-radius: inherit;
+    }
+
+    #{$this} {
+      &__content {
+        padding: rem(40);
+      }
+
+      &__tag {
+        @include sub24;
+
+        margin-bottom: rem(32);
+      }
+
+      &__title {
+        @include heading5;
+      }
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    min-height: inherit;
+    padding: rem(24);
+  }
+
+  &__tag {
+    @include base14;
+
+    margin-bottom: rem(24);
+  }
+
+  &__title {
+    @include sub24;
+
+    margin-bottom: rem(20);
+  }
+
+  &__link {
+    &::before {
+      @include link-entire-area;
+    }
+  }
+
+  &__bottom-block {
+    margin-top: auto;
+    margin-left: auto;
+  }
+}

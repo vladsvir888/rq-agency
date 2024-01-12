@@ -1,0 +1,36 @@
+@mixin base12 {
+  @include font(12, 15.6, 400)
+}
+
+@mixin base14 {
+  @include font(14, 18.2, 400);
+}
+
+@mixin base20 {
+  @include font(20, 26, 400);
+}
+
+@mixin base24 {
+  @include font(24, 31.2, 400);
+}
+
+@mixin sub18 {
+  @include font(18, 23.4, 400);
+}
+
+@mixin sub24 {
+  @include font(24, 31.2, 400);
+}
+
+@mixin heading2 {
+  @include font(48, 62.4, 400);
+}
+
+@mixin heading3 {
+  @include font(42, 54.6, 400);
+}
+
+@mixin heading5 {
+  @include font(32, 41.6, 400);
+}
+

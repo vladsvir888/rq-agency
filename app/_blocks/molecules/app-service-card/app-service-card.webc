@@ -1,0 +1,6 @@
+<!--- template --->
+<article class="service-card" webc:root="override">
+  <slot name="title"></slot>
+  <slot name="text"></slot>
+  <app-link class="button--pill button--outline button--small service-card__link" href="#">Подробнее</app-link>
+</article>

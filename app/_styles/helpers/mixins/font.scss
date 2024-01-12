@@ -1,0 +1,21 @@
+@use 'sass:math';
+
+@mixin font($font-size, $line-height: null, $font-weight: null, $font-style: null) {
+  font-size: rem($font-size);
+
+  @if $line-height {
+    line-height: math.div($line-height, $font-size);
+  }
+
+  @if $font-weight {
+    font-weight: $font-weight;
+  }
+
+  @if $font-style {
+    font-style: $font-style;
+  }
+}
+
+//  ===== Usage =====
+
+// @include font-size(20, 16, 700, italic);

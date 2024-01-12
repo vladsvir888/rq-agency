@@ -1,0 +1,44 @@
+{
+  "name": "11ty-boilerplate",
+  "author": "Vladislav Svirydovich",
+  "license": "ISC",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --incremental",
+    "build": "npx @11ty/eleventy",
+    "format": "prettier --write **/*.{js,scss}",
+    "lint:script": "npx eslint --fix app/**/*.js",
+    "lint:style": "npx stylelint app/**/*.scss",
+    "component": "node component.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.8",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@shopify/browserslist-config": "^3.0.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.3",
+    "esbuild": "^0.19.11",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "js-beautify": "^1.14.11",
+    "node-sass-glob-importer": "^5.3.3",
+    "postcss": "^8.4.33",
+    "postcss-sort-media-queries": "^5.2.0",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.7",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "browserslist": [
+    "extends @shopify/browserslist-config"
+  ],
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.12.0",
+    "pristinejs": "^1.1.0",
+    "swiper": "^11.0.5"
+  },
+  "engines": {
+    "node": ">= 20.10.0"
+  }
+}

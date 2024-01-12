@@ -1,0 +1,21 @@
+:root {
+  // palette
+  --palette-primary: #350587;
+
+  // containers
+  --container-width: #{rem(1440)};
+  --container-padding: #{rem(60)};
+
+  // transitions
+  --transition300ms: 0.3s;
+
+  // fonts
+  --font-primary: 'GothamPro', sans-serif;
+
+  // border-radius
+  --bdrs32: #{rem(32)};
+  --bdrs16: #{rem(16)};
+
+  // gap
+  --gap30: #{rem(30)};
+}

@@ -1,0 +1,32 @@
+// style
+.header {
+  color: var(--palette-primary);
+
+  &__container {
+    display: flex;
+    align-items: center;
+    padding: rem(26) 0;
+  }
+
+  &__logo {
+    margin-right: rem(26);
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    padding: rem(12) rem(25);
+
+    @include hover {
+      color: #5912D1;
+    }
+  }
+
+  &__callback-btn {
+    padding:  rem(12) rem(32);
+    margin-left: auto;
+    letter-spacing: rem(0.48);
+  }
+}

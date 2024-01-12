@@ -1,0 +1,88 @@
+<!--- template --->
+<section class="section services">
+  <div class="container">
+    <h2 class="section__title">Услуги</h2>
+    <ul class="services__list">
+      <li class="services__item services__item--1">
+        <app-service-card class="service-card--1">
+          <h3 slot="title" class="service-card__title">Digital PR</h3>
+          <div slot="text" class="service-card__text">
+            <p>
+              Комплекс услуг, направленный на создание и улучшение имиджа вашего бренда. <br>
+              Включает в себя следующие направления:
+            </p>
+            <ul>
+              <li>
+                Управление репутацией
+              </li>
+              <li>
+                Продвижение в социальных сетях
+              </li>
+              <li>
+                Продвижение в интернет СМИ
+              </li>
+              <li>
+                Мониторинг инфополя
+              </li>
+              <li>
+                Работу с геосервисами
+              </li>
+              <li>
+                И другие услуги
+              </li>
+            </ul>
+          </div>
+        </app-service-card>
+      </li>
+
+      <li class="services__item services__item--2">
+        <app-service-card class="service-card--2">
+          <h3 slot="title" class="service-card__title">ORM</h3>
+          <div slot="text" class="service-card__text">
+            <p>
+              Управление репутацией в сети – комплекс услуг, направленный на оперативное выявление и нейтрализацию неактуальной информации о компании, услуге, продукте, личности в digital пространстве
+            </p>
+          </div>
+        </app-service-card>
+      </li>
+
+      <li class="services__item services__item--3">
+        <app-service-card class="service-card--3">
+          <h3 slot="title" class="service-card__title">PR</h3>
+          <div slot="text" class="service-card__text">
+            <p>
+              Услуги по продвижению компании или персоны в интернет СМИ направлены на повышение узнаваемости и уровня доверия к бренду, нивелирование негатива, предупреждение и отражение информационных атак
+            </p>
+          </div>
+        </app-service-card>
+      </li>
+
+      <li class="services__item services__item--4">
+        <app-service-card class="service-card--4">
+          <h3 slot="title" class="service-card__title">SMM</h3>
+          <div slot="text" class="service-card__text">
+            <p>
+              Продвижение в социальных сетях включает в себя услуги, направленные на реализацию маркетинговых и коммуникационных задач: от подготовки контента до разработки и реализации комплексной стратегии
+            </p>
+          </div>
+        </app-service-card>
+      </li>
+
+      <li class="services__item services__item--5">
+        <app-service-card class="service-card--5">
+          <h3 slot="title" class="service-card__title">Мониторинг</h3>
+          <div slot="text" class="service-card__text">
+            <p>
+              Комплексное исследование упоминаний компании, помогающее предотвратить кризисные ситуации и понять потребности пользователей, а также проанализировать информационное поля бренда
+            </p>
+          </div>
+        </app-service-card>
+      </li>
+
+      <!--- todo: убрать семантику для последнего listitem --->
+      <li class="services__item services__item--6">
+        <app-link class="button--primary button--pill button--large services__more" href="/">Узнать больше</app-link>
+      </li>
+    </ul>
+  </div>
+</section>

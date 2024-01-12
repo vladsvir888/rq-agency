@@ -1,0 +1,11 @@
+---
+permalink: "home.html"
+---
+
+<app-base title="Главная" webc:nokeep>
+  <app-industry-standards></app-industry-standards>
+  <app-cases></app-cases>
+  <app-news></app-news>
+  <app-services></app-services>
+  <app-confidence></app-confidence>
+</app-base>
