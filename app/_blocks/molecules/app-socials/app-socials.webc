@@ -1,0 +1,4 @@
+<!--- template --->
+<div class="socials" role="group" aria-label="Социальные сети" webc:root="override">
+  <slot></slot>
+</div>

@@ -1,6 +1,8 @@
 :root {
   // palette
   --palette-primary: #350587;
+  --palette-gray: #BFBFBF;
+  --palette-secondary: #9A86C0;
 
   // containers
   --container-width: #{rem(1440)};
@@ -13,9 +15,15 @@
   --font-primary: 'GothamPro', sans-serif;
 
   // border-radius
+  --bdrs64: #{rem(64)};
   --bdrs32: #{rem(32)};
   --bdrs16: #{rem(16)};
+  --bdrs12: #{rem(12)};
+  --bdrs8: #{rem(8)};
 
   // gap
   --gap30: #{rem(30)};
+
+  // others
+  --header-height: #{rem(103)};
 }

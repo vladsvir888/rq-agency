@@ -1,0 +1,6 @@
+<!--- template --->
+<nav class="filter-block" aria-label="Фильтрация" webc:root="override">
+  <ul class="filter-block__list">
+    <slot></slot>
+  </ul>
+</nav>

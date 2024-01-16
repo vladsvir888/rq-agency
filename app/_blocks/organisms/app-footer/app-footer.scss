@@ -1,0 +1,76 @@
+// style
+.footer {
+  padding: rem(22) 0;
+  background-color: var(--palette-primary);
+  color: #fff;
+  background-image: url('../assets/images/graphics/footer.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      'socials form'
+      'address form'
+      'info form';
+    align-items: center;
+    gap: rem(54);
+  }
+
+  &__socials {
+    grid-area: socials;
+  }
+
+  &__address {
+    grid-area: address;
+
+    &-town {
+      @include sub18;
+
+      margin-bottom: rem(18);
+    }
+
+    &-others {
+      @include base12;
+    }
+
+    &-mail {
+      text-decoration: underline;
+    }
+  }
+
+  &__info {
+    @include base12;
+
+    grid-area: info;
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(12) rem(44);
+    color: var(--palette-gray);
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: rem(288) rem(195);
+    gap: rem(30) rem(50);
+    grid-area: form;
+    align-items: center;
+
+    &-text {
+      @include sub24;
+
+      grid-column: span 2;
+    }
+
+    &-input {
+      color: #fff;
+      border-bottom-color: currentColor;
+
+      &::placeholder {
+        color: currentColor;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// style
+.about {
+  padding-bottom: rem(80);
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: rem(70);
+  }
+
+  &__content {
+    @include heading6;
+
+    color: var(--palette-primary);
+
+    > ul {
+      margin-top: rem(32);
+      padding-left: rem(32);
+      list-style: disc;
+    }
+  }
+
+  &__advantages {
+     display: flex;
+     flex-direction: column;
+  }
+
+  &__more {
+    margin-top: rem(134);
+    margin-left: auto;
+  }
+}

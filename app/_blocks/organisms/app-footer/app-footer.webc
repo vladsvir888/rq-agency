@@ -1,0 +1,40 @@
+<!--- template --->
+<footer class="footer">
+  <div class="container footer__container">
+    <app-socials class="footer__socials">
+      <app-link class="socials__link" href="#" target="_blank">
+        <img src="assets/images/icons/vk.svg" alt="" loading="lazy" width="32" height="32">
+      </app-link>
+      <app-link class="socials__link" href="#" target="_blank">
+        <img src="assets/images/icons/youtube.svg" alt="" loading="lazy" width="32" height="32">
+      </app-link>
+      <app-link class="socials__link" href="#" target="_blank">
+        <img src="assets/images/icons/vcru.svg" alt="" loading="lazy" width="32" height="32">
+      </app-link>
+      <app-link class="socials__link" href="#" target="_blank">
+        <img src="assets/images/icons/zen.svg" alt="" loading="lazy" width="32" height="32">
+      </app-link>
+    </app-socials>
+
+    <div class="footer__address">
+      <div class="footer__address-town">Москва</div>
+      <div class="footer__address-others">
+        3-я улица Ямского Поля, дом 2, корпус 26. <br>
+        <app-link class="button--decoration footer__address-phone" href="tel:+74951530660 ">+7 (495) 153-06-60 </app-link> <br>
+        <app-link class="footer__address-mail" href="mailto:Info@amdg.ru">Info@amdg.ru</app-link>
+      </div>
+    </div>
+
+    <div class="footer__info">
+      <div class="footer__info-developer">2023 Artox Media Digital Group</div>
+      <app-link class="button--decoration footer__link" href="#">Политика куки</app-link>
+      <app-link class="button--decoration footer__link" href="#">Условия обработки персональных данных</app-link>
+    </div>
+
+    <form action="/" method="get" class="footer__form">
+      <div class="footer__form-text">Подписаться на новостую <br> рассылку</div>
+      <input class="input footer__form-input" type="email" name="email" placeholder="Эл. Почта">
+      <app-button class="button--pill button--secondary button--small footer__form-btn" type="submit">Подписаться</app-button>
+    </form>
+  </div>
+</footer>

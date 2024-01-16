@@ -12,10 +12,10 @@
   background-color: var(--palette-primary);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 
   &--1 {
     padding: rem(36) rem(24);
-    background-position: center bottom;
     background-image: url('../assets/images/graphics/01.svg');
 
     #{$this}__title {
@@ -32,18 +32,15 @@
   }
 
   &--2 {
-    background-position: center center;
     background-image: url('../assets/images/graphics/02.svg');
   }
 
   &--3,
   &--4 {
-    background-position: center center;
     background-image: url('../assets/images/graphics/03.svg');
   }
 
   &--5 {
-    background-position: center center;
     background-image: url('../assets/images/graphics/05.svg');
   }
 

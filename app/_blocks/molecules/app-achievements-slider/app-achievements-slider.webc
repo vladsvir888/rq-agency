@@ -1,0 +1,92 @@
+<!--- template --->
+<swiper-container class="achievements-slider" init="false">
+  <swiper-slide class="achievements-slider__slide">
+    <div class="achievements-slider__award">Adindex</div>
+    <time class="achievements-slider__date">2021</time>
+    <div class="achievements-slider__wrapper">
+      <div class="achievements-slider__place">
+        <span>1</span>
+        <span>место</span>
+      </div>
+      <div class="achievements-slider__text">
+        Лучшее агентство: <br>
+        SMM, PR, SERM
+      </div>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <div class="achievements-slider__award">Рейтинг <br> Рунета</div>
+    <time class="achievements-slider__date">2021</time>
+    <div class="achievements-slider__wrapper">
+      <div class="achievements-slider__place">
+        <span>2</span>
+        <span>место</span>
+      </div>
+      <div class="achievements-slider__text">
+        Интернет-маркетинг: <br>
+        Маркетинг, дизайн, реклама
+      </div>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <div class="achievements-slider__award">Adindex</div>
+    <time class="achievements-slider__date">2021</time>
+    <div class="achievements-slider__wrapper">
+      <div class="achievements-slider__place">
+        <span>1</span>
+        <span>место</span>
+      </div>
+      <div class="achievements-slider__text">
+        Лучшее агентство: <br>
+        SMM, PR, SERM
+      </div>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <div class="achievements-slider__award">Рейтинг <br> Рунета</div>
+    <time class="achievements-slider__date">2021</time>
+    <div class="achievements-slider__wrapper">
+      <div class="achievements-slider__place">
+        <span>2</span>
+        <span>место</span>
+      </div>
+      <div class="achievements-slider__text">
+        Интернет-маркетинг: <br>
+        Маркетинг, дизайн, реклама
+      </div>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <div class="achievements-slider__award">Adindex</div>
+    <time class="achievements-slider__date">2021</time>
+    <div class="achievements-slider__wrapper">
+      <div class="achievements-slider__place">
+        <span>1</span>
+        <span>место</span>
+      </div>
+      <div class="achievements-slider__text">
+        Лучшее агентство: <br>
+        SMM, PR, SERM
+      </div>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <div class="achievements-slider__award">Рейтинг <br> Рунета</div>
+    <time class="achievements-slider__date">2021</time>
+    <div class="achievements-slider__wrapper">
+      <div class="achievements-slider__place">
+        <span>2</span>
+        <span>место</span>
+      </div>
+      <div class="achievements-slider__text">
+        Интернет-маркетинг: <br>
+        Маркетинг, дизайн, реклама
+      </div>
+    </div>
+  </swiper-slide>
+</swiper-container>

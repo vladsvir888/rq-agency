@@ -10,12 +10,27 @@
   transition-property: background-color, color, border-color;
   transition-duration: var(--transition300ms);
 
+  &--decoration {
+    @include hover {
+      text-decoration: underline;
+    }
+  }
+
   &--primary {
     color: #fff;
     background-color: var(--palette-primary);
 
     @include hover {
       background-color: #5912D1;
+    }
+  }
+
+  &--secondary {
+    color: var(--palette-primary);
+    background-color: #fff;
+
+    @include hover {
+      background-color: #E6DAFC;
     }
   }
 

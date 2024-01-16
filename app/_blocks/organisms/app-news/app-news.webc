@@ -1,75 +1,227 @@
 <!--- template --->
-<section class="section news">
-  <div class="container">
-    <h2 class="section__title">Новости</h2>
+<div class="section news">
+  <div class="container news__container">
+    <h1 class="section__title news__title">Новости</h1>
     <div class="news__wrapper">
-      <div class="news__item">
-        <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
-          <ul slot="tags" class="news-card__tags">
-            <li>
-              Новости
-            </li>
-            <li>
-              ORM
-            </li>
-            <li>
-              Недвижимость
-            </li>
-          </ul>
-          <h3 slot="title" class="news-card__title">
-            <app-link class="news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
-          </h3>
-        </app-news-card>
-      </div>
+      <app-filter-block>
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="true">Все</app-button>
+        </li>
 
-      <div class="news__item">
-        <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
-          <ul slot="tags" class="news-card__tags">
-            <li>
-              Новости
-            </li>
-            <li>
-              ORM
-            </li>
-            <li>
-              Банки
-            </li>
-          </ul>
-          <h3 slot="title" class="news-card__title">
-            <app-link class="news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
-          </h3>
-        </app-news-card>
-      </div>
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Комьюнити-менеджмент</app-button>
+        </li>
 
-      <div class="news__item">
-        <app-news-card style="background-image: url('assets/images/news/03.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
-          <ul slot="tags" class="news-card__tags">
-            <li>
-              Новости
-            </li>
-            <li>
-              SMM
-            </li>
-            <li>
-              Маркетинг
-            </li>
-          </ul>
-          <h3 slot="title" class="news-card__title">
-            <app-link class="news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
-          </h3>
-        </app-news-card>
-      </div>
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">SMM</app-button>
+        </li>
 
-      <div class="news__item">
-        <div class="news__form-block">
-          <div class="news__form-title">Подписаться на рассылку</div>
-          <form class="news__form" action="/" method="get">
-            <input class="input news__form-input" type="email" placeholder="Введите ваш Е-mail">
-            <app-button class="button--primary button--pill button--small" type="submit">Отправить</app-button>
-          </form>
-        </div>
-        <app-link class="button--primary button--pill button--large news__more">Узнать больше</app-link>
-      </div>
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Influence Marketing</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Мониторинг соцмедиа</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">SERM</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Защита репутации</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Управление репутацией</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Работа с отзывами</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Репутационное агенство</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Репутационный аудит</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Удаление отзывов</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">HR-репутация</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Репутация мобильных приложений</app-button>
+        </li>
+
+        <li class="filter-block__item">
+          <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Инсайт-ресерч</app-button>
+        </li>
+      </app-filter-block>
+
+      <app-search></app-search>
+
+      <ul class="two-column-grid news__list">
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Недвижимость
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Банки
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Недвижимость
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Банки
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Банки
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Недвижимость
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Банки
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+
+        <li class="news__item">
+          <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+            <ul slot="tags" class="news-card__tags">
+              <li>
+                Новости
+              </li>
+              <li>
+                ORM
+              </li>
+              <li>
+                Недвижимость
+              </li>
+            </ul>
+            <h2 slot="title" class="news-card__title">
+              <app-link class="button--decoration news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
+            </h2>
+          </app-news-card>
+        </li>
+      </ul>
+
+      <app-button class="button--primary button--large button--pill news__more">Показать еще</app-button>
     </div>
   </div>
-</section>
+</div>

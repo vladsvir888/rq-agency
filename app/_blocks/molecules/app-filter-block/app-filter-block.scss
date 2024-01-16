@@ -1,0 +1,23 @@
+// style
+.filter-block {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: rem(16);
+  }
+
+  &__button {
+    min-height: rem(26);
+    color: var(--palette-secondary);
+    border: rem(2) solid currentColor;
+
+    &[aria-pressed='true'] {
+      color: var(--palette-primary);
+    }
+
+    @include hover {
+      color: var(--palette-primary);
+    }
+  }
+}

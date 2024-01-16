@@ -1,0 +1,26 @@
+// style
+.search {
+  max-width: rem(737);
+  width: 100%;
+
+  &__form {
+    display: flex;
+    align-items: center;
+    column-gap: rem(27);
+  }
+
+  &__input-wrapper {
+    flex: 1 0 auto;
+    background-image: url('../assets/images/icons/loupe.svg');
+    background-repeat: no-repeat;
+    background-position: center left rem(12);
+  }
+
+  &__input {
+    width: 100%;
+    min-height: rem(38);
+    padding: rem(5) 0 rem(5) rem(48);
+    border: rem(1) solid var(--palette-secondary);
+    border-radius: var(--bdrs32);
+  }
+}

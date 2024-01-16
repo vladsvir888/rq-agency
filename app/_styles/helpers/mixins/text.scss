@@ -18,8 +18,16 @@
   @include font(18, 23.4, 400);
 }
 
+@mixin sub20 {
+  @include font(20, 26, 400);
+}
+
 @mixin sub24 {
   @include font(24, 31.2, 400);
+}
+
+@mixin heading1 {
+  @include font(56, 72.8, 400);
 }
 
 @mixin heading2 {
@@ -34,3 +42,6 @@
   @include font(32, 41.6, 400);
 }
 
+@mixin heading6 {
+  @include font(26, 33.8, 400);
+}

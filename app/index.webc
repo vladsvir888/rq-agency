@@ -7,6 +7,10 @@
       href: "home.html",
       text: 'Главная'
     },
+    {
+      href: "news.html",
+      text: 'Новости'
+    },
   ];
   const date = new Date();
   const localeDate = date.toLocaleDateString();

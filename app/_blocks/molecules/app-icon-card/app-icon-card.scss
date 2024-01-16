@@ -9,6 +9,8 @@
 
   &__icon {
     margin-bottom: rem(32);
+    aspect-ratio: 305 / 96;
+    object-fit: cover;
   }
 
   &__text {

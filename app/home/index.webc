@@ -3,9 +3,14 @@ permalink: "home.html"
 ---
 
 <app-base title="Главная" webc:nokeep>
+  <h1 class="visually-hidden">Digital-PR агентство RQ Agency</h1>
+  <app-hero></app-hero>
+  <app-about></app-about>
+  <app-achievements></app-achievements>
   <app-industry-standards></app-industry-standards>
   <app-cases></app-cases>
-  <app-news></app-news>
+  <app-news-block></app-news-block>
   <app-services></app-services>
   <app-confidence></app-confidence>
+  <app-callback></app-callback>
 </app-base>

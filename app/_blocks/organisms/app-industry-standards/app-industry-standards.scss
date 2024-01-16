@@ -3,9 +3,6 @@
   padding-bottom: rem(128);
 
   &__list {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: var(--gap30);
     text-align: center;
   }
 }

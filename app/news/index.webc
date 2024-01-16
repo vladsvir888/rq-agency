@@ -1,0 +1,7 @@
+---
+permalink: "news.html"
+---
+
+<app-base title="Новости" webc:nokeep>
+  <app-news></app-news>
+</app-base>

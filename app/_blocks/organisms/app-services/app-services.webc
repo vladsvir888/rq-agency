@@ -79,7 +79,6 @@
         </app-service-card>
       </li>
 
-      <!--- todo: убрать семантику для последнего listitem --->
       <li class="services__item services__item--6">
         <app-link class="button--primary button--pill button--large services__more" href="/">Узнать больше</app-link>
       </li>

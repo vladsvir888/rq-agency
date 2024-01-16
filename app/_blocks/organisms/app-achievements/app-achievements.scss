@@ -1,0 +1,15 @@
+// style
+.achievements {
+  min-height: rem(498);
+  padding: rem(71) 0 rem(83);
+  margin-bottom: rem(83);
+  background-image: url('../assets/images/graphics/achievements.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+
+  &__title {
+    color: #fff;
+  }
+}

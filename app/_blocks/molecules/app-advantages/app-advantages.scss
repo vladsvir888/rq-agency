@@ -1,0 +1,57 @@
+// style
+.advantages {
+  $this: &;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: rem(30);
+
+  &__column {
+    &--center {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(30);
+
+      #{$this}__item {
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+
+        &:first-child {
+          background-image: url('../assets/images/graphics/about-1.svg');
+        }
+
+        &:last-child {
+          background-image: url('../assets/images/graphics/about-2.svg');
+        }
+      }
+    }
+
+    &--left {
+      margin-top: rem(104);
+    }
+
+    &--right {
+      margin-top: rem(46);
+    }
+  }
+
+  &__item {
+    padding: rem(22);
+    color: #fff;
+    background-color: var(--palette-primary);
+    border-radius: var(--bdrs8);
+
+    &--secondary {
+      background-color: var(--palette-secondary);
+    }
+  }
+
+  &__num {
+    @include heading2;
+  }
+
+  &__text {
+    @include base14;
+  }
+}

@@ -55,7 +55,8 @@
   &__title {
     @include sub24;
 
-    margin-bottom: rem(20);
+    margin-bottom: rem(36);
+    margin-top: auto;
   }
 
   &__link {
@@ -68,7 +69,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: auto;
   }
 
   &__wrapper {

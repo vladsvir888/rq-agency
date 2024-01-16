@@ -1,11 +1,14 @@
 // style
 .header {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
   color: var(--palette-primary);
 
   &__container {
     display: flex;
     align-items: center;
-    padding: rem(26) 0;
+    padding: rem(26) var(--container-padding);
   }
 
   &__logo {
@@ -18,10 +21,6 @@
 
   &__link {
     padding: rem(12) rem(25);
-
-    @include hover {
-      color: #5912D1;
-    }
   }
 
   &__callback-btn {

@@ -9,4 +9,39 @@
       column-gap: rem(32);
     }
   }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: rem(40);
+
+    &--1 {
+      column-gap: rem(128);
+    }
+
+    &--2 {
+      column-gap: rem(89);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: rem(78);
+    }
+  }
+
+  &__img {
+    max-width: rem(319);
+    max-height: rem(115);
+    object-fit: cover;
+    opacity: 0.5;
+    filter: grayscale(1);
+    transition-property: filter, opacity;
+    transition-duration: var(--transition300ms);
+
+    @include hover {
+      opacity: unset;
+      filter: unset;
+    }
+  }
 }
