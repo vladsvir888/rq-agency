@@ -6,16 +6,4 @@
   &__title {
     margin-bottom: rem(32);
   }
-
-  &__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: rem(48);
-  }
-
-  &__more {
-    min-width: rem(306);
-    margin-top: rem(28);
-  }
 }

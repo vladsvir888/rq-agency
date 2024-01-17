@@ -8,7 +8,7 @@ permalink: "home.html"
   <app-about></app-about>
   <app-achievements></app-achievements>
   <app-industry-standards></app-industry-standards>
-  <app-cases></app-cases>
+  <app-cases-block></app-cases-block>
   <app-news-block></app-news-block>
   <app-services></app-services>
   <app-confidence></app-confidence>

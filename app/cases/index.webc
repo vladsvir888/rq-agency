@@ -1,0 +1,7 @@
+---
+permalink: "cases.html"
+---
+
+<app-base title="Кейсы" webc:nokeep>
+  <app-cases></app-cases>
+</app-base>

@@ -11,6 +11,10 @@
       href: "news.html",
       text: 'Новости'
     },
+    {
+      href: "cases.html",
+      text: 'Кейсы'
+    },
   ];
   const date = new Date();
   const localeDate = date.toLocaleDateString();

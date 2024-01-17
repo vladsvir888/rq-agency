@@ -2,7 +2,7 @@
 <div class="section news">
   <div class="container news__container">
     <h1 class="section__title news__title">Новости</h1>
-    <div class="news__wrapper">
+    <div class="section__wrapper">
       <app-filter-block>
         <li class="filter-block__item">
           <app-button class="button--pill button--small filter-block__button" aria-pressed="true">Все</app-button>
@@ -221,7 +221,7 @@
         </li>
       </ul>
 
-      <app-button class="button--primary button--large button--pill news__more">Показать еще</app-button>
+      <app-button class="button--primary button--large button--pill section__more">Показать еще</app-button>
     </div>
   </div>
 </div>

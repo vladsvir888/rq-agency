@@ -9,6 +9,8 @@
 
   &__button {
     min-height: rem(26);
+    padding: 0 rem(24);
+    column-gap: rem(8);
     color: var(--palette-secondary);
     border: rem(2) solid currentColor;
 
@@ -17,6 +19,10 @@
     }
 
     @include hover {
+      color: var(--palette-primary);
+    }
+
+    &-num {
       color: var(--palette-primary);
     }
   }

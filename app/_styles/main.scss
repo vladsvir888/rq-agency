@@ -1,10 +1,5 @@
 /* stylelint-disable scss/at-import-partial-extension */
 
-// @import 'vendors/*.scss';
-// @import 'helpers/**/*.scss';
-// @import 'base/common.scss';
-// @import '../_blocks/**/*.scss';
-
 // vendors
 @import 'vendors/vendors.scss';
 
@@ -22,7 +17,7 @@
 // custom properties
 @import 'helpers/variables/properties.scss';
 
-// base styles
+// base
 @import 'base/common.scss';
 
 // atoms
@@ -41,6 +36,7 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
+@import '../_blocks/organisms/app-cases/app-cases.scss';
 @import '../_blocks/organisms/app-news/app-news.scss';
 @import '../_blocks/organisms/app-achievements/app-achievements.scss';
 @import '../_blocks/organisms/app-about/app-about.scss';
@@ -50,6 +46,10 @@
 @import '../_blocks/organisms/app-services/app-services.scss';
 @import '../_blocks/organisms/app-confidence/app-confidence.scss';
 @import '../_blocks/organisms/app-news-block/app-news-block.scss';
-@import '../_blocks/organisms/app-cases/app-cases.scss';
+@import '../_blocks/organisms/app-cases-block/app-cases-block.scss';
 @import '../_blocks/organisms/app-industry-standards/app-industry-standards.scss';
 @import '../_blocks/organisms/app-header/app-header.scss';
+
+// utils
+@import 'utils/grid.scss';
+@import 'utils/section.scss';
