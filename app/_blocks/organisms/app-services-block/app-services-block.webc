@@ -1,9 +1,9 @@
 <!--- template --->
-<section class="section services">
+<section class="section services-block">
   <div class="container">
     <h2 class="section__title">Услуги</h2>
-    <ul class="services__list">
-      <li class="services__item services__item--1">
+    <ul class="services-block__list">
+      <li class="services-block__item">
         <app-service-card class="service-card--1">
           <h3 slot="title" class="service-card__title">Digital PR</h3>
           <div slot="text" class="service-card__text">
@@ -35,7 +35,7 @@
         </app-service-card>
       </li>
 
-      <li class="services__item services__item--2">
+      <li class="services-block__item">
         <app-service-card class="service-card--2">
           <h3 slot="title" class="service-card__title">ORM</h3>
           <div slot="text" class="service-card__text">
@@ -46,7 +46,7 @@
         </app-service-card>
       </li>
 
-      <li class="services__item services__item--3">
+      <li class="services-block__item">
         <app-service-card class="service-card--3">
           <h3 slot="title" class="service-card__title">PR</h3>
           <div slot="text" class="service-card__text">
@@ -57,7 +57,7 @@
         </app-service-card>
       </li>
 
-      <li class="services__item services__item--4">
+      <li class="services-block__item">
         <app-service-card class="service-card--4">
           <h3 slot="title" class="service-card__title">SMM</h3>
           <div slot="text" class="service-card__text">
@@ -68,7 +68,7 @@
         </app-service-card>
       </li>
 
-      <li class="services__item services__item--5">
+      <li class="services-block__item">
         <app-service-card class="service-card--5">
           <h3 slot="title" class="service-card__title">Мониторинг</h3>
           <div slot="text" class="service-card__text">
@@ -77,10 +77,6 @@
             </p>
           </div>
         </app-service-card>
-      </li>
-
-      <li class="services__item services__item--6">
-        <app-link class="button--primary button--pill button--large services__more" href="/">Узнать больше</app-link>
       </li>
     </ul>
   </div>

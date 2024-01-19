@@ -1,92 +1,83 @@
 <!--- template --->
 <swiper-container class="achievements-slider" init="false">
   <swiper-slide class="achievements-slider__slide">
-    <div class="achievements-slider__award">Adindex</div>
-    <time class="achievements-slider__date">2021</time>
-    <div class="achievements-slider__wrapper">
-      <div class="achievements-slider__place">
-        <span>1</span>
-        <span>место</span>
-      </div>
-      <div class="achievements-slider__text">
-        Лучшее агентство: <br>
-        SMM, PR, SERM
-      </div>
-    </div>
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2021</time>
+      <h3 slot="title" class="achievement-card__title">PR и контроль репутации</h3>
+      <div slot="text" class="achievement-card__text">Победитель</div>
+    </app-achievement-card>
   </swiper-slide>
 
   <swiper-slide class="achievements-slider__slide">
-    <div class="achievements-slider__award">Рейтинг <br> Рунета</div>
-    <time class="achievements-slider__date">2021</time>
-    <div class="achievements-slider__wrapper">
-      <div class="achievements-slider__place">
-        <span>2</span>
-        <span>место</span>
-      </div>
-      <div class="achievements-slider__text">
-        Интернет-маркетинг: <br>
-        Маркетинг, дизайн, реклама
-      </div>
-    </div>
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2023</time>
+      <h3 slot="title" class="achievement-card__title">Агентство полного цикла digital-услуг</h3>
+      <div slot="text" class="achievement-card__text">1 место</div>
+    </app-achievement-card>
   </swiper-slide>
 
   <swiper-slide class="achievements-slider__slide">
-    <div class="achievements-slider__award">Adindex</div>
-    <time class="achievements-slider__date">2021</time>
-    <div class="achievements-slider__wrapper">
-      <div class="achievements-slider__place">
-        <span>1</span>
-        <span>место</span>
-      </div>
-      <div class="achievements-slider__text">
-        Лучшее агентство: <br>
-        SMM, PR, SERM
-      </div>
-    </div>
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2023</time>
+      <h3 slot="title" class="achievement-card__title">Управление репутацией</h3>
+      <div slot="text" class="achievement-card__text">2 место</div>
+    </app-achievement-card>
   </swiper-slide>
 
   <swiper-slide class="achievements-slider__slide">
-    <div class="achievements-slider__award">Рейтинг <br> Рунета</div>
-    <time class="achievements-slider__date">2021</time>
-    <div class="achievements-slider__wrapper">
-      <div class="achievements-slider__place">
-        <span>2</span>
-        <span>место</span>
-      </div>
-      <div class="achievements-slider__text">
-        Интернет-маркетинг: <br>
-        Маркетинг, дизайн, реклама
-      </div>
-    </div>
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2021</time>
+      <h3 slot="title" class="achievement-card__title">PR и контроль репутации</h3>
+      <div slot="text" class="achievement-card__text">Победитель</div>
+    </app-achievement-card>
   </swiper-slide>
 
   <swiper-slide class="achievements-slider__slide">
-    <div class="achievements-slider__award">Adindex</div>
-    <time class="achievements-slider__date">2021</time>
-    <div class="achievements-slider__wrapper">
-      <div class="achievements-slider__place">
-        <span>1</span>
-        <span>место</span>
-      </div>
-      <div class="achievements-slider__text">
-        Лучшее агентство: <br>
-        SMM, PR, SERM
-      </div>
-    </div>
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2023</time>
+      <h3 slot="title" class="achievement-card__title">Агентство полного цикла digital-услуг</h3>
+      <div slot="text" class="achievement-card__text">1 место</div>
+    </app-achievement-card>
   </swiper-slide>
 
   <swiper-slide class="achievements-slider__slide">
-    <div class="achievements-slider__award">Рейтинг <br> Рунета</div>
-    <time class="achievements-slider__date">2021</time>
-    <div class="achievements-slider__wrapper">
-      <div class="achievements-slider__place">
-        <span>2</span>
-        <span>место</span>
-      </div>
-      <div class="achievements-slider__text">
-        Интернет-маркетинг: <br>
-        Маркетинг, дизайн, реклама
-      </div>
-    </div>
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2023</time>
+      <h3 slot="title" class="achievement-card__title">Управление репутацией</h3>
+      <div slot="text" class="achievement-card__text">2 место</div>
+    </app-achievement-card>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2021</time>
+      <h3 slot="title" class="achievement-card__title">PR и контроль репутации</h3>
+      <div slot="text" class="achievement-card__text">Победитель</div>
+    </app-achievement-card>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2023</time>
+      <h3 slot="title" class="achievement-card__title">Агентство полного цикла digital-услуг</h3>
+      <div slot="text" class="achievement-card__text">1 место</div>
+    </app-achievement-card>
+  </swiper-slide>
+
+  <swiper-slide class="achievements-slider__slide">
+    <app-achievement-card>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy"></eleventy-image>
+      <time slot="date" class="achievement-card__date">2023</time>
+      <h3 slot="title" class="achievement-card__title">Управление репутацией</h3>
+      <div slot="text" class="achievement-card__text">2 место</div>
+    </app-achievement-card>
   </swiper-slide>
 </swiper-container>

@@ -1,0 +1,15 @@
+// style
+.services-block {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--gap30);
+    grid-auto-rows: minmax(#{rem(257)}, 1fr);
+  }
+
+  &__item {
+    &:nth-child(5n + 1) {
+      grid-row: span 2;
+    }
+  }
+}

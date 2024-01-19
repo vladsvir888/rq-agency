@@ -1,0 +1,4 @@
+<!--- template --->
+<ol class="tags" webc:root="override">
+  <slot></slot>
+</ol>

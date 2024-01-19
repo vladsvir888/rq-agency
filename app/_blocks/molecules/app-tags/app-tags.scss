@@ -1,0 +1,32 @@
+// style
+.tags {
+  --column-gap-tags: #{rem(20)};
+  --row-gap-tags: #{rem(6)};
+
+  @include base14;
+
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--row-gap-tags) var(--column-gap-tags);
+  width: fit-content;
+  margin-bottom: rem(30);
+
+  > * {
+    position: relative;
+
+    &:not(:last-child) {
+      &::after {
+        position: absolute;
+        right: calc(var(--column-gap-tags) / 2 * -1);
+        width: rem(1);
+        height: 100%;
+        background-color: #fff;
+        rotate: 25deg;
+        content: '';
+      }
+    }
+  }
+}

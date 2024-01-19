@@ -1,0 +1,7 @@
+---
+permalink: "clients.html"
+---
+
+<app-base title="Клиенты" webc:nokeep>
+  <app-clients></app-clients>
+</app-base>

@@ -8,6 +8,10 @@
       text: 'Главная'
     },
     {
+      href: "company.html",
+      text: 'Компания'
+    },
+    {
       href: "news.html",
       text: 'Новости'
     },
@@ -15,6 +19,14 @@
       href: "cases.html",
       text: 'Кейсы'
     },
+    {
+      href: "clients.html",
+      text: 'Клиенты'
+    },
+    {
+      href: "certificates.html",
+      text: 'Сертификаты'
+    }
   ];
   const date = new Date();
   const localeDate = date.toLocaleDateString();

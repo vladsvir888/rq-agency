@@ -1,15 +1,5 @@
 // style
 .confidence {
-  padding-bottom: rem(121);
-
-  &__title {
-    &-link {
-      display: flex;
-      justify-content: flex-start;
-      column-gap: rem(32);
-    }
-  }
-
   &__list {
     display: flex;
     justify-content: center;

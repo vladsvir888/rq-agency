@@ -1,5 +1,5 @@
 <!--- template --->
-<div class="hero">
+<div class="section hero">
   <div class="container hero__container">
     <swiper-container class="hero__slider" init="false">
       <swiper-slide class="hero__slide">
@@ -27,7 +27,7 @@
           <app-link class="button--primary button--pill button--large" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt=""></eleventy-image>
+          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy"></eleventy-image>
           <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
         </div>
       </swiper-slide>
@@ -42,7 +42,7 @@
           <app-link class="button--primary button--pill button--large" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt=""></eleventy-image>
+          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy"></eleventy-image>
           <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
         </div>
       </swiper-slide>

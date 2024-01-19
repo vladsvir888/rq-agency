@@ -1,0 +1,168 @@
+<!--- template --->
+<div class="section section--inner clients">
+  <div class="container">
+    <h1 class="section__title clients__title">Клиенты</h1>
+
+    <app-filter-block class="clients__filter-block">
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="true">Все</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Недвижимость и строительство</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Агропромышленный сектор</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Финансовые институты и инвестиции</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">ТМТ</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Энергетика и ресурс</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Трапнспорт и логистика</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Медицина и фармацевтика</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Государственные и офшественные организации</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Потребительский сектор</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Туризм и сфера развлечений</app-button>
+      </li>
+
+      <li class="filter-block__item">
+        <app-button class="button--pill button--small filter-block__button" aria-pressed="false">Профессиональные услуги</app-button>
+      </li>
+    </app-filter-block>
+
+    <ul class="three-column-grid clients__list">
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/01.png" alt=""></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://ponyexpress.by/" target="_blank">
+              Pony Express Логистическая компания
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/02.png" alt=""></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://www.mr-group.ru/" target="_blank">
+              MRGroup <br> Недвижимость
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/03.png" alt=""></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://www.etalongroup.ru/msk/" target="_blank">
+              Эталон <br> Недвижимость
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/04.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://vodoroslionline.ru/" target="_blank">
+              Архангельские водоросли Интернет-магазин
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/05.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://5ka.ru/" target="_blank">
+              Пятёрочка <br> Сеть магазинов
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/06.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://selgros.ru/" target="_blank">
+              Selgros <br> Сеть магазинов
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/07.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://www.bethowen.ru/iwaf-captcha" target="_blank">
+              Бетховен <br> Зоомагазин
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/08.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://www.rosbank.ru/" target="_blank">
+              Росбанк <br> Финансы
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/09.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://www.v-dymov.ru/" target="_blank">
+              Дымов <br> Сеть магазинов
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+
+      <li class="clients__item">
+        <app-client-card>
+          <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/10.png" alt="" loading="lazy"></eleventy-image>
+          <h2 slot="title" class="client-card__title">
+            <app-link class="button--decoration client-card__link" href="https://xn--d1axz.xn--p1ai/" target="_blank">
+              Российское движение школьников
+            </app-link>
+          </h2>
+        </app-client-card>
+      </li>
+    </ul>
+  </div>
+</div>

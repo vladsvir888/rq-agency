@@ -22,6 +22,6 @@
         </li>
       </ul>
     </nav>
-    <app-button class="button--decoration header__callback-btn">Заказать звонок</app-button>
+    <app-button class="button--primary button--pill button--small header__callback-btn">Заказать звонок</app-button>
   </div>
 </header>

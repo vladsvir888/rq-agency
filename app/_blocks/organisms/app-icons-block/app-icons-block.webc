@@ -1,0 +1,9 @@
+<!--- template --->
+<section class="section icons-block">
+  <div class="container">
+    <slot name="title"></slot>
+    <ul class="four-column-grid icons-block__list">
+      <slot></slot>
+    </ul>
+  </div>
+</section>

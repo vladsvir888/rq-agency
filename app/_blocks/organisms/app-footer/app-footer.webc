@@ -32,7 +32,7 @@
     </div>
 
     <form action="/" method="get" class="footer__form">
-      <div class="footer__form-text">Подписаться на новостую <br> рассылку</div>
+      <div class="footer__form-text">Подписаться на новостную <br> рассылку</div>
       <input class="input footer__form-input" type="email" name="email" placeholder="Эл. Почта">
       <app-button class="button--pill button--secondary button--small footer__form-btn" type="submit">Подписаться</app-button>
     </form>

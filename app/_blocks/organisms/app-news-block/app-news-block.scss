@@ -1,15 +1,11 @@
 // style
 .news-block {
-  padding-bottom: rem(52);
-
-  &__item {
+  &__form-block {
     display: flex;
     flex-direction: column;
-  }
-
-  &__form-block {
+    justify-content: space-between;
+    height: 100%;
     padding: rem(45) rem(32);
-    margin-bottom: rem(10);
     background-color: #F5ECE3;
     border-radius: var(--bdrs16);
   }
@@ -22,7 +18,7 @@
     &-title {
       @include heading5;
 
-      margin-bottom: rem(50);
+      margin-bottom: rem(25);
       color: var(--palette-primary);
     }
 
@@ -40,10 +36,5 @@
         color: currentColor;
       }
     }
-  }
-
-  &__more {
-    width: 100%;
-    margin-top: auto;
   }
 }

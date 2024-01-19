@@ -1,0 +1,7 @@
+---
+permalink: "certificates.html"
+---
+
+<app-base title="Сертификаты" webc:nokeep>
+  <app-certificates></app-certificates>
+</app-base>

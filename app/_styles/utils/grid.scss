@@ -4,6 +4,12 @@
   gap: var(--gap30);
 }
 
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--gap30);
+}
+
 .four-column-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

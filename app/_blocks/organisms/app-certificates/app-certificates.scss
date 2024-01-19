@@ -1,0 +1,13 @@
+// style
+.certificates {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: rem(16) var(--gap30);
+
+    > * {
+      width: calc(100% / 4 - var(--gap30));
+    }
+  }
+}

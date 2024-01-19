@@ -1,0 +1,36 @@
+// style
+.certificate-card {
+  display: grid;
+  position: relative;
+  border: rem(1) solid var(--palette-gray);
+  border-radius: var(--bdrs12);
+  background: #fff;
+
+  &__image-wrapper {
+    grid-area: 1 / 2;
+    margin-bottom: rem(10);
+  }
+
+  &__image {
+    aspect-ratio: 307 / 262;
+    object-fit: cover;
+    border-radius: var(--bdrs12);
+  }
+
+  &__link {
+    @include sub24;
+
+    color: var(--palette-primary);
+    grid-area: 1 / 2;
+    margin-top: auto;
+    justify-content: start;
+    padding: rem(17) rem(24);
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    background-color: inherit;
+
+    &::before {
+      @include link-entire-area;
+    }
+  }
+}

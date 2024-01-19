@@ -20,11 +20,20 @@
 // base
 @import 'base/common.scss';
 
+// utils
+@import 'utils/grid.scss';
+@import 'utils/section.scss';
+
 // atoms
 @import '../_blocks/atoms/app-input/app-input.scss';
 @import '../_blocks/atoms/app-button/app-button.scss';
 
 // molecules
+@import '../_blocks/molecules/app-certificate-card/app-certificate-card.scss';
+@import '../_blocks/molecules/app-tags/app-tags.scss';
+@import '../_blocks/molecules/app-achievement-card/app-achievement-card.scss';
+@import '../_blocks/molecules/app-client-card/app-client-card.scss';
+@import '../_blocks/molecules/app-banner/app-banner.scss';
 @import '../_blocks/molecules/app-search/app-search.scss';
 @import '../_blocks/molecules/app-filter-block/app-filter-block.scss';
 @import '../_blocks/molecules/app-achievements-slider/app-achievements-slider.scss';
@@ -36,20 +45,17 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
-@import '../_blocks/organisms/app-cases/app-cases.scss';
+@import '../_blocks/organisms/app-certificates/app-certificates.scss';
+@import '../_blocks/organisms/app-clients/app-clients.scss';
 @import '../_blocks/organisms/app-news/app-news.scss';
 @import '../_blocks/organisms/app-achievements/app-achievements.scss';
 @import '../_blocks/organisms/app-about/app-about.scss';
 @import '../_blocks/organisms/app-footer/app-footer.scss';
 @import '../_blocks/organisms/app-callback/app-callback.scss';
 @import '../_blocks/organisms/app-hero/app-hero.scss';
-@import '../_blocks/organisms/app-services/app-services.scss';
+@import '../_blocks/organisms/app-services-block/app-services-block.scss';
 @import '../_blocks/organisms/app-confidence/app-confidence.scss';
 @import '../_blocks/organisms/app-news-block/app-news-block.scss';
 @import '../_blocks/organisms/app-cases-block/app-cases-block.scss';
-@import '../_blocks/organisms/app-industry-standards/app-industry-standards.scss';
+@import '../_blocks/organisms/app-icons-block/app-icons-block.scss';
 @import '../_blocks/organisms/app-header/app-header.scss';
-
-// utils
-@import 'utils/grid.scss';
-@import 'utils/section.scss';

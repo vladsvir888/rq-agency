@@ -1,0 +1,36 @@
+// style
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: rem(20);
+  min-height: rem(262);
+  height: 100%;
+  padding: rem(24);
+  color: #fff;
+  background-image: linear-gradient(247deg, #391B5F 0%, #502E68 100%);
+  border-radius: var(--bdrs12);
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    @include sub24;
+
+    max-width: rem(262);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__text {
+    @include base14;
+
+    text-align: center;
+  }
+
+  &__date {
+    @include base14;
+  }
+}

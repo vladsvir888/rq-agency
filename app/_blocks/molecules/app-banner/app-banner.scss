@@ -1,0 +1,17 @@
+// style
+.banner {
+  padding: rem(100) 0;
+  margin-bottom: var(--section-offset-y);
+  background-color: #DFE0FF;
+  background-image: url('../assets/images/graphics/banner.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+
+  &__title {
+    @include heading5;
+
+    color: var(--palette-primary);
+    margin-bottom: rem(56);
+  }
+}

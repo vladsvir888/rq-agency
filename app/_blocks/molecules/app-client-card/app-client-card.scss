@@ -1,0 +1,37 @@
+// style
+.client-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: rem(24);
+  border: rem(1) solid var(--palette-gray);
+  background-color: #fff;
+  border-radius: var(--bdrs12);
+
+  &__image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: rem(265);
+    margin-bottom: rem(16);
+  }
+
+  &__image {
+    aspect-ratio: 372 / 265;
+    object-fit: contain;
+  }
+
+  &__title {
+    @include sub24;
+
+    color: var(--palette-primary);
+    margin-top: auto;
+  }
+
+  &__link {
+    &::before {
+      @include link-entire-area;
+    }
+  }
+}

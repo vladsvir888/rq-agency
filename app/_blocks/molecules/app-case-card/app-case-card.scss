@@ -27,7 +27,7 @@
         padding: rem(40);
       }
 
-      &__tag {
+      &__tags {
         @include sub24;
 
         margin-bottom: rem(32);
@@ -49,9 +49,7 @@
     padding: rem(24);
   }
 
-  &__tag {
-    @include base14;
-
+  &__tags {
     margin-bottom: rem(24);
   }
 

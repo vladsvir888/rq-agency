@@ -64,11 +64,10 @@
         <div class="news-block__form-block">
           <div class="news-block__form-title">Подписаться на рассылку</div>
           <form class="news-block__form" action="/" method="get">
-            <input class="input news-block__form-input" type="email" placeholder="Введите ваш Е-mail">
+            <input class="input news-block__form-input" type="email" name="email" placeholder="Введите ваш Е-mail">
             <app-button class="button--primary button--pill button--small" type="submit">Отправить</app-button>
           </form>
         </div>
-        <app-link class="button--primary button--pill button--large news-block__more">Узнать больше</app-link>
       </div>
     </div>
   </div>

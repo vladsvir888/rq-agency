@@ -1,5 +1,5 @@
 <!--- template --->
-<div class="section cases">
+<div class="section section--inner cases">
   <div class="container">
     <h1 class="section__title">Кейсы</h1>
     <div class="section__wrapper">

@@ -1,7 +1,15 @@
 <!--- template --->
 <article class="case-card" webc:root="override">
   <div class="case-card__content">
-    <slot name="tag"></slot>
+    <app-tags class="case-card__tags">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Транспорт</app-link>
+      </li>
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Автомобильная</app-link>
+      </li>
+    </app-tags>
+
     <slot name="title"></slot>
 
     <div class="case-card__bottom-block">

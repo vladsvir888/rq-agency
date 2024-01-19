@@ -1,7 +1,18 @@
 <!--- template --->
 <article class="news-card" webc:root="override">
   <div class="news-card__content">
-    <slot name="tags"></slot>
+    <app-tags>
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Новости</app-link>
+      </li>
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">ORM</app-link>
+      </li>
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Недвижимость</app-link>
+      </li>
+    </app-tags>
+
     <slot name="title"></slot>
 
     <div class="news-card__bottom-block">

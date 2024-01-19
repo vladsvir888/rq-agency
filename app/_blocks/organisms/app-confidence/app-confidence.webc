@@ -2,7 +2,7 @@
 <section class="section confidence">
   <div class="container">
     <h2 class="section__title">
-      <app-link class="confidence__title-link">
+      <app-link class="section__title-link">
         Нам доверяют
         <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
           <rect width="46" height="46" rx="23" fill="#350587"/>

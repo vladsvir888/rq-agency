@@ -1,0 +1,7 @@
+<!--- template --->
+<article class="client-card">
+  <div class="client-card__image-wrapper">
+    <slot name="image"></slot>
+  </div>
+  <slot name="title"></slot>
+</article>

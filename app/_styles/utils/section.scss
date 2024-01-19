@@ -1,10 +1,22 @@
 .section {
+  padding-bottom: var(--section-offset-y);
+
+  &--inner {
+    padding-top: rem(48);
+  }
+
   &__title {
     @include heading2;
 
     padding-left: rem(83);
     padding-bottom: rem(48);
     color: var(--palette-primary);
+
+    &-link {
+      display: flex;
+      justify-content: flex-start;
+      column-gap: rem(32);
+    }
   }
 
   &__wrapper {

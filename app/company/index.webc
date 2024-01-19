@@ -1,0 +1,41 @@
+---
+permalink: "company.html"
+---
+
+<app-base title="Компания" webc:nokeep>
+  <app-icons-block>
+    <h2 slot="title" class="section__title">Этапы работы</h2>
+    <li class="icons-block__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-5.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Аудит и поиск точек роста: мониторинг упоминаний, анализ поисковой выдачи</div>
+      </app-icon-card>
+    </li>
+    <li class="icons-block__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-6.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Разработка и согласование стратегии, сроков и KPI</div>
+      </app-icon-card>
+    </li>
+    <li class="icons-block__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-7.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Реализация, корректировка стратегии</div>
+      </app-icon-card>
+    </li>
+    <li class="icons-block__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-8.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Отчет о выполненных работах</div>
+      </app-icon-card>
+    </li>
+  </app-icons-block>
+  <app-achievements></app-achievements>
+  <app-banner>
+    <h2 slot="title" class="banner__title">Открытые вакансии смотрите на <br> Head Hunter</h2>
+    <app-link slot="button" class="button--primary button--pill button--large" href="#" target="_blank">Смотреть вакансии</app-link>
+  </app-banner>
+  <app-services></app-services>
+  <app-confidence></app-confidence>
+  <app-callback></app-callback>
+</app-base>

@@ -1,0 +1,9 @@
+<!--- template --->
+<article class="achievement-card">
+  <div class="achievement-card__wrapper">
+    <slot name="award">Награда</slot>
+    <slot name="date"></slot>
+  </div>
+  <slot name="title"></slot>
+  <slot name="text"></slot>
+</article>
