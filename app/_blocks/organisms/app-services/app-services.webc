@@ -1,6 +1,12 @@
 <!--- template --->
 <div class="section section--inner services">
   <div class="container">
+    <app-tags class="tags--secondary">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">Услуги</li>
+    </app-tags>
     <h1 class="section__title">Услуги</h1>
     <div class="section__wrapper">
       <app-services-grid class="services-grid--secondary">

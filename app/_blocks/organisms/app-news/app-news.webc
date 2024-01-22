@@ -1,6 +1,12 @@
 <!--- template --->
 <div class="section section--inner news">
   <div class="container news__container">
+    <app-tags class="tags--secondary">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">Новости</li>
+    </app-tags>
     <h1 class="section__title news__title">Новости</h1>
     <div class="section__wrapper">
       <app-filter-block>

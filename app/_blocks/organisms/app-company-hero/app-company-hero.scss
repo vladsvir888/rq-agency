@@ -8,11 +8,16 @@
   background-position: center center;
   background-size: cover;
 
-  &__container {
+  &__wrapper {
     display: flex;
     gap: var(--gap30);
     padding-top: rem(173);
     padding-bottom: rem(165);
+  }
+
+  &__tags {
+    padding-top: rem(20);
+    margin-bottom: 0;
   }
 
   &__title {

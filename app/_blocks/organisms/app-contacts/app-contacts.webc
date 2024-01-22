@@ -1,6 +1,12 @@
 <!--- template --->
 <div class="section section--inner contacts">
   <div class="container">
+    <app-tags class="tags--secondary">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">Контакты</li>
+    </app-tags>
     <h1 class="section__title">Контакты</h1>
   </div>
 </div>

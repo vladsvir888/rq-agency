@@ -1,6 +1,14 @@
 <!--- template --->
 <div class="section section--inner certificates">
   <div class="container">
+    <app-tags class="tags--secondary">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">
+        Сертификаты
+      </li>
+    </app-tags>
     <h1 class="section__title">Сертификаты</h1>
     <ul class="certificates__list">
       <li class="certificates__item">

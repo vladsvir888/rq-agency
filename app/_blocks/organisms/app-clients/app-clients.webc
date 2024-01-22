@@ -1,6 +1,13 @@
 <!--- template --->
 <div class="section section--inner clients">
   <div class="container">
+    <app-tags class="tags--secondary">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">Клиенты</li>
+    </app-tags>
+
     <h1 class="section__title clients__title">Клиенты</h1>
 
     <app-filter-block class="clients__filter-block">
