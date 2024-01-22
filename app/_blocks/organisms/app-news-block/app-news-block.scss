@@ -30,7 +30,7 @@
       margin-bottom: rem(32);
       color: var(--palette-primary);
       border: rem(1) solid var(--palette-primary);
-      border-radius: rem(4);
+      border-radius: var(--bdrs4);
 
       &::placeholder {
         color: currentColor;

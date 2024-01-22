@@ -1,4 +1,4 @@
 <!--- template --->
-<div class="certificate-card">
+<a href="#" class="certificate-card">
   <slot></slot>
-</div>
+</a>

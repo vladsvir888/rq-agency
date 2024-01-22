@@ -1,0 +1,36 @@
+// style
+.advantage-card {
+  padding: rem(22);
+  color: #fff;
+  background-color: var(--palette-primary);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  border-radius: var(--bdrs8);
+
+  &--secondary {
+    background-color: var(--palette-secondary);
+  }
+
+  &--graphic-1 {
+    background-image: url('../assets/images/graphics/about-1.svg');
+  }
+
+  &--graphic-2 {
+    background-image: url('../assets/images/graphics/about-2.svg');
+  }
+
+  &__num {
+    @include heading2;
+  }
+
+  &__sub-num {
+    @include font(12, 13.2, 400);
+
+    margin-bottom: rem(24);
+  }
+
+  &__text {
+    @include base14;
+  }
+}

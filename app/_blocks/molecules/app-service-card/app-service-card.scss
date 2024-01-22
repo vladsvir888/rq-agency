@@ -14,9 +14,8 @@
   background-size: cover;
   background-position: center center;
 
-  &--1 {
+  &--big {
     padding: rem(36) rem(24);
-    background-image: url('../assets/images/graphics/01.svg');
 
     #{$this}__title {
       @include heading3;
@@ -24,24 +23,48 @@
 
     #{$this}__text {
       @include sub18;
-
-      > ul {
-        margin-top: rem(24);
-      }
     }
   }
 
+  &--1 {
+    background-image: url('../assets/images/graphics/service-01.svg');
+  }
+
   &--2 {
-    background-image: url('../assets/images/graphics/02.svg');
+    background-image: url('../assets/images/graphics/service-02.svg');
   }
 
   &--3,
   &--4 {
-    background-image: url('../assets/images/graphics/03.svg');
+    background-image: url('../assets/images/graphics/service-03.svg');
   }
 
   &--5 {
-    background-image: url('../assets/images/graphics/05.svg');
+    background-image: url('../assets/images/graphics/service-05.svg');
+  }
+
+  &--6 {
+    background-image: url('../assets/images/graphics/service-06.svg');
+  }
+
+  &--7 {
+    background-image: url('../assets/images/graphics/service-07.svg');
+  }
+
+  &--8 {
+    background-image: url('../assets/images/graphics/service-08.svg');
+  }
+
+  &--9 {
+    background-image: url('../assets/images/graphics/service-09.svg');
+  }
+
+  &--10 {
+    background-image: url('../assets/images/graphics/service-10.svg');
+  }
+
+  &__icon {
+    margin-bottom: rem(24);
   }
 
   &__title {
@@ -56,7 +79,7 @@
     margin-bottom: rem(24);
 
     > ul {
-      margin-top: rem(36);
+      margin-top: rem(24);
       padding-left: rem(24);
       list-style: disc;
     }

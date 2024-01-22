@@ -7,12 +7,17 @@ export default function initHeroSlider() {
   Object.assign(slider, {
     spaceBetween: 25,
     navigation: {
-      prevEl: document.querySelector('.hero__button--prev'),
-      nextEl: document.querySelector('.hero__button--next'),
+      prevEl: document.querySelector('.slider-controls__button--prev'),
+      nextEl: document.querySelector('.slider-controls__button--next'),
     },
     pagination: {
-      el: '.hero__pagination',
+      el: '.slider-controls__pagination',
       clickable: true,
+    },
+    a11y: {
+      prevSlideMessage: 'Предыдущий слайд',
+      nextSlideMessage: 'Следующий слайд',
+      paginationBulletMessage: 'Перейти к слайду {{index}}',
     },
   });
 

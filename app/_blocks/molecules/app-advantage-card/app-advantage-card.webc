@@ -1,0 +1,6 @@
+<!--- template --->
+<div class="advantage-card" webc:root="override">
+  <slot name="num"></slot>
+  <slot name="subnum"></slot>
+  <slot name="text"></slot>
+</div>

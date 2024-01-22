@@ -1,4 +1,4 @@
 <!--- template --->
-<div class="advantages">
+<div class="advantages" webc:root="override">
   <slot></slot>
 </div>

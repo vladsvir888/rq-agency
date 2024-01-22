@@ -5,100 +5,100 @@
     <ul class="certificates__list">
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/yandex.png" alt="Yandex"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">Yandex</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">Yandex</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/google.png" alt="Google"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">Google</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">Google</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/vk.png" alt="VK"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">VK</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">VK</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/mytarget.png" alt="MyTarget"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">MyTarget</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">MyTarget</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/youtube.png" alt="YouTube"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">YouTube</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">YouTube</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/yandex-bisness.png" alt="Яндекс Бизнес"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank">Яндекс Бизнес</app-link>
+          </span>
+          <span class="certificate-card__text">Яндекс Бизнес</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/comagic.png" alt="CoMagic"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">CoMagic</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">CoMagic</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/petal-ads.png" alt="Petal Ads"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">Petal Ads</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">Petal Ads</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/est.png" alt="EST"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">EST</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">EST</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/brand-analytics.png" alt="Brand analytics"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank" lang="en">Brand analytics</app-link>
+          </span>
+          <span class="certificate-card__text" lang="en">Brand analytics</span>
         </app-certificate-card>
       </li>
 
       <li class="certificates__item">
         <app-certificate-card>
-          <div class="certificate-card__image-wrapper">
+          <span class="certificate-card__image-wrapper">
             <eleventy-image class="certificate-card__image" src="app/_images/certificates/yandex-metrika.png" alt="Яндекс Метрика"></eleventy-image>
-          </div>
-          <app-link class="certificate-card__link" href="#" target="_blank">Яндекс Метрика</app-link>
+          </span>
+          <span class="certificate-card__text">Яндекс Метрика</span>
         </app-certificate-card>
       </li>
     </ul>

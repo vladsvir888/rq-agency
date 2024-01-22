@@ -1,0 +1,12 @@
+// style
+.task-card {
+  padding: rem(24);
+  height: 100%;
+  color: #fff;
+  background-color: var(--palette-primary);
+  border-radius: var(--bdrs8);
+
+  &__title {
+    @include sub20;
+  }
+}

@@ -1,0 +1,13 @@
+// style
+.how-to-work {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap30);
+
+    > * {
+      width: calc(100% / 4 - var(--gap30));
+    }
+  }
+}

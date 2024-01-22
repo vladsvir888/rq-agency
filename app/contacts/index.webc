@@ -1,0 +1,8 @@
+---
+permalink: "contacts.html"
+---
+
+<app-base title="Контакты" webc:nokeep>
+  <app-contacts></app-contacts>
+  <app-callback></app-callback>
+</app-base>

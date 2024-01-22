@@ -3,6 +3,12 @@ permalink: "company.html"
 ---
 
 <app-base title="Компания" webc:nokeep>
+  <app-company-hero></app-company-hero>
+
+  <app-how-to-work></app-how-to-work>
+
+  <app-achievements></app-achievements>
+
   <app-icons-block>
     <h2 slot="title" class="section__title">Этапы работы</h2>
     <li class="icons-block__item">
@@ -30,12 +36,17 @@ permalink: "company.html"
       </app-icon-card>
     </li>
   </app-icons-block>
-  <app-achievements></app-achievements>
+
+  <app-leader></app-leader>
+
   <app-banner>
     <h2 slot="title" class="banner__title">Открытые вакансии смотрите на <br> Head Hunter</h2>
     <app-link slot="button" class="button--primary button--pill button--large" href="#" target="_blank">Смотреть вакансии</app-link>
   </app-banner>
-  <app-services></app-services>
+
+  <app-services-block></app-services-block>
+
   <app-confidence></app-confidence>
+
   <app-callback></app-callback>
 </app-base>

@@ -29,6 +29,10 @@
 @import '../_blocks/atoms/app-button/app-button.scss';
 
 // molecules
+@import '../_blocks/molecules/app-task-card/app-task-card.scss';
+@import '../_blocks/molecules/app-advantage-card/app-advantage-card.scss';
+@import '../_blocks/molecules/app-slider-controls/app-slider-controls.scss';
+@import '../_blocks/molecules/app-services-grid/app-services-grid.scss';
 @import '../_blocks/molecules/app-certificate-card/app-certificate-card.scss';
 @import '../_blocks/molecules/app-tags/app-tags.scss';
 @import '../_blocks/molecules/app-achievement-card/app-achievement-card.scss';
@@ -45,6 +49,10 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
+@import '../_blocks/organisms/app-contacts/app-contacts.scss';
+@import '../_blocks/organisms/app-company-hero/app-company-hero.scss';
+@import '../_blocks/organisms/app-how-to-work/app-how-to-work.scss';
+@import '../_blocks/organisms/app-leader/app-leader.scss';
 @import '../_blocks/organisms/app-certificates/app-certificates.scss';
 @import '../_blocks/organisms/app-clients/app-clients.scss';
 @import '../_blocks/organisms/app-news/app-news.scss';
@@ -53,7 +61,6 @@
 @import '../_blocks/organisms/app-footer/app-footer.scss';
 @import '../_blocks/organisms/app-callback/app-callback.scss';
 @import '../_blocks/organisms/app-hero/app-hero.scss';
-@import '../_blocks/organisms/app-services-block/app-services-block.scss';
 @import '../_blocks/organisms/app-confidence/app-confidence.scss';
 @import '../_blocks/organisms/app-news-block/app-news-block.scss';
 @import '../_blocks/organisms/app-cases-block/app-cases-block.scss';

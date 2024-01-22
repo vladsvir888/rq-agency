@@ -20,29 +20,29 @@
       <div class="about__advantages">
         <app-advantages>
           <div class="advantages__column advantages__column--left">
-            <div class="advantages__item advantages__item--secondary">
-              <span class="advantages__num">2000+</span>
-              <div class="advantages__text">Международных и национальных проектов</div>
-            </div>
+            <app-advantage-card class="advantage-card--secondary">
+              <div slot="num" class="advantage-card__num">2000+</div>
+              <div slot="text" class="advantage-card__text">Международных и национальных проектов</div>
+            </app-advantage-card>
           </div>
 
           <div class="advantages__column advantages__column--center">
-            <div class="advantages__item">
-              <span class="advantages__num">15+</span>
-              <div class="advantages__text">Лет непрерывного развития</div>
-            </div>
+            <app-advantage-card class="advantage-card--graphic-1">
+              <div slot="num" class="advantage-card__num">15+</div>
+              <div slot="text" class="advantage-card__text">Лет непрерывного развития</div>
+            </app-advantage-card>
 
-            <div class="advantages__item">
-              <span class="advantages__num">250+</span>
-              <div class="advantages__text">Сотрудников</div>
-            </div>
+            <app-advantage-card class="advantage-card--graphic-2">
+              <div slot="num" class="advantage-card__num">250+</div>
+              <div slot="text" class="advantage-card__text">Сотрудников</div>
+            </app-advantage-card>
           </div>
 
           <div class="advantages__column advantages__column--right">
-            <div class="advantages__item advantages__item--secondary">
-              <span class="advantages__num">400+</span>
-              <div class="advantages__text">Успешных digital PR проектов</div>
-            </div>
+            <app-advantage-card class="advantage-card--secondary">
+              <div slot="num" class="advantage-card__num">400+</div>
+              <div slot="text" class="advantage-card__text">Успешных digital PR проектов</div>
+            </app-advantage-card>
           </div>
         </app-advantages>
         <app-link class="button--primary button--pill button--large about__more" href="#">Узнать больше</app-link>

@@ -1,5 +1,7 @@
 // style
 .tags {
+  $this: &;
+
   --column-gap-tags: #{rem(20)};
   --row-gap-tags: #{rem(6)};
 
@@ -21,11 +23,29 @@
       &::after {
         position: absolute;
         right: calc(var(--column-gap-tags) / 2 * -1);
+        top: 50%;
         width: rem(1);
-        height: 100%;
+        height: 80%;
         background-color: #fff;
         rotate: 25deg;
+        translate: 0 -50%;
         content: '';
+      }
+    }
+  }
+
+  &--secondary {
+    color: var(--palette-primary);
+
+    > * {
+      &:not(:last-child) {
+        &::after {
+          background-color: currentColor;
+        }
+      }
+
+      &[aria-current="page"] {
+        color: var(--palette-gray);
       }
     }
   }

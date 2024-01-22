@@ -56,7 +56,7 @@
     background-position: center center;
     background-size: rem(12);
     border: rem(1) solid var(--palette-primary);
-    border-radius: rem(4);
+    border-radius: var(--bdrs4);
     appearance: none;
     cursor: inherit;
   }

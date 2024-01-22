@@ -1,0 +1,9 @@
+---
+permalink: "services.html"
+---
+
+<app-base title="Услуги" webc:nokeep>
+  <app-services></app-services>
+
+  <app-callback></app-callback>
+</app-base>

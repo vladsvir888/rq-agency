@@ -1,0 +1,44 @@
+// style
+.services-grid {
+  $this: &;
+
+  &--primary {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--gap30);
+    grid-auto-rows: minmax(#{rem(257)}, 1fr);
+
+    #{$this}__item {
+      &:nth-child(5n + 1) {
+        grid-row: span 2;
+      }
+    }
+  }
+
+  &--secondary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--gap30);
+
+    #{$this}__item {
+      &:nth-child(5n + 1) {
+        grid-column: span 2;
+      }
+    }
+
+    .service-card {
+      &__title {
+        margin-bottom: rem(32);
+      }
+
+      &__text {
+        margin-bottom: rem(32);
+
+        > ul {
+          column-count: 2;
+          gap: rem(20) rem(80);
+        }
+      }
+    }
+  }
+}

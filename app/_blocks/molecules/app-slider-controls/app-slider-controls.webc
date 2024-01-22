@@ -1,0 +1,8 @@
+<!--- template --->
+<div class="slider-controls" webc:root="override">
+  <div class="slider-controls__buttons">
+    <slot name="button-prev"></slot>
+    <slot name="button-next"></slot>
+  </div>
+  <div class="slider-controls__pagination"></div>
+</div>

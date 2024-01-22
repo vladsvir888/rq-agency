@@ -1,14 +1,22 @@
 // style
 .certificate-card {
+  $this: &;
+
   display: grid;
   position: relative;
   border: rem(1) solid var(--palette-gray);
   border-radius: var(--bdrs12);
   background: #fff;
+  overflow: hidden;
+
+  @include hover {
+    #{$this}__text {
+      transform: translateY(100%);
+    }
+  }
 
   &__image-wrapper {
     grid-area: 1 / 2;
-    margin-bottom: rem(10);
   }
 
   &__image {
@@ -17,20 +25,17 @@
     border-radius: var(--bdrs12);
   }
 
-  &__link {
+  &__text {
     @include sub24;
 
     color: var(--palette-primary);
     grid-area: 1 / 2;
     margin-top: auto;
     justify-content: start;
-    padding: rem(17) rem(24);
+    padding: rem(14) rem(24);
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
     background-color: inherit;
-
-    &::before {
-      @include link-entire-area;
-    }
+    transition: transform var(--transition300ms);
   }
 }

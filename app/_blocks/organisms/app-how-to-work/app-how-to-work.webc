@@ -1,0 +1,49 @@
+<!--- template --->
+<section class="section how-to-work">
+  <div class="container">
+    <h2 class="section__title">Как мы работаем</h2>
+    <ul class="how-to-work__list">
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">KPI — в первую очередь</h3>
+        </app-task-card>
+      </li>
+
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">Комплексный digital PR</h3>
+        </app-task-card>
+      </li>
+
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">Регламентированная скорость реакции</h3>
+        </app-task-card>
+      </li>
+
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">Погружение в бизнес клиента</h3>
+        </app-task-card>
+      </li>
+
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">Персональный подход</h3>
+        </app-task-card>
+      </li>
+
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">Конфиденциальность</h3>
+        </app-task-card>
+      </li>
+
+      <li class="how-to-work__item">
+        <app-task-card>
+          <h3 slot="title" class="task-card__title">Высокие стандарты обслуживания</h3>
+        </app-task-card>
+      </li>
+    </ul>
+  </div>
+</section>

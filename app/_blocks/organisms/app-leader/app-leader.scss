@@ -1,0 +1,48 @@
+// style
+.leader {
+  &__wrapper {
+    display: flex;
+    gap: var(--gap30);
+  }
+
+  &__slider {
+    width: 76%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(24);
+    }
+  }
+
+  &__slide {
+    color: var(--palette-primary);
+
+    &-img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: rem(32);
+      border-radius: var(--bdrs32) var(--bdrs4) var(--bdrs4) var(--bdrs4);
+      aspect-ratio: 77 / 107;
+      object-fit: cover;
+    }
+
+    &-text {
+      @include heading6;
+
+      margin-bottom: rem(16);
+      max-width: rem(190);
+    }
+
+    &-subtext {
+      @include base14;
+    }
+  }
+}

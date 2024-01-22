@@ -1,0 +1,41 @@
+// style
+.company-hero {
+  margin-bottom: var(--section-offset-y);
+  color: #fff;
+  background-color: #5F3BFF;
+  background-image: url('../assets/images/graphics/company-hero.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &__container {
+    display: flex;
+    gap: var(--gap30);
+    padding-top: rem(173);
+    padding-bottom: rem(165);
+  }
+
+  &__title {
+    @include heading1;
+
+    margin-bottom: rem(56);
+  }
+
+  &__text {
+    @include heading6;
+
+    > p {
+      &:not(:last-child) {
+        margin-bottom: rem(20);
+      }
+    }
+  }
+
+  &__content {
+    width: 42%;
+  }
+
+  &__advantages {
+    width: 53%;
+  }
+}
