@@ -8,6 +8,10 @@
   background-position: center right;
   background-size: contain;
 
+  &__container {
+    padding-left: rem(161);
+  }
+
   &__title {
     @include heading5;
 

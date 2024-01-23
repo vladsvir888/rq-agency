@@ -1,0 +1,59 @@
+<!--- template --->
+<section class="section some-cases">
+  <div class="container">
+    <h2 class="section__title">Кейсы</h2>
+    <ul class="four-column-grid some-cases__list">
+      <li class="some-cases__item">
+        <app-case-card class="case-card--date" style="background-image: url('assets/images/cases/06.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
+          <h2 slot="title" class="case-card__title">
+            <app-link class="button--decoration case-card__link">SEO</app-link>
+          </h2>
+          <time slot="date" class="case-card__date" datetime="2022-07-20">20.07.2022</time>
+          <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
+            <rect width="46" height="46" rx="23" fill="white"/>
+            <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </app-case-card>
+      </li>
+
+      <li class="some-cases__item">
+        <app-case-card class="case-card--date" style="background-image: url('assets/images/cases/07.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
+          <h2 slot="title" class="case-card__title">
+            <app-link class="button--decoration case-card__link">Performance/Контекстная реклама/ Недвижимость</app-link>
+          </h2>
+          <time slot="date" class="case-card__date" datetime="2022-07-20">20.07.2022</time>
+          <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
+            <rect width="46" height="46" rx="23" fill="white"/>
+            <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </app-case-card>
+      </li>
+
+      <li class="some-cases__item">
+        <app-case-card class="case-card--date" style="background-image: url('assets/images/cases/08.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
+          <h2 slot="title" class="case-card__title">
+            <app-link class="button--decoration case-card__link">SMM</app-link>
+          </h2>
+          <time slot="date" class="case-card__date" datetime="2022-07-20">20.07.2022</time>
+          <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
+            <rect width="46" height="46" rx="23" fill="white"/>
+            <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </app-case-card>
+      </li>
+
+      <li class="some-cases__item">
+        <app-case-card class="case-card--date" style="background-image: url('assets/images/cases/08.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
+          <h2 slot="title" class="case-card__title">
+            <app-link class="button--decoration case-card__link">SMM</app-link>
+          </h2>
+          <time slot="date" class="case-card__date" datetime="2022-07-20">20.07.2022</time>
+          <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
+            <rect width="46" height="46" rx="23" fill="white"/>
+            <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </app-case-card>
+      </li>
+    </ul>
+  </div>
+</section>

@@ -54,6 +54,7 @@
               <path fill-rule="evenodd" clip-rule="evenodd" d="M32 62.5C48.5685 62.5 62 49.0685 62 32.5C62 15.9315 48.5685 2.5 32 2.5C15.4315 2.5 2 15.9315 2 32.5C2 49.0685 15.4315 62.5 32 62.5ZM26 23.6733L28.5067 21.1667L39.1733 31.8333L28.5067 42.5L26 39.9933L34.1422 31.8333L26 23.6733Z" fill="#350587"/>
             </svg>
           </app-button>
+          <div slot="pagination" class="slider-controls__pagination"></div>
         </app-slider-controls>
       </div>
     </div>

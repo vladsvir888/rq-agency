@@ -112,9 +112,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Транспорт, автомобильная</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Расширяем аудиторию бренда с помощью репутации</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -125,9 +125,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/03.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Строительство</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Покорители пространства</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -138,9 +138,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Транспорт, автомобильная</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Расширяем аудиторию бренда с помощью репутации</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -151,9 +151,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/03.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Строительство</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Покорители пространства</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -164,9 +164,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/04.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Фарма</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Как бороться с популярными конкурентами на маркетплейсах</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -177,9 +177,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/05.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Логистика</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Кейс Pony Express: снижаем негатив на внешних площадках на 75%</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -190,9 +190,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/04.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Фарма</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Как бороться с популярными конкурентами на маркетплейсах</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -203,9 +203,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/05.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Логистика</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Кейс Pony Express: снижаем негатив на внешних площадках на 75%</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -216,9 +216,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Транспорт, автомобильная</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Расширяем аудиторию бренда с помощью репутации</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -229,9 +229,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/03.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Строительство</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Покорители пространства</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -242,9 +242,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Транспорт, автомобильная</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Расширяем аудиторию бренда с помощью репутации</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -255,9 +255,9 @@
         <li class="cases__item">
           <app-case-card style="background-image: url('assets/images/cases/03.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.25;">
             <div slot="tag" class="case-card__tag">Строительство</div>
-            <h3 slot="title" class="case-card__title">
+            <h2 slot="title" class="case-card__title">
               <app-link class="button--decoration case-card__link">Покорители пространства</app-link>
-            </h3>
+            </h2>
             <svg slot="bottom-block" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
               <rect width="46" height="46" rx="23" fill="white"/>
               <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

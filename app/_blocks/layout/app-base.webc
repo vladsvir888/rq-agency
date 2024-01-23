@@ -12,6 +12,7 @@
   <link rel="manifest" href="assets/manifest.webmanifest">
 
   <link rel="stylesheet" href="styles/main.css" webc:keep>
+  <script webc:if="map" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:keep defer></script>
   <script src="scripts/main.js" defer webc:keep></script>
 </head>
 <body>

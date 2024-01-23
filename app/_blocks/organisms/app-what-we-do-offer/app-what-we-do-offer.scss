@@ -1,0 +1,72 @@
+// style
+.what-we-do-offer {
+  &__slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: rem(56);
+  }
+
+  &__slider {
+    width: calc(100% - 320px);
+    margin-right: 0;
+    margin-left: 0;
+    counter-reset: slider;
+  }
+
+  &__slide {
+    height: auto;
+    padding: rem(10) rem(10) rem(25);
+    color: var(--palette-primary);
+
+    &--primary {
+      background-color: var(--palette-primary);
+    }
+
+    &--secondary {
+      background-color: var(--palette-secondary);
+    }
+
+    &--primary,
+    &--secondary {
+      color: #fff;
+    }
+
+    &-title {
+      &::before {
+        @include sub18;
+
+        display: block;
+        margin-bottom: rem(24);
+        counter-increment: slider;
+        content: counter(slider, decimal-leading-zero);
+      }
+    }
+  }
+
+  &__content {
+    display: grid;
+    row-gap: rem(36);
+    color: var(--palette-primary);
+
+    &-title {
+      @include heading5;
+    }
+
+    &-text {
+      @include sub20;
+
+      max-width: rem(1000);
+
+      > p {
+        &:not(:last-child) {
+          margin-bottom: rem(24);
+        }
+      }
+    }
+
+    &-button {
+      justify-self: end;
+    }
+  }
+}

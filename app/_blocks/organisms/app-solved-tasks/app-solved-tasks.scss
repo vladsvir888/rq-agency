@@ -1,0 +1,31 @@
+// style
+.solved-tasks {
+  &__text {
+    @include sub24;
+
+    margin-bottom: rem(46);
+    color: var(--palette-primary);
+  }
+
+  &__list {
+    counter-reset: numeric-list;
+  }
+
+  &__card {
+    &-title {
+      &::before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: rem(48);
+        height: rem(48);
+        margin-bottom: rem(16);
+        color: var(--palette-primary);
+        border-radius: 50%;
+        background-color: #fff;
+        counter-increment: numeric-list;
+        content: counter(numeric-list);
+      }
+    }
+  }
+}

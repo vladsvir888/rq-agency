@@ -34,6 +34,10 @@
     {
       href: "certificates.html",
       text: 'Сертификаты'
+    },
+    {
+      href: "services-detail-1.html",
+      text: 'Детальная услуг (ORM)'
     }
   ];
   const date = new Date();

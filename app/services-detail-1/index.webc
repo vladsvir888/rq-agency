@@ -1,0 +1,26 @@
+---
+permalink: "services-detail-1.html"
+---
+
+<app-base title="ORM" webc:nokeep>
+  <app-solved-tasks></app-solved-tasks>
+
+  <app-transparent-work></app-transparent-work>
+
+  <app-what-we-do-offer></app-what-we-do-offer>
+
+  <app-banner>
+    <h2 slot="title" class="banner__title">
+      Скачайте чек лист “Как работать с <br> негативными отзывами?”
+    </h2>
+    <app-link slot="button" class="button--primary button--pill button--large" href="#" target="_blank">Скачать “Чек-лист”</app-link>
+  </app-banner>
+
+  <app-why-us></app-why-us>
+
+  <app-service-banner></app-service-banner>
+
+  <app-some-cases></app-some-cases>
+
+  <app-relevant-news></app-relevant-news>
+</app-base>

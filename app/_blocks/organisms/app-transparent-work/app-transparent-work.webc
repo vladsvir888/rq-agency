@@ -1,0 +1,35 @@
+<!--- template --->
+<section class="section transparent-work">
+  <div class="container">
+    <h2 class="section__title">Наша работа прозрачна</h2>
+    <ol class="four-column-grid transparent-work__list">
+      <li class="transparent-work__item">
+        <img class="transparent-work__item-img" src="assets/images/icons/number-icon-1.svg" alt="" height="102" width="78" loading="lazy">
+        <div class="transparent-work__item-text">
+          Аудит и поиск точек роста
+        </div>
+      </li>
+
+      <li class="transparent-work__item">
+        <img class="transparent-work__item-img" src="assets/images/icons/number-icon-2.svg" alt="" height="102" width="78" loading="lazy">
+        <div class="transparent-work__item-text">
+          Разработка и согласование стратегии
+        </div>
+      </li>
+
+      <li class="transparent-work__item">
+        <img class="transparent-work__item-img" src="assets/images/icons/number-icon-3.svg" alt="" height="102" width="78" loading="lazy">
+        <div class="transparent-work__item-text">
+          Реализация, корректировка стратегии
+        </div>
+      </li>
+
+      <li class="transparent-work__item">
+        <img class="transparent-work__item-img" src="assets/images/icons/number-icon-4.svg" alt="" height="102" width="78" loading="lazy">
+        <div class="transparent-work__item-text">
+          Отчет о выполненных работах
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>

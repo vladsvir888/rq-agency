@@ -1,0 +1,23 @@
+<!--- template --->
+<section class="section relevant-news">
+  <div class="container">
+    <h2 class="section__title">Релевантные новости</h2>
+    <div class="two-column-grid relevant-news__list">
+      <div class="relevant-news__item">
+        <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+          <h2 slot="title" class="news-card__title">
+            <app-link class="button--decoration news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
+          </h2>
+        </app-news-card>
+      </div>
+
+      <div class="relevant-news__item">
+        <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
+          <h2 slot="title" class="news-card__title">
+            <app-link class="button--decoration news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
+          </h2>
+        </app-news-card>
+      </div>
+    </div>
+  </div>
+</section>

@@ -29,6 +29,7 @@
 @import '../_blocks/atoms/app-button/app-button.scss';
 
 // molecules
+@import '../_blocks/molecules/app-service-banner/app-service-banner.scss';
 @import '../_blocks/molecules/app-task-card/app-task-card.scss';
 @import '../_blocks/molecules/app-advantage-card/app-advantage-card.scss';
 @import '../_blocks/molecules/app-slider-controls/app-slider-controls.scss';
@@ -49,6 +50,11 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
+@import '../_blocks/organisms/app-what-we-do-offer/app-what-we-do-offer.scss';
+@import '../_blocks/organisms/app-why-us/app-why-us.scss';
+@import '../_blocks/organisms/app-relevant-news/app-relevant-news.scss';
+@import '../_blocks/organisms/app-transparent-work/app-transparent-work.scss';
+@import '../_blocks/organisms/app-solved-tasks/app-solved-tasks.scss';
 @import '../_blocks/organisms/app-contacts/app-contacts.scss';
 @import '../_blocks/organisms/app-company-hero/app-company-hero.scss';
 @import '../_blocks/organisms/app-how-to-work/app-how-to-work.scss';

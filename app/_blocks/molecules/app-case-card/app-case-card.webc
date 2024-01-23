@@ -1,7 +1,7 @@
 <!--- template --->
 <article class="case-card" webc:root="override">
   <div class="case-card__content">
-    <app-tags class="case-card__tags">
+    <app-tags webc:if="tags" class="case-card__tags">
       <li class="tags__item">
         <app-link class="button--decoration tags__link" href="#">Транспорт</app-link>
       </li>
@@ -11,6 +11,8 @@
     </app-tags>
 
     <slot name="title"></slot>
+
+    <slot name="date"></slot>
 
     <div class="case-card__bottom-block">
       <slot name="bottom-block"></slot>

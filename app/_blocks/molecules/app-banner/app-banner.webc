@@ -1,7 +1,7 @@
 <!--- template --->
-<div class="banner">
-  <div class="container">
+<section class="banner">
+  <div class="container banner__container">
     <slot name="title"></slot>
     <slot name="button"></slot>
   </div>
-</div>
+</section>

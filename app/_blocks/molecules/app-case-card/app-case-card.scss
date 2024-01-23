@@ -39,6 +39,12 @@
     }
   }
 
+  &--date {
+    #{$this}__title {
+      margin-bottom: rem(8);
+    }
+  }
+
   &__content {
     position: relative;
     z-index: 1;
@@ -68,5 +74,9 @@
   &__bottom-block {
     margin-top: auto;
     margin-left: auto;
+  }
+
+  &__date {
+    @include base14;
   }
 }

@@ -1,0 +1,27 @@
+// style
+.service-banner {
+  padding: rem(87) 0 rem(71);
+  margin-bottom: var(--section-offset-y);
+  color: #fff;
+  background-color: var(--palette-primary);
+  background-image: url('../assets/images/graphics/service-banner.svg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+
+  &__container {
+    padding-left: rem(145);
+  }
+
+  &__title {
+    @include heading2;
+
+    margin-bottom: rem(42);
+  }
+
+  &__text {
+    @include heading5;
+
+    margin-bottom: rem(56);
+  }
+}

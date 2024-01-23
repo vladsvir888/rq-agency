@@ -1,0 +1,58 @@
+<!--- template --->
+<section class="section solved-tasks">
+  <div class="container">
+    <h2 class="section__title">Задачи, которые решаются</h2>
+    <div class="solved-tasks__text">
+      Основная задача ORM — контролировать появление репутационных рисков, выявлять и отражать негативные вбросы, распространять в сети контент для формирования лояльности к бренду, поддерживать ваши PR-цели и подогревать интерес к маркетинговым кампаниям.
+    </div>
+    <ol class="three-column-grid solved-tasks__list">
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Негативные отзывы</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Повышение рейтинга и конверсии</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Выявление клеветы в сети</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Запуск нового продукта</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Негатив в поиске</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Отсутствие информации</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Увеличение продаж</div>
+        </app-task-card>
+      </li>
+
+      <li class="solved-tasks__item">
+        <app-task-card class="solved-tasks__card">
+          <div slot="title" class="task-card__title solved-tasks__card-title">Усиление клиентского сервиса</div>
+        </app-task-card>
+      </li>
+    </ol>
+  </div>
+</section>

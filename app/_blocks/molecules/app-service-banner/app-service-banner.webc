@@ -1,0 +1,8 @@
+<!--- template --->
+<section class="service-banner">
+  <div class="container service-banner__container">
+    <h2 class="service-banner__title">Бесплатно подготовим аудит <br> вашего бизнеса</h2>
+    <div class="service-banner__text">Соберём отчёт, выявим проблемы и обозначим <br> точки роста</div>
+    <app-button class="button--secondary button--pill button--medium">Получить аудит</app-button>
+  </div>
+</section>
