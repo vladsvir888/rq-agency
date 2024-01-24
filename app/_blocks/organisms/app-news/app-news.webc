@@ -7,7 +7,9 @@
       </li>
       <li class="tags__item" aria-current="page">Новости</li>
     </app-tags>
-    <h1 class="section__title news__title">Новости</h1>
+    <div class="section__header">
+      <h1 class="section__title news__title">Новости</h1>
+    </div>
     <div class="section__wrapper">
       <app-filter-block>
         <li class="filter-block__item">

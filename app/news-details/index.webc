@@ -1,0 +1,8 @@
+---
+permalink: "news-detail.html"
+---
+
+<app-base title="Новые возможности digital-рекламы обсудили за завтраком от AMDG" webc:nokeep>
+  <app-news-detail></app-news-detail>
+  <app-relevant-news title="Вам может быть интересно" :button="true"></app-relevant-news>
+</app-base>

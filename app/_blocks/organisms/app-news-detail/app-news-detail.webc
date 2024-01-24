@@ -1,0 +1,54 @@
+<!--- template --->
+<div class="news-detail">
+  <div class="news-detail__hero">
+    <div class="container news-detail__hero-container">
+      <app-tags>
+        <li class="tags__item">
+          <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+        </li>
+        <li class="tags__item" aria-current="page">Новости</li>
+      </app-tags>
+    </div>
+    <div class="news-detail__img-wrapper">
+      <eleventy-image class="news-detail__img" src="app/_images/news-detail/01.jpg" alt=""></eleventy-image>
+    </div>
+  </div>
+  <div class="container">
+    <div class="news-detail__info">
+      <div class="news-detail__info-wrapper">
+        <div class="news-detail__views">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 7C15.79 7 19.17 9.13 20.82 12.5C19.17 15.87 15.8 18 12 18C8.2 18 4.83 15.87 3.18 12.5C4.83 9.13 8.21 7 12 7ZM12 5C7 5 2.73 8.11 1 12.5C2.73 16.89 7 20 12 20C17 20 21.27 16.89 23 12.5C21.27 8.11 17 5 12 5ZM12 10C13.38 10 14.5 11.12 14.5 12.5C14.5 13.88 13.38 15 12 15C10.62 15 9.5 13.88 9.5 12.5C9.5 11.12 10.62 10 12 10ZM12 8C9.52 8 7.5 10.02 7.5 12.5C7.5 14.98 9.52 17 12 17C14.48 17 16.5 14.98 16.5 12.5C16.5 10.02 14.48 8 12 8Z" fill="#CDCDCD"/>
+          </svg>
+          4568
+        </div>
+        <time class="news-detail__date" datetime="2023-08-11">11.08.2023</time>
+      </div>
+      <h1 class="news-detail__title">Новые возможности digital-рекламы обсудили за завтраком от AMDG</h1>
+    </div>
+    <div class="text-block news-detail__text-block">
+      <p>
+        9 августа состоялось одно из важнейших событий агентства – AMDG Business Breakfast. Best practices I полугодия 2023.
+      </p>
+      <p>
+        За деловым завтраком, в уютной атмосфере грузинского ресторана, команда AMDG обсудила с гостями новые возможности digital-рекламы, поделилась своим опытом и рассказала про лучшие практики привлечения клиентов.
+      </p>
+      <p>
+        Открыл выступление Олег Поливанов, Performance Lead AMDG. Эксперт на примере конкретных кейсов показал, почему важен brandformance-подход в digital-рекламе и как сегментировать аудиторию в медийных кампаниях, оставляя наиболее теплую и конвертируя ее в performance. <br>
+        Андрей Гасанов, Операционный директор AMDG, рассказал, как сегодня работать с OLV (Online Video) в Youtube и на Programmatic-платформах, также раскрыл примеры, механики запуска и способы замера эффективности.
+      </p>
+      <p>
+        Продолжил дискуссию Михаил Охотников, Руководитель отдела по поисковому продвижению AMDG. В своем выступлении эксперт продемонстрировал метрики отслеживания результатов в SEO, которые помогают понимать, насколько эффективно идет поисковое продвижение, раскрыл проблему выстраивания плодотворного сотрудничества заказчика и исполнителя по SEO и поделился секретами привлечения клиентов с помощью комплексного развития и продвижения сайта.
+      </p>
+
+      <img src="assets/images/news-detail/02.jpg" alt="" loading="lazy" width="870" height="535">
+    </div>
+    <app-link class="button--large news-detail__more">
+      Следующая новость
+      <svg xmlns="http://www.w3.org/2000/svg" width="68" height="69" viewBox="0 0 68 69" fill="none" aria-hidden="true">
+        <rect x="33.9453" y="0.558594" width="48" height="48" rx="24" transform="rotate(45 33.9453 0.558594)" fill="#350587"/>
+        <path d="M22.8507 34.2826L45.2602 34.5M45.2602 34.5L33.9465 23.1863M45.2602 34.5L33.9465 45.8137" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </app-link>
+  </div>
+</div>

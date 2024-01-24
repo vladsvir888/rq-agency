@@ -38,6 +38,10 @@
   @include font(42, 54.6, 400);
 }
 
+@mixin heading4 {
+  @include font(36, 46.8, 400);
+}
+
 @mixin heading5 {
   @include font(32, 41.6, 400);
 }

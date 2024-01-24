@@ -1,0 +1,72 @@
+---
+permalink: "services-detail-3.html"
+---
+
+<app-base title="SMM" webc:nokeep>
+  <app-service-hero title="PR">
+    <div slot="text" class="service-hero__text">
+      <p>
+        Public Relations (связи с общественностью) — это комплекс коммуникаций, направленных на формирование и поддержание положительного имиджа компании, организации, бренда, персоны.
+      </p>
+      <p>
+        С помощью PR технологий выстраиваются отношения с потребителями, сообществом, сотрудниками компании, взаимодействие с инвесторами, формируется и укрепляется репутация.
+      </p>
+    </div>
+  </app-service-hero>
+
+  <app-solved-tasks></app-solved-tasks>
+
+  <app-transparent-work></app-transparent-work>
+
+  <app-what-we-do-offer></app-what-we-do-offer>
+
+  <app-banner>
+    <h2 slot="title" class="banner__title">
+      Скачайте чек лист “Как работать с <br> негативными отзывами?”
+    </h2>
+    <app-link slot="button" class="button--primary button--pill button--large" href="#" target="_blank">Скачать “Чек-лист”</app-link>
+  </app-banner>
+
+  <app-why-us>
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-9.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Запустили программу сертификации специалистов ORM Expert</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-10.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Занимаем 1 строчку в рейтинге AdIndex в SMM/Digital PR, 2021</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-11.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Имеем сертификаты всех мониторинговых ПО</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-12.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Работаем в режиме 24/7 и оказываем юридическую поддержку</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-13.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Разработали личный&nbsp;кабинет для управления проектом</div>
+      </app-icon-card>
+    </li>
+  </app-why-us>
+
+  <app-service-banner></app-service-banner>
+
+  <app-some-cases></app-some-cases>
+
+  <app-relevant-news></app-relevant-news>
+</app-base>

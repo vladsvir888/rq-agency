@@ -1,23 +1,32 @@
 <!--- template --->
 <section class="section relevant-news">
   <div class="container">
-    <h2 class="section__title">Релевантные новости</h2>
-    <div class="two-column-grid relevant-news__list">
-      <div class="relevant-news__item">
+    <div class="section__header">
+      <h2 @text="title" class="section__title">Релевантные новости</h2>
+      <app-link webc:if="button" class="button--pill button--large button--primary button--arrow">
+        Все новости
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
+          <rect width="46" height="46" rx="23" fill="white"/>
+          <path d="M9.27237 22.7283L37.2843 23M37.2843 23L23.1421 8.85786M37.2843 23L23.1421 37.1421" stroke="#350587" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </app-link>
+    </div>
+    <swiper-container class="relevant-news__slider" init="false">
+      <swiper-slide class="relevant-news__slide">
         <app-news-card style="background-image: url('assets/images/news/01.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
           <h2 slot="title" class="news-card__title">
             <app-link class="button--decoration news-card__link" href="#">AMDG и Move Realty Awards: "Почему на рынке недвижимости важно работать с репутацией"</app-link>
           </h2>
         </app-news-card>
-      </div>
+      </swiper-slide>
 
-      <div class="relevant-news__item">
+      <swiper-slide class="relevant-news__slide">
         <app-news-card style="background-image: url('assets/images/news/02.jpg'); --overlay-color: rgb(0 0 0); --overlay-opacity: 0.5;">
           <h2 slot="title" class="news-card__title">
             <app-link class="button--decoration news-card__link" href="#">"AMDG представило первый отраслевой рейтинг ТОП-100 по управлению репутацией в сегменте “Банки”</app-link>
           </h2>
         </app-news-card>
-      </div>
-    </div>
+      </swiper-slide>
+    </swiper-container>
   </div>
 </section>

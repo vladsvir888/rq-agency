@@ -34,8 +34,6 @@
     "extends @shopify/browserslist-config"
   ],
   "dependencies": {
-    "@shoelace-style/shoelace": "^2.12.0",
-    "pristinejs": "^1.1.0",
     "swiper": "^11.0.5"
   },
   "engines": {

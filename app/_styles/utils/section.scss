@@ -1,15 +1,27 @@
 .section {
-  padding-bottom: var(--section-offset-y);
+  $this: &;
+
+  --section-header-offset-bottom: #{rem(48)};
+  --section-header-offset-left: #{rem(83)};
+
+  padding-bottom: var(--section-offset-bottom);
 
   &--inner {
     padding-top: rem(48);
   }
 
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: rem(20);
+    padding-left: var(--section-header-offset-left);
+    padding-bottom: var(--section-header-offset-bottom);
+  }
+
   &__title {
     @include heading2;
 
-    padding-left: rem(83);
-    padding-bottom: rem(48);
     color: var(--palette-primary);
 
     &-link {

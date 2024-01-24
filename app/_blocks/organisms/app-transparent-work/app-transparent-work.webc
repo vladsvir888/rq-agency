@@ -1,7 +1,9 @@
 <!--- template --->
 <section class="section transparent-work">
   <div class="container">
-    <h2 class="section__title">Наша работа прозрачна</h2>
+    <div class="section__header">
+      <h2 class="section__title">Наша работа прозрачна</h2>
+    </div>
     <ol class="four-column-grid transparent-work__list">
       <li class="transparent-work__item">
         <img class="transparent-work__item-img" src="assets/images/icons/number-icon-1.svg" alt="" height="102" width="78" loading="lazy">

@@ -10,7 +10,9 @@ permalink: "company.html"
   <app-achievements></app-achievements>
 
   <app-icons-block>
-    <h2 slot="title" class="section__title">Этапы работы</h2>
+    <div slot="title" class="section__header">
+      <h2 class="section__title">Этапы работы</h2>
+    </div>
     <li class="icons-block__item">
       <app-icon-card>
         <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-5.svg" alt="" width="305" height="96" loading="lazy">

@@ -7,7 +7,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition-property: background-color, color, border-color;
+  transition-property: background-color, color, border-color, text-decoration-color;
   transition-duration: var(--transition300ms);
 
   &--decoration {
@@ -67,5 +67,13 @@
 
     min-height: rem(45);
     padding: 0 rem(32);
+  }
+
+  &--arrow {
+    padding-right: 0;
+
+    > svg {
+      margin: rem(2) rem(2) rem(2) rem(24);
+    }
   }
 }

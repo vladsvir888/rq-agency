@@ -6,6 +6,8 @@ import initHeroSlider from '../_blocks/organisms/app-hero/app-hero';
 import initLeaderSlider from '../_blocks/organisms/app-leader/app-leader';
 import '../_blocks/organisms/app-contacts/app-contacts';
 import initWhatWeDoOfferSlider from '../_blocks/organisms/app-what-we-do-offer/app-what-we-do-offer';
+import initCasesSlider from '../_blocks/organisms/app-some-cases/app-some-cases';
+import initNewsSlider from '../_blocks/organisms/app-relevant-news/app-relevant-news';
 
 register();
 
@@ -16,4 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeroSlider();
   initLeaderSlider();
   initWhatWeDoOfferSlider();
+  initCasesSlider();
+  initNewsSlider();
 });

@@ -1,7 +1,9 @@
 <!--- template --->
 <section class="section callback">
   <div class="container">
-    <h2 class="section__title">Начнем знакомство</h2>
+    <div class="section__header">
+      <h2 class="section__title">Начнем знакомство</h2>
+    </div>
     <form class="callback__form" action="/" method="get">
       <div class="callback__inputs">
         <input class="input" name="name" type="text" placeholder="Имя *" required>

@@ -30,12 +30,12 @@
         </div>
 
         <div class="advantages__column advantages__column--center">
-          <app-advantage-card class="advantage-card--graphic-1">
+          <app-advantage-card class="advantage-card--graphic-3">
             <div slot="num" class="advantage-card__num">15+</div>
             <div slot="text" class="advantage-card__text">Лет непрерывного развития</div>
           </app-advantage-card>
 
-          <app-advantage-card class="advantage-card--graphic-2">
+          <app-advantage-card class="advantage-card--graphic-4">
             <div slot="num" class="advantage-card__num">№1</div>
             <div slot="text" class="advantage-card__text">Digital агентство в Беларуси </div>
           </app-advantage-card>

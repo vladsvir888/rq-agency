@@ -1,7 +1,9 @@
 <!--- template --->
 <section class="section how-to-work">
   <div class="container">
-    <h2 class="section__title">Как мы работаем</h2>
+    <div class="section__header">
+      <h2 class="section__title">Как мы работаем</h2>
+    </div>
     <ul class="how-to-work__list">
       <li class="how-to-work__item">
         <app-task-card>

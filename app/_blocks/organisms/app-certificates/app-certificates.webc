@@ -9,7 +9,9 @@
         Сертификаты
       </li>
     </app-tags>
-    <h1 class="section__title">Сертификаты</h1>
+    <div class="section__header">
+      <h1 class="section__title">Сертификаты</h1>
+    </div>
     <ul class="certificates__list">
       <li class="certificates__item">
         <app-certificate-card>

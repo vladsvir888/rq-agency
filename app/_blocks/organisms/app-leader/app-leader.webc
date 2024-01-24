@@ -1,7 +1,9 @@
 <!--- template --->
 <section class="section leader">
   <div class="container">
-    <h2 class="section__title">Лидеры RQ</h2>
+    <div class="section__header">
+      <h2 class="section__title">Лидеры RQ</h2>
+    </div>
     <div class="leader__wrapper">
       <swiper-container class="leader__slider" init="false">
         <swiper-slide class="leader__slide">

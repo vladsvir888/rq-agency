@@ -1,49 +1,53 @@
 <!--- template --->
 <section class="section why-us">
   <div class="container">
-    <h2 class="section__title">Почему мы</h2>
-    <ul class="three-column-grid why-us__list">
-      <li class="why-us__item">
-        <app-icon-card>
-          <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-9.svg" alt="" width="305" height="96" loading="lazy">
-          <div slot="text" class="icon-card__text">Запустили программу сертификации специалистов ORM Expert</div>
-        </app-icon-card>
-      </li>
+    <div class="section__header">
+      <h2 class="section__title">Почему мы</h2>
+    </div>
+    <ul class="why-us__list">
+      <slot>
+        <li class="why-us__item">
+          <app-icon-card>
+            <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-9.svg" alt="" width="305" height="96" loading="lazy">
+            <div slot="text" class="icon-card__text">Запустили программу сертификации специалистов ORM Expert</div>
+          </app-icon-card>
+        </li>
 
-      <li class="why-us__item">
-        <app-icon-card>
-          <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-10.svg" alt="" width="305" height="96" loading="lazy">
-          <div slot="text" class="icon-card__text">Занимаем 1 строчку в рейтинге AdIndex в SMM/Digital PR, 2021</div>
-        </app-icon-card>
-      </li>
+        <li class="why-us__item">
+          <app-icon-card>
+            <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-10.svg" alt="" width="305" height="96" loading="lazy">
+            <div slot="text" class="icon-card__text">Занимаем 1 строчку в рейтинге AdIndex в SMM/Digital PR, 2021</div>
+          </app-icon-card>
+        </li>
 
-      <li class="why-us__item">
-        <app-icon-card>
-          <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-11.svg" alt="" width="305" height="96" loading="lazy">
-          <div slot="text" class="icon-card__text">Имеем сертификаты всех мониторинговых ПО</div>
-        </app-icon-card>
-      </li>
+        <li class="why-us__item">
+          <app-icon-card>
+            <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-11.svg" alt="" width="305" height="96" loading="lazy">
+            <div slot="text" class="icon-card__text">Имеем сертификаты всех мониторинговых ПО</div>
+          </app-icon-card>
+        </li>
 
-      <li class="why-us__item">
-        <app-icon-card>
-          <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-12.svg" alt="" width="305" height="96" loading="lazy">
-          <div slot="text" class="icon-card__text">Работаем в режиме 24/7 и оказываем юридическую поддержку</div>
-        </app-icon-card>
-      </li>
+        <li class="why-us__item">
+          <app-icon-card>
+            <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-12.svg" alt="" width="305" height="96" loading="lazy">
+            <div slot="text" class="icon-card__text">Работаем в режиме 24/7 и оказываем юридическую поддержку</div>
+          </app-icon-card>
+        </li>
 
-      <li class="why-us__item">
-        <app-icon-card>
-          <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-13.svg" alt="" width="305" height="96" loading="lazy">
-          <div slot="text" class="icon-card__text">Разработали личный кабинет для управления проектом</div>
-        </app-icon-card>
-      </li>
+        <li class="why-us__item">
+          <app-icon-card>
+            <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-13.svg" alt="" width="305" height="96" loading="lazy">
+            <div slot="text" class="icon-card__text">Разработали личный&nbsp;кабинет для управления проектом</div>
+          </app-icon-card>
+        </li>
 
-      <li class="why-us__item">
-        <app-icon-card>
-          <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-14.svg" alt="" width="305" height="96" loading="lazy">
-          <div slot="text" class="icon-card__text">В штате копирайтеры, говорящие на всех популярных языках </div>
-        </app-icon-card>
-      </li>
+        <li class="why-us__item">
+          <app-icon-card>
+            <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-14.svg" alt="" width="305" height="96" loading="lazy">
+            <div slot="text" class="icon-card__text">В штате копирайтеры, говорящие на всех популярных языках </div>
+          </app-icon-card>
+        </li>
+      </slot>
     </ul>
   </div>
 </section>

@@ -38,6 +38,18 @@
     {
       href: "services-detail-1.html",
       text: 'Детальная услуг (ORM)'
+    },
+    {
+      href: "services-detail-2.html",
+      text: 'Детальная услуг (SMM)'
+    },
+    {
+      href: "services-detail-3.html",
+      text: 'Детальная услуг (PR)'
+    },
+    {
+      href: "news-detail.html",
+      text: 'Новость'
     }
   ];
   const date = new Date();

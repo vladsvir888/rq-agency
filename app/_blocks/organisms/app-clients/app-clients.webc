@@ -8,7 +8,9 @@
       <li class="tags__item" aria-current="page">Клиенты</li>
     </app-tags>
 
-    <h1 class="section__title clients__title">Клиенты</h1>
+    <div class="section__header">
+      <h1 class="section__title clients__title">Клиенты</h1>
+    </div>
 
     <app-filter-block class="clients__filter-block">
       <li class="filter-block__item">

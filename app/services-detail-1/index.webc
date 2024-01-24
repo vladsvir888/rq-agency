@@ -3,6 +3,12 @@ permalink: "services-detail-1.html"
 ---
 
 <app-base title="ORM" webc:nokeep>
+  <app-service-hero title="ORM" :cards="true" :note="true">
+    <div slot="text" class="service-hero__text">
+      <p>Управление репутацией в сети (ORM) — оперативное выявление и комплексная нейтрализация неактуальной информации о компании, услуге, продукте, личности в digital пространстве.</p>
+    </div>
+  </app-service-hero>
+
   <app-solved-tasks></app-solved-tasks>
 
   <app-transparent-work></app-transparent-work>

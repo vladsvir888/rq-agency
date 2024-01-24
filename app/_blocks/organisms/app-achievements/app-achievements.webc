@@ -1,7 +1,9 @@
 <!--- template --->
 <section class="section achievements">
   <div class="container">
-    <h2 class="section__title achievements__title">Наши достижения</h2>
+    <div class="section__header">
+      <h2 class="section__title achievements__title">Наши достижения</h2>
+    </div>
     <app-achievements-slider></app-achievements-slider>
   </div>
 </section>

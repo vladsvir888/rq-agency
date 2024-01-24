@@ -1,7 +1,9 @@
 <!--- template --->
 <section class="section solved-tasks">
   <div class="container">
-    <h2 class="section__title">Задачи, которые решаются</h2>
+    <div class="section__header">
+      <h2 class="section__title">Задачи, которые решаются</h2>
+    </div>
     <div class="solved-tasks__text">
       Основная задача ORM — контролировать появление репутационных рисков, выявлять и отражать негативные вбросы, распространять в сети контент для формирования лояльности к бренду, поддерживать ваши PR-цели и подогревать интерес к маркетинговым кампаниям.
     </div>

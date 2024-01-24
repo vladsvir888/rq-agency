@@ -1,0 +1,41 @@
+<!--- template --->
+<div class="service-hero">
+  <div class="container service-hero__container">
+    <app-tags class="service-hero__tags">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">Услуги</li>
+    </app-tags>
+    <div class="service-hero__content">
+      <h1 @text="title" class="service-hero__title"></h1>
+
+      <slot name="text"></slot>
+
+      <div class="service-hero__wrapper">
+        <app-button class="button--pill button--large button--secondary">Заказать</app-button>
+
+        <div webc:if="cards" class="three-column-grid service-hero__cards">
+          <app-advantage-card class="advantage-card--graphic-4">
+            <div slot="num" class="advantage-card__num">91%</div>
+            <div slot="subnum" class="advantage-card__sub-num">Заказов</div>
+            <div slot="text" class="advantage-card__text">Совершаются с учётом отзывов</div>
+          </app-advantage-card>
+          <app-advantage-card class="advantage-card--secondary">
+            <div slot="num" class="advantage-card__num">54%</div>
+            <div slot="text" class="advantage-card__text">Покупателей доверяют отзыву, если он подробный</div>
+          </app-advantage-card>
+          <app-advantage-card class="advantage-card--graphic-1">
+            <div slot="num" class="advantage-card__num">2/3</div>
+            <div slot="subnum" class="advantage-card__sub-num">онлайн-покупателей </div>
+            <div slot="text" class="advantage-card__text">Оставляют отзывы о товарах</div>
+          </app-advantage-card>
+        </div>
+
+        <div webc:if="note" class="service-hero__note">
+          <small>*По данным исследования AliExpress Россия и Data Insight.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

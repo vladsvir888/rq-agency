@@ -7,7 +7,9 @@
       </li>
       <li class="tags__item" aria-current="page">Контакты</li>
     </app-tags>
-    <h1 class="section__title">Контакты</h1>
+    <div class="section__header">
+      <h1 class="section__title">Контакты</h1>
+    </div>
     <div class="contacts__info">
       <section class="contacts__section contacts__section--1">
         <div class="contacts__block">

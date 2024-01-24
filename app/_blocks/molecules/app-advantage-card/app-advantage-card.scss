@@ -1,11 +1,12 @@
 // style
 .advantage-card {
-  padding: rem(22);
+  display: flex;
+  flex-direction: column;
+  padding: rem(24);
   color: #fff;
   background-color: var(--palette-primary);
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
+  background-position: left bottom;
   border-radius: var(--bdrs8);
 
   &--secondary {
@@ -18,6 +19,16 @@
 
   &--graphic-2 {
     background-image: url('../assets/images/graphics/about-2.svg');
+    background-size: cover;
+  }
+
+  &--graphic-3 {
+    background-image: url('../assets/images/graphics/about-3.svg');
+  }
+
+  &--graphic-4 {
+    background-image: url('../assets/images/graphics/about-4.svg');
+    background-size: cover;
   }
 
   &__num {
@@ -32,5 +43,7 @@
 
   &__text {
     @include base14;
+
+    margin-top: auto;
   }
 }

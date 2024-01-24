@@ -50,9 +50,11 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
+@import '../_blocks/organisms/app-news-detail/app-news-detail.scss';
+@import '../_blocks/organisms/app-created-content/app-created-content.scss';
+@import '../_blocks/organisms/app-service-hero/app-service-hero.scss';
 @import '../_blocks/organisms/app-what-we-do-offer/app-what-we-do-offer.scss';
 @import '../_blocks/organisms/app-why-us/app-why-us.scss';
-@import '../_blocks/organisms/app-relevant-news/app-relevant-news.scss';
 @import '../_blocks/organisms/app-transparent-work/app-transparent-work.scss';
 @import '../_blocks/organisms/app-solved-tasks/app-solved-tasks.scss';
 @import '../_blocks/organisms/app-contacts/app-contacts.scss';

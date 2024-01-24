@@ -1,7 +1,15 @@
 // style
 .why-us {
   &__list {
-    max-width: rem(960);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap30);
+    max-width: rem(940);
     margin: 0 auto;
+
+    > * {
+      width: calc(100% / 3 - var(--gap30));
+    }
   }
 }

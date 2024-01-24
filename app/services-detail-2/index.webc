@@ -1,0 +1,34 @@
+---
+permalink: "services-detail-2.html"
+---
+
+<app-base title="SMM" webc:nokeep>
+  <app-service-hero title="SMM">
+    <div slot="text" class="service-hero__text">
+      <p>SMM (Продвижение в социальных сетях) — важный инструмент в комплексе digital-маркетинга компании. Ваша целевая аудитория уже активна, и мы знаем к ней подход. Обеспечиваем охват, увеличиваем вовлеченность и формируем лояльность.</p>
+    </div>
+  </app-service-hero>
+
+  <app-solved-tasks></app-solved-tasks>
+
+  <app-transparent-work></app-transparent-work>
+
+  <app-created-content></app-created-content>
+
+  <app-what-we-do-offer></app-what-we-do-offer>
+
+  <app-banner>
+    <h2 slot="title" class="banner__title">
+      Скачайте чек лист SMM менеджера
+    </h2>
+    <app-link slot="button" class="button--primary button--pill button--large" href="#" target="_blank">Скачать “Чек-лист”</app-link>
+  </app-banner>
+
+  <app-why-us></app-why-us>
+
+  <app-service-banner></app-service-banner>
+
+  <app-some-cases></app-some-cases>
+
+  <app-relevant-news></app-relevant-news>
+</app-base>
