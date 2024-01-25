@@ -15,6 +15,10 @@
     justify-content: center;
     height: rem(265);
     margin-bottom: rem(16);
+
+    @media (width <= 900px) {
+      height: rem(203);
+    }
   }
 
   &__image {

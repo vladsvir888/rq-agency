@@ -10,6 +10,10 @@
     padding-top: rem(48);
   }
 
+  @media (width <= 600px) {
+    --section-header-offset-left: 0;
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;

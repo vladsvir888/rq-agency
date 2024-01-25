@@ -5,9 +5,15 @@
 }
 
 .three-column-grid {
+  --number-cols: 3;
+
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--number-cols), minmax(0, 1fr));
   gap: var(--gap30);
+
+  @media (width <= 1200px) {
+    --number-cols: 2;
+  }
 }
 
 .four-column-grid {

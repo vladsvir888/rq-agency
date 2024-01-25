@@ -29,4 +29,16 @@
   // others
   --header-height: #{rem(103)};
   --section-offset-bottom: #{rem(150)};
+
+  @media (width <= 1200px) {
+    --container-padding: #{rem(40)};
+  }
+
+  @media (width <= 900px) {
+    --section-offset-bottom: #{rem(60)};
+  }
+
+  @media (width <= 600px) {
+    --container-padding: #{rem(16)};
+  }
 }

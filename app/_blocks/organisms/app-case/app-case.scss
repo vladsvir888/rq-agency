@@ -1,0 +1,27 @@
+// style
+.case {
+  &__top {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: var(--gap30);
+  }
+
+  &__top-wrapper {
+    display: grid;
+    row-gap: rem(90);
+    grid-column: span 6;
+  }
+
+  &__project-card {
+    grid-column: 8 / -1;
+  }
+
+  &__more {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: rem(72);
+    column-gap: rem(30);
+    padding: 0;
+    color: var(--palette-primary);
+  }
+}

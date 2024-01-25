@@ -50,6 +50,10 @@
     {
       href: "news-detail.html",
       text: 'Новость'
+    },
+    {
+      href: "case.html",
+      text: 'Кейс'
     }
   ];
   const date = new Date();

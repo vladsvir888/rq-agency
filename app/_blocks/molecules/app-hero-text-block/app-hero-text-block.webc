@@ -1,0 +1,9 @@
+<!--- template --->
+<div class="hero-text-block">
+  <div class="container hero-text-block__container">
+    <slot name="content"></slot>
+  </div>
+  <div class="hero-text-block__img-wrapper">
+    <slot name="image"></slot>
+  </div>
+</div>

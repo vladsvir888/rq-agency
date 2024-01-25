@@ -1,13 +1,35 @@
 // style
 .certificates {
   &__list {
+    --number-cols: 4;
+    --column-gap-cols: var(--gap30);
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: rem(16) var(--gap30);
+    gap: rem(16) var(--column-gap-cols);
 
     > * {
-      width: calc(100% / 4 - var(--gap30));
+      width: calc(100% / var(--number-cols) - var(--column-gap-cols));
+
+      @media (width <= 600px) {
+        width: unset;
+      }
+    }
+
+    @media (width <= 1200px) {
+      --number-cols: 3;
+    }
+
+    @media (width <= 900px) {
+      --number-cols: 2;
+    }
+
+    @media (width <= 600px) {
+      --column-gap-cols: #{rem(16)};
+
+      display: grid;
+      grid-template-columns: repeat(var(--number-cols), minmax(0, 1fr));
     }
   }
 }

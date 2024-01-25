@@ -1,0 +1,8 @@
+// style
+.result {
+  &__text {
+    @include sub24;
+
+    color: var(--palette-primary);
+  }
+}

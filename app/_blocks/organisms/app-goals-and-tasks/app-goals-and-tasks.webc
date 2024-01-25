@@ -1,0 +1,17 @@
+<!--- template --->
+<section class="goals-and-tasks">
+  <div class="section__header">
+    <h2 class="section__title">Цели и задачи</h2>
+  </div>
+  <ul class="goals-and-tasks__list">
+    <li>
+      Повысить лояльности потенциальной аудитории Нивелировать негатив
+    </li>
+    <li>
+      Расширить информационное поле Бренда
+    </li>
+    <li>
+      Увеличить рейтинги на страницах в поисковой выдаче Яндекс и Google
+    </li>
+  </ul>
+</section>

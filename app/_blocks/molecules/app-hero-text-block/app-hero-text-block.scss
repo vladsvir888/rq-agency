@@ -1,0 +1,30 @@
+// style
+.hero-text-block {
+  display: grid;
+  color: #fff;
+
+  &__container {
+    position: relative;
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    padding: rem(20) var(--container-padding);
+  }
+
+  &__img-wrapper {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+
+  &__image {
+    width: 100%;
+    height: rem(597);
+    object-fit: cover;
+  }
+
+  &__title {
+    @include heading5;
+
+    margin-top: rem(100);
+  }
+}

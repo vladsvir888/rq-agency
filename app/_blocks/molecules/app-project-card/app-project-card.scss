@@ -1,0 +1,58 @@
+// style
+.project-card {
+  $this: &;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(32);
+  padding: rem(32);
+  color: #fff;
+  background-color: var(--palette-primary);
+  border-radius: var(--bdrs32);
+
+  &__list {
+    @include sub20;
+
+    display: grid;
+    row-gap: rem(16);
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: rem(10);
+    }
+  }
+
+  &__block {
+    &-title {
+      @include sub20;
+
+      margin-bottom: rem(22);
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: rem(10) rem(20);
+
+      &--1 {
+        column-gap: rem(32);
+      }
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: rem(8);
+      max-width: rem(100);
+    }
+
+    &-text {
+      @include font(12, 15.6, 400);
+
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// style
+.goals-and-tasks {
+  &__list {
+    @include sub24;
+
+    padding-left: rem(30);
+    list-style: disc;
+    color: var(--palette-primary);
+  }
+}

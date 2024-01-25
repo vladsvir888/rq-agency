@@ -1,0 +1,9 @@
+<!--- template --->
+<section class="result">
+  <div class="section__header">
+    <h2 class="section__title">Результат</h2>
+  </div>
+  <div class="result__text">
+    Средний рейтинг увеличился с 4,5 до 4,61. При помощи дискуссий на профильных ресурсах привлекли внимание > 49 000 человек.
+  </div>
+</section>

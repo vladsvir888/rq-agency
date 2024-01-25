@@ -1,0 +1,12 @@
+<!--- template --->
+<div class="section about-project">
+  <div class="about-project__img">
+    <img src="assets/images/icons/about-project.svg" alt="" loading="lazy" width="191" height="227">
+  </div>
+  <div class="about-project__content">
+    <h2 class="section__title about-project__title">О Проекте</h2>
+    <div class="about-project__text">
+      Всемирно известный производитель резинотехнических изделий. Кроме автомобильных шин, бренд разрабатывает и производит авиационные шины, уплотнительные материалы и спортивные товары.
+    </div>
+  </div>
+</div>

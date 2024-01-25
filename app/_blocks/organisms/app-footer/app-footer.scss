@@ -8,15 +8,33 @@
   background-position: center center;
   background-size: cover;
 
+  @media (width <= 1024px) {
+    background-image: url('../assets/images/graphics/footer-tablet.svg');
+  }
+
+  @media (width <= 600px) {
+    background-image: url('../assets/images/graphics/footer-mobile.svg');
+  }
+
   &__container {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr rem(533);
     grid-template-areas:
       'socials form'
       'address form'
       'info form';
     align-items: center;
     gap: rem(54);
+
+    @media (width <= 1024px) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'form'
+        'socials'
+        'address'
+        'info';
+      row-gap: rem(35);
+    }
   }
 
   &__socials {
@@ -49,19 +67,28 @@
     flex-wrap: wrap;
     gap: rem(12) rem(44);
     color: var(--palette-gray);
+
+    @media (width <= 600px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 
   &__form {
     display: grid;
-    grid-template-columns: rem(288) rem(195);
     gap: rem(30) rem(50);
     grid-area: form;
     align-items: center;
+    max-width: rem(533);
 
     &-text {
       @include sub24;
 
       grid-column: span 2;
+
+      @media (width <= 600px) {
+        grid-column: unset;
+      }
     }
 
     &-input {
@@ -70,6 +97,16 @@
 
       &::placeholder {
         color: currentColor;
+      }
+
+      @media (width <= 600px) {
+        max-width: rem(288);
+      }
+    }
+
+    &-btn {
+      @media (width <= 600px) {
+        max-width: rem(239);
       }
     }
   }

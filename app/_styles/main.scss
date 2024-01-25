@@ -29,6 +29,8 @@
 @import '../_blocks/atoms/app-button/app-button.scss';
 
 // molecules
+@import '../_blocks/molecules/app-project-card/app-project-card.scss';
+@import '../_blocks/molecules/app-hero-text-block/app-hero-text-block.scss';
 @import '../_blocks/molecules/app-service-banner/app-service-banner.scss';
 @import '../_blocks/molecules/app-task-card/app-task-card.scss';
 @import '../_blocks/molecules/app-advantage-card/app-advantage-card.scss';
@@ -50,6 +52,11 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
+@import '../_blocks/organisms/app-results/app-results.scss';
+@import '../_blocks/organisms/app-about-project/app-about-project.scss';
+@import '../_blocks/organisms/app-result/app-result.scss';
+@import '../_blocks/organisms/app-goals-and-tasks/app-goals-and-tasks.scss';
+@import '../_blocks/organisms/app-case/app-case.scss';
 @import '../_blocks/organisms/app-news-detail/app-news-detail.scss';
 @import '../_blocks/organisms/app-created-content/app-created-content.scss';
 @import '../_blocks/organisms/app-service-hero/app-service-hero.scss';

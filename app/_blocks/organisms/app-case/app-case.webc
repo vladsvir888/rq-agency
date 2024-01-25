@@ -1,0 +1,45 @@
+<!--- template --->
+<div class="case">
+  <app-hero-text-block>
+    <div slot="content" class="hero-text-block__content">
+      <app-tags>
+        <li class="tags__item">
+          <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+        </li>
+        <li class="tags__item">
+          <app-link class="button--decoration tags__link" href="#">Кейсы</app-link>
+        </li>
+        <li class="tags__item" aria-current="page">Расширяем аудиторию бренда с помощью
+          репутации Кейс всемирно известного
+          производителя шин</li>
+      </app-tags>
+      <h1 class="hero-text-block__title">
+        Расширяем аудиторию бренда с помощью <br> репутации Кейс всемирно известного <br> производителя шин
+      </h1>
+    </div>
+    <eleventy-image slot="image" class="hero-text-block__image" src="app/_images/case/01.jpg" alt=""></eleventy-image>
+  </app-hero-text-block>
+  <div class="container">
+    <div class="section section--inner case__top">
+      <div class="case__top-wrapper">
+        <app-goals-and-tasks></app-goals-and-tasks>
+
+        <app-result></app-result>
+      </div>
+
+      <app-project-card class="case__project-card"></app-project-card>
+    </div>
+
+    <app-about-project></app-about-project>
+
+    <app-results></app-results>
+
+    <app-link class="button--large case__more">
+      Следующий кейс
+      <svg xmlns="http://www.w3.org/2000/svg" width="68" height="69" viewBox="0 0 68 69" fill="none" aria-hidden="true">
+        <rect x="34.0625" y="0.558594" width="48" height="48" rx="24" transform="rotate(45 34.0625 0.558594)" fill="#350587"/>
+        <path d="M22.9679 34.2826L45.3774 34.5M45.3774 34.5L34.0637 23.1863M45.3774 34.5L34.0637 45.8137" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </app-link>
+  </div>
+</div>

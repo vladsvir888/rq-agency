@@ -1,18 +1,18 @@
 <!--- template --->
 <div class="news-detail">
-  <div class="news-detail__hero">
-    <div class="container news-detail__hero-container">
-      <app-tags>
-        <li class="tags__item">
-          <app-link class="button--decoration tags__link" href="#">Главная</app-link>
-        </li>
-        <li class="tags__item" aria-current="page">Новости</li>
-      </app-tags>
-    </div>
-    <div class="news-detail__img-wrapper">
-      <eleventy-image class="news-detail__img" src="app/_images/news-detail/01.jpg" alt=""></eleventy-image>
-    </div>
-  </div>
+  <app-hero-text-block>
+    <app-tags slot="content">
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Главная</app-link>
+      </li>
+      <li class="tags__item">
+        <app-link class="button--decoration tags__link" href="#">Новости</app-link>
+      </li>
+      <li class="tags__item" aria-current="page">Новые возможности digital-рекламы обсудили за завтраком от AMDG</li>
+    </app-tags>
+    <eleventy-image slot="image" class="hero-text-block__image" src="app/_images/news-detail/01.jpg" alt=""></eleventy-image>
+  </app-hero-text-block>
+
   <div class="container">
     <div class="news-detail__info">
       <div class="news-detail__info-wrapper">

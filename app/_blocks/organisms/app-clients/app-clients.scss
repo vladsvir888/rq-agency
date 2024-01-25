@@ -2,5 +2,9 @@
 .clients {
   &__filter-block {
     margin-bottom: rem(119);
+
+    @media (width <= 1200px) {
+      margin-bottom: rem(46);
+    }
   }
 }
