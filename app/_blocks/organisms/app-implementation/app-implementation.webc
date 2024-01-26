@@ -1,0 +1,29 @@
+<!--- template --->
+<section class="section implementation">
+  <div class="section__header">
+    <h2 class="section__title">
+      Реализация
+    </h2>
+  </div>
+  <div class="implementation__wrapper">
+    <div class="implementation__accordion">
+      <app-details></app-details>
+    </div>
+    <div class="implementation__cards">
+      <app-advantage-card class="advantage-card--graphic-4 implementation__advantage-card">
+        <div slot="num" class="advantage-card__num implementation__advantage-card-num">753</div>
+        <div slot="text" class="advantage-card__text implementation__advantage-card-text">Страницы в работе</div>
+      </app-advantage-card>
+
+      <app-advantage-card class="advantage-card--graphic-5 implementation__advantage-card">
+        <div slot="num" class="advantage-card__num implementation__advantage-card-num">1257</div>
+        <div slot="text" class="advantage-card__text implementation__advantage-card-text">Отзывов опубликовано</div>
+      </app-advantage-card>
+
+      <app-advantage-card class="advantage-card--graphic-6 implementation__advantage-card">
+        <div slot="num" class="advantage-card__num implementation__advantage-card-num">395</div>
+        <div slot="text" class="advantage-card__text implementation__advantage-card-text">Раз опровергали негатив</div>
+      </app-advantage-card>
+    </div>
+  </div>
+</section>

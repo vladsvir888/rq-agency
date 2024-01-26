@@ -1,0 +1,102 @@
+// style
+.dialog {
+  --width: #{rem(768)};
+
+  &:not(:defined) {
+    display: none;
+  }
+
+  &::part(body) {
+    padding: rem(64) rem(38) rem(23);
+    background-image: url('../assets/images/graphics/dialog.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+
+    @media (width <= 600px) {
+      padding: rem(32) rem(16);
+    }
+  }
+
+  &::part(panel) {
+    border-radius: var(--bdrs8);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%), 0 0 6px 0 rgb(0 0 0 / 2%);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(7);
+    gap: rem(10);
+
+    @media (width <= 360px) {
+      flex-direction: column-reverse;
+      align-items: flex-end;
+    }
+  }
+
+  &__title {
+    @include heading2;
+
+    color: var(--palette-primary);
+  }
+
+  &__close {
+    width: rem(48);
+    height: rem(48);
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: var(--bdrs8);
+  }
+
+  &__inputs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--gap30);
+    margin-bottom: rem(58);
+
+    @media (width <= 600px) {
+      grid-template-columns: 1fr;
+      margin-bottom: rem(30);
+    }
+  }
+
+  &__textarea {
+    grid-column: span 2;
+
+    @media (width <= 600px) {
+      grid-column: unset;
+    }
+  }
+
+  &__checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(8);
+    margin-bottom: rem(32);
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: rem(16);
+    margin-bottom: rem(23);
+
+    &-text {
+      @include base12;
+
+      color: var(--palette-primary);
+    }
+  }
+
+  &__submit {
+    min-width: rem(267);
+
+    @media (width <= 600px) {
+      min-width: unset;
+      width: 100%;
+    }
+  }
+}

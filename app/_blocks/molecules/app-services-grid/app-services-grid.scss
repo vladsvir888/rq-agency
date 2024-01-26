@@ -20,9 +20,17 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: var(--gap30);
 
+    @media (width <= 600px) {
+      grid-template-columns: 1fr;
+    }
+
     #{$this}__item {
       &:nth-child(5n + 1) {
         grid-column: span 2;
+
+        @media (width <= 600px) {
+          grid-column: unset;
+        }
       }
     }
 
@@ -34,9 +42,17 @@
       &__text {
         margin-bottom: rem(32);
 
+        @media (width <= 600px) {
+          margin-bottom: rem(16);
+        }
+
         > ul {
           column-count: 2;
           gap: rem(20) rem(80);
+
+          @media (width <= 600px) {
+            column-count: unset;
+          }
         }
       }
     }

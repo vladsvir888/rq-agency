@@ -28,24 +28,48 @@
 
 @mixin heading1 {
   @include font(56, 72.8, 400);
+
+  @media (width <= 900px) {
+    @include font(48, 62.4);
+  }
 }
 
 @mixin heading2 {
   @include font(48, 62.4, 400);
+
+  @media (width <= 900px) {
+    @include font(40, 52);
+  }
 }
 
 @mixin heading3 {
   @include font(42, 54.6, 400);
+
+  @media (width <= 900px) {
+    @include font(36, 46.8);
+  }
 }
 
 @mixin heading4 {
   @include font(36, 46.8, 400);
+
+  @media (width <= 900px) {
+    @include font(32, 41.6);
+  }
 }
 
 @mixin heading5 {
   @include font(32, 41.6, 400);
+
+  @media (width <= 900px) {
+    @include font(28, 36.4);
+  }
 }
 
 @mixin heading6 {
   @include font(26, 33.8, 400);
+
+  @media (width <= 900px) {
+    @include font(25, 32.5);
+  }
 }

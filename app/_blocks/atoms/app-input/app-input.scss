@@ -31,6 +31,10 @@
   border-radius: var(--bdrs64);
   transition: color var(--transition300ms);
 
+  &--secondary {
+    color: var(--palette-gray);
+  }
+
   &:has(> input:checked, > input:focus-visible, > input:hover) {
     color: var(--palette-primary);
   }
@@ -46,6 +50,10 @@
   min-height: rem(40);
   color: var(--palette-primary);
   cursor: pointer;
+
+  &--secondary {
+    @include sub18;
+  }
 
   > input {
     flex-shrink: 0;

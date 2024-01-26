@@ -8,7 +8,7 @@
   background-position: center center;
   background-size: cover;
 
-  @media (width <= 1024px) {
+  @media (width <= 1200px) {
     background-image: url('../assets/images/graphics/footer-tablet.svg');
   }
 
@@ -26,7 +26,7 @@
     align-items: center;
     gap: rem(54);
 
-    @media (width <= 1024px) {
+    @media (width <= 1200px) {
       grid-template-columns: 1fr;
       grid-template-areas:
         'form'
@@ -52,10 +52,6 @@
 
     &-others {
       @include base12;
-    }
-
-    &-mail {
-      text-decoration: underline;
     }
   }
 

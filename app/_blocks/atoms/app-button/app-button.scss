@@ -76,4 +76,12 @@
       margin: rem(2) rem(2) rem(2) rem(24);
     }
   }
+
+  &--underline {
+    text-decoration: underline;
+
+    @include hover {
+      text-decoration: none;
+    }
+  }
 }

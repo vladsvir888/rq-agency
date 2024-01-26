@@ -1,5 +1,9 @@
 // style
 .filter-block {
+  @media (width <= 600px) {
+    display: none;
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;

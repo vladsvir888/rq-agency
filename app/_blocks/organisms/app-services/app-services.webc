@@ -115,7 +115,7 @@
           </app-service-card>
         </li>
       </app-services-grid>
-      <app-button class="button--pill button--primary button--large">Показать еще</app-button>
+      <app-button class="button--pill button--primary button--large section__more">Показать еще</app-button>
     </div>
   </div>
 </div>

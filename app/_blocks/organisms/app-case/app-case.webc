@@ -32,6 +32,8 @@
 
     <app-about-project></app-about-project>
 
+    <app-implementation></app-implementation>
+
     <app-results></app-results>
 
     <app-link class="button--large case__more">

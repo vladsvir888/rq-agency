@@ -54,6 +54,10 @@
     {
       href: "case.html",
       text: 'Кейс'
+    },
+    {
+      href: "dialog.html",
+      text: 'Диалоговое окно "начнем знакомство"'
     }
   ];
   const date = new Date();

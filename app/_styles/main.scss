@@ -22,13 +22,17 @@
 
 // utils
 @import 'utils/grid.scss';
-@import 'utils/section.scss';
 
 // atoms
 @import '../_blocks/atoms/app-input/app-input.scss';
 @import '../_blocks/atoms/app-button/app-button.scss';
 
+// utils
+@import 'utils/section.scss';
+
 // molecules
+@import '../_blocks/molecules/app-dialog/app-dialog.scss';
+@import '../_blocks/molecules/app-details/app-details.scss';
 @import '../_blocks/molecules/app-project-card/app-project-card.scss';
 @import '../_blocks/molecules/app-hero-text-block/app-hero-text-block.scss';
 @import '../_blocks/molecules/app-service-banner/app-service-banner.scss';
@@ -52,6 +56,7 @@
 @import '../_blocks/molecules/app-icon-card/app-icon-card.scss';
 
 // organisms
+@import '../_blocks/organisms/app-implementation/app-implementation.scss';
 @import '../_blocks/organisms/app-results/app-results.scss';
 @import '../_blocks/organisms/app-about-project/app-about-project.scss';
 @import '../_blocks/organisms/app-result/app-result.scss';

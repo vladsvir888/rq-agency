@@ -1,0 +1,63 @@
+<!--- template --->
+<sl-dialog class="dialog" no-header>
+  <div class="dialog__header">
+    <h2 class="dialog__title">
+      Начнём знакомство
+    </h2>
+    <app-button class="dialog__close" aria-label="Закрыть">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M1.14645 2.85355L1.5 2.5L1.14645 2.85355L10.2929 12L1.14645 21.1464C0.675041 21.6179 0.675042 22.3822 1.14645 22.8536C1.61785 23.325 2.38215 23.325 2.85355 22.8536L12 13.7071L21.1464 22.8536C21.6179 23.325 22.3821 23.325 22.8536 22.8536C23.325 22.3821 23.325 21.6179 22.8536 21.1464L13.7071 12L22.8536 2.85355C23.325 2.38215 23.325 1.61785 22.8536 1.14645C22.3821 0.675042 21.6179 0.675042 21.1464 1.14645L12 10.2929L2.85355 1.14645C2.38215 0.675041 1.61785 0.675043 1.14645 1.14645C0.675042 1.61785 0.675042 2.38215 1.14645 2.85355Z" fill="#350587" stroke="#350587"/>
+      </svg>
+    </app-button>
+  </div>
+
+  <form class="dialog__form" action="/" method="get">
+    <div class="dialog__inputs">
+      <input class="input" name="name" type="text" placeholder="Имя *" required>
+      <input class="input" name="email" type="email" placeholder="Эл. Почта">
+      <input class="input" name="tel" type="tel" placeholder="+7 (999) 856-34-34 *" required>
+      <input class="input" name="address_site" type="text" placeholder="Адрес вашего сайта">
+      <textarea class="input dialog__textarea" name="wishes" placeholder="Напишите ваши пожелания"></textarea>
+    </div>
+    <div class="dialog__checkboxes">
+      <label class="custom-checkbox custom-checkbox--secondary">
+        Стратегия
+        <input class="visually-hidden" type="checkbox" name="services" value="Стратегия" checked>
+      </label>
+      <label class="custom-checkbox custom-checkbox--secondary">
+        Брендинг
+        <input class="visually-hidden" type="checkbox" name="services" value="Брендинг">
+      </label>
+      <label class="custom-checkbox custom-checkbox--secondary">
+        Креатив
+        <input class="visually-hidden" type="checkbox" name="services" value="Креатив">
+      </label>
+      <label class="custom-checkbox custom-checkbox--secondary">
+        Медиа и инфлюенс
+        <input class="visually-hidden" type="checkbox" name="services" value="Медиа и инфлюенс">
+      </label>
+      <label class="custom-checkbox custom-checkbox--secondary">
+        Продакшн
+        <input class="visually-hidden" type="checkbox" name="services" value="Продакшн">
+      </label>
+      <label class="custom-checkbox custom-checkbox--secondary">
+        SMM
+        <input class="visually-hidden" type="checkbox" name="services" value="SMM">
+      </label>
+      <label class="custom-checkbox custom-checkbox--secondary">
+        Другое
+        <input class="visually-hidden" type="checkbox" name="services" value="Другое">
+      </label>
+    </div>
+    <div class="dialog__wrapper">
+      <app-button class="button--primary button--pill button--large dialog__submit" type="submit">Отправить</app-button>
+      <div class="dialog__wrapper-text">
+        Нажимая кнопку вы соглашаетесь с <br> условиями <app-link class="button--underline" href="#">обработки персональных данных</app-link>
+      </div>
+    </div>
+    <label class="checkbox-mailing checkbox-mailing--secondary">
+      <input type="checkbox" name="mailing" value="yes" checked>
+      <span>Хочу получать рассылку</span>
+    </label>
+  </form>
+</sl-dialog>

@@ -1,0 +1,34 @@
+// style
+.implementation {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: var(--gap30);
+  }
+
+  &__cards {
+    display: grid;
+    row-gap: rem(20);
+    grid-column: 10 / -1;
+  }
+
+  &__advantage-card {
+    padding-left: rem(50);
+    padding-right: rem(50);
+
+    &-num {
+      font-size: rem(90);
+    }
+
+    &-text {
+      @include sub24;
+    }
+  }
+
+  &__accordion {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(50);
+    grid-column: span 8;
+  }
+}

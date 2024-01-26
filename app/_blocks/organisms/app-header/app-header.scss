@@ -10,7 +10,7 @@
     align-items: center;
     padding: rem(26) var(--container-padding);
 
-    @media (width <= 1024px) {
+    @media (width <= 1200px) {
       padding: rem(16) var(--container-padding);
     }
   }
@@ -32,7 +32,7 @@
     justify-content: space-between;
     flex: 1 0 auto;
 
-    @media (width <= 1024px) {
+    @media (width <= 1200px) {
       display: none;
     }
   }
@@ -43,7 +43,7 @@
     column-gap: rem(32);
     margin-left: auto;
 
-    @media (width <= 1024px) {
+    @media (width <= 1200px) {
       display: flex;
     }
   }

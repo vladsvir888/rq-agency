@@ -4,4 +4,11 @@
   align-items: center;
   flex-wrap: wrap;
   gap: rem(12) rem(24);
+
+  svg {
+    @media (width <= 900px) {
+      width: rem(24);
+      height: rem(24);
+    }
+  }
 }

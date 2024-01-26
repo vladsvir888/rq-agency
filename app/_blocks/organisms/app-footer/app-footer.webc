@@ -35,7 +35,7 @@
       <div class="footer__address-others">
         3-я улица Ямского Поля, дом 2, корпус 26. <br>
         <app-link class="button--decoration footer__address-phone" href="tel:+74951530660 ">+7 (495) 153-06-60 </app-link> <br>
-        <app-link class="footer__address-mail" href="mailto:Info@amdg.ru">Info@amdg.ru</app-link>
+        <app-link class="button--underline" href="mailto:Info@amdg.ru">Info@amdg.ru</app-link>
       </div>
     </div>
 

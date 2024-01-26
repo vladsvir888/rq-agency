@@ -31,6 +31,15 @@
     background-size: cover;
   }
 
+  &--graphic-5 {
+    background-image: url('../assets/images/graphics/about-5.svg');
+    background-position: right bottom;
+  }
+
+  &--graphic-6 {
+    background-image: url('../assets/images/graphics/about-6.svg');
+  }
+
   &__num {
     @include heading2;
   }

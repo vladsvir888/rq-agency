@@ -8,9 +8,9 @@
       <div class="callback__inputs">
         <input class="input" name="name" type="text" placeholder="Имя *" required>
         <input class="input" name="email" type="email" placeholder="Эл. Почта">
-        <textarea class="input callback__textarea" name="wishes" placeholder="Напишите ваши пожелания"></textarea>
         <input class="input" name="tel" type="tel" placeholder="+7 (999) 856-34-34 *" required>
         <input class="input" name="address_site" type="text" placeholder="Адрес вашего сайта">
+        <textarea class="input callback__textarea" name="wishes" placeholder="Напишите ваши пожелания"></textarea>
       </div>
       <div class="callback__checkboxes">
         <label class="custom-checkbox">
@@ -41,7 +41,7 @@
       <div class="callback__footer">
         <app-button class="button--primary button--pill button--large callback__button" type="submit">Отправить</app-button>
         <div class="callback__footer-text">
-          Нажимая кнопку вы соглашаетесь с условиями <app-link href="#">обработки персональных данных</app-link>
+          Нажимая кнопку вы соглашаетесь с условиями <app-link class="button--underline" href="#">обработки персональных данных</app-link>
         </div>
       </div>
     </form>

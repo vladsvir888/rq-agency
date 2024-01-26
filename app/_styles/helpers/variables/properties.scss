@@ -40,5 +40,6 @@
 
   @media (width <= 600px) {
     --container-padding: #{rem(16)};
+    --gap30: #{rem(16)};
   }
 }

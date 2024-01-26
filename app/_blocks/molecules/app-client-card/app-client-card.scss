@@ -9,21 +9,20 @@
   background-color: #fff;
   border-radius: var(--bdrs12);
 
+  @media (width <= 600px) {
+    padding: 0 rem(16) rem(13);
+  }
+
   &__image-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: rem(265);
     margin-bottom: rem(16);
-
-    @media (width <= 900px) {
-      height: rem(203);
-    }
   }
 
   &__image {
     aspect-ratio: 372 / 265;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   &__title {
@@ -31,6 +30,10 @@
 
     color: var(--palette-primary);
     margin-top: auto;
+
+    @media (width <= 600px) {
+      font-size: rem(14);
+    }
   }
 
   &__link {
