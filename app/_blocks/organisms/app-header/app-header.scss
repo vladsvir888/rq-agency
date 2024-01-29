@@ -1,7 +1,5 @@
 // style
 .header {
-  position: relative;
-  z-index: 1;
   background-color: #fff;
   color: var(--palette-primary);
 
@@ -21,10 +19,20 @@
 
   &__list {
     display: flex;
+
+    @media (width <= 1200px) {
+      flex-direction: column;
+    }
   }
 
   &__link {
     padding: rem(12) rem(25);
+
+    @media (width <= 1200px) {
+      justify-content: flex-start;
+      width: 100%;
+      padding: rem(16) var(--container-padding);
+    }
   }
 
   &__menu {
@@ -33,7 +41,16 @@
     flex: 1 0 auto;
 
     @media (width <= 1200px) {
-      display: none;
+      position: fixed;
+      inset: var(--header-height) 0 0 0;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      overflow-y: auto;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition300ms);
     }
   }
 
@@ -45,6 +62,13 @@
 
     @media (width <= 1200px) {
       display: flex;
+    }
+  }
+
+  &__callback-btn {
+    @media (width <= 1200px) {
+      margin: 0 rem(16) rem(16);
+      width: fit-content;
     }
   }
 }

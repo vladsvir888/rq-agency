@@ -5,8 +5,14 @@ export default function initNewsSlider() {
   if (!slider) return;
 
   Object.assign(slider, {
-    slidesPerView: 2,
-    spaceBetween: 30,
+    slidesPerView: 1.2,
+    spaceBetween: 16,
+    breakpoints: {
+      901: {
+        spaceBetween: 30,
+        slidesPerView: 2,
+      },
+    },
   });
 
   slider.initialize();

@@ -9,6 +9,13 @@
   background-size: cover;
   overflow: hidden;
 
+  @media (width <= 600px) {
+    min-height: rem(346);
+    padding: rem(32) 0 rem(60);
+    background-image: url('../assets/images/graphics/achievements-mobile.svg');
+    background-color: var(--palette-primary);
+  }
+
   &__title {
     color: #fff;
   }

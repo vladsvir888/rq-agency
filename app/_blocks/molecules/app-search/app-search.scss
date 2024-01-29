@@ -6,7 +6,12 @@
   &__form {
     display: flex;
     align-items: center;
-    column-gap: rem(27);
+    gap: rem(10) rem(27);
+
+    @media (width <= 600px) {
+      flex-direction: column;
+      align-items: unset;
+    }
   }
 
   &__input-wrapper {

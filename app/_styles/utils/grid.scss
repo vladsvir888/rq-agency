@@ -1,7 +1,13 @@
 .two-column-grid {
+  --number-cols: 2;
+
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--number-cols), minmax(0, 1fr));
   gap: var(--gap30);
+
+  @media (width <= 900px) {
+    --number-cols: 1;
+  }
 }
 
 .three-column-grid {
@@ -17,7 +23,21 @@
 }
 
 .four-column-grid {
+  --number-cols: 4;
+
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--number-cols), minmax(0, 1fr));
   gap: var(--gap30);
+
+  @media (width <= 1200px) {
+    --number-cols: 3;
+  }
+
+  @media (width <= 900px) {
+    --number-cols: 2;
+  }
+
+  @media (width <= 600px) {
+    --number-cols: 1;
+  }
 }

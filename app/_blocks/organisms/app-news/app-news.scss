@@ -2,5 +2,13 @@
 .news {
   &__title {
     margin-bottom: rem(32);
+
+    @media (width <= 600px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__search {
+    align-self: center;
   }
 }

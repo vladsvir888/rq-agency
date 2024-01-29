@@ -21,6 +21,10 @@
     flex-direction: column;
     padding: rem(32);
     min-height: inherit;
+
+    @media (width <= 600px) {
+      padding: rem(24);
+    }
   }
 
   &__title {

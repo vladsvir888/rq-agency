@@ -10,7 +10,7 @@
 
     <div class="section__header">
       <h1 class="section__title clients__title">Клиенты</h1>
-      <app-button class="section__filter-button" aria-label="Открыть">
+      <app-button class="section__filter-button" aria-label="Открыть" aria-expanded="false" aria-controls="filter-block">
         <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <rect y="0.5" width="40" height="40" rx="20" fill="#350587"/>
           <path d="M15.0007 14.5H25.0007L19.9907 20.8L15.0007 14.5ZM12.2507 14.11C14.2707 16.7 18.0007 21.5 18.0007 21.5V27.5C18.0007 28.05 18.4507 28.5 19.0007 28.5H21.0007C21.5507 28.5 22.0007 28.05 22.0007 27.5V21.5C22.0007 21.5 25.7207 16.7 27.7407 14.11C28.2507 13.45 27.7807 12.5 26.9507 12.5H13.0407C12.2107 12.5 11.7407 13.45 12.2507 14.11Z" fill="white"/>
@@ -18,7 +18,9 @@
       </app-button>
     </div>
 
-    <app-filter-block class="clients__filter-block">
+    <app-filter-block id="filter-block" class="clients__filter-block">
+      <div slot="title" class="filter-block-wrapper__title">Клиенты</div>
+
       <li class="filter-block__item">
         <app-button class="button--pill button--small filter-block__button" aria-pressed="true">Все</app-button>
       </li>

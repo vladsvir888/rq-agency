@@ -1,6 +1,17 @@
 <!--- template --->
-<nav class="filter-block" aria-label="Фильтрация" webc:root="override">
-  <ul class="filter-block__list">
-    <slot></slot>
-  </ul>
-</nav>
+<div class="filter-block-wrapper" webc:root="override">
+  <div class="filter-block-wrapper__header">
+    <slot name="title"></slot>
+    <app-button class="filter-block-wrapper__close" aria-label="Закрыть">
+      <svg xmlns="http://www.w3.org/2000/svg" width="38" height="39" viewBox="0 0 38 39" fill="none" aria-hidden="true">
+        <rect y="0.5" width="38" height="38" rx="19" fill="#350587"/>
+        <path d="M9.10099 29.899L9.45455 29.5455L9.10099 29.899C9.54729 30.3453 10.2709 30.3453 10.7172 29.899L19 21.6162L27.2828 29.899C27.7291 30.3453 28.4527 30.3453 28.899 29.899L28.5455 29.5455L28.899 29.899C29.3453 29.4527 29.3453 28.7291 28.899 28.2828L20.6162 20L28.899 11.7172C29.3453 11.2709 29.3453 10.5473 28.899 10.101L28.5455 10.4545L28.899 10.101C28.4527 9.65469 27.7291 9.65469 27.2828 10.101L27.6364 10.4545L27.2828 10.101L19 18.3838L10.7172 10.101C10.2709 9.65469 9.54729 9.65469 9.10099 10.101C8.65469 10.5473 8.65469 11.2709 9.10099 11.7172L17.3838 20L9.10099 28.2828L9.45455 28.6364L9.10099 28.2828C8.65469 28.7291 8.65469 29.4527 9.10099 29.899Z" fill="white" stroke="white"/>
+      </svg>
+    </app-button>
+  </div>
+  <nav class="filter-block" aria-label="Фильтрация">
+    <ul class="filter-block__list">
+      <slot></slot>
+    </ul>
+  </nav>
+</div>

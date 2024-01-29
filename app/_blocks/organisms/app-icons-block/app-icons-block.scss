@@ -2,5 +2,9 @@
 .icons-block {
   &__list {
     text-align: center;
+
+    @media (width <= 600px) {
+      --number-cols: 2;
+    }
   }
 }

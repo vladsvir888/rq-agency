@@ -3,14 +3,35 @@
   $this: &;
 
   &--primary {
+    --number-cols: 3;
+
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--number-cols), minmax(0, 1fr));
     gap: var(--gap30);
     grid-auto-rows: minmax(#{rem(257)}, 1fr);
+
+    @media (width <= 1200px) {
+      --number-cols: 2;
+
+      grid-auto-rows: unset;
+    }
+
+    @media (width <= 600px) {
+      --number-cols: 1;
+    }
 
     #{$this}__item {
       &:nth-child(5n + 1) {
         grid-row: span 2;
+
+        @media (width <= 1200px) {
+          grid-column: span 2;
+          grid-row: unset;
+        }
+
+        @media (width <= 600px) {
+          grid-column: unset;
+        }
       }
     }
   }

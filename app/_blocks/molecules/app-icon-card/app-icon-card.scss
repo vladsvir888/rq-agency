@@ -8,12 +8,24 @@
   text-align: center;
   color: var(--palette-primary);
 
+  @media (width <= 600px) {
+    font-size: rem(14);
+  }
+
   &__icon {
     margin-bottom: rem(32);
     aspect-ratio: 305 / 96;
+
+    @media (width <= 600px) {
+      margin-bottom: rem(16);
+    }
   }
 
   &__text {
     padding: 0 rem(20);
+
+    @media (width <= 600px) {
+      padding: 0;
+    }
   }
 }

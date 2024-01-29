@@ -1,7 +1,46 @@
 // style
 .filter-block {
-  @media (width <= 600px) {
-    display: none;
+  $this: &;
+
+  @at-root {
+    #{$this}-wrapper {
+      @media (width <= 600px) {
+        position: fixed;
+        inset: 0;
+        z-index: 10;
+        padding: rem(16);
+        background-color: #fff;
+        background-image: url('../assets/images/graphics/filter-block.svg');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        overflow-y: auto;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity var(--transition300ms);
+
+        &.open {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      &__header {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: rem(12);
+
+        @media (width <= 600px) {
+          display: flex;
+        }
+      }
+
+      &__title {
+        @include heading5;
+
+        color: var(--palette-primary);
+      }
+    }
   }
 
   &__list {
@@ -9,6 +48,10 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: rem(16);
+
+    @media (width <= 600px) {
+      justify-content: flex-start;
+    }
   }
 
   &__button {
@@ -17,6 +60,11 @@
     column-gap: rem(8);
     color: var(--palette-secondary);
     border: rem(2) solid currentColor;
+
+    @media (width <= 600px) {
+      padding: 0 rem(16);
+      font-size: rem(12);
+    }
 
     &[aria-pressed='true'] {
       color: var(--palette-primary);

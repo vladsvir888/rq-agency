@@ -8,6 +8,10 @@
     padding: rem(45) rem(32);
     background-color: #F5ECE3;
     border-radius: var(--bdrs16);
+
+    @media (width <= 600px) {
+      padding: rem(16);
+    }
   }
 
   &__form {

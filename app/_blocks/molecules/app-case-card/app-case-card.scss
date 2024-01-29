@@ -25,16 +25,29 @@
     #{$this} {
       &__content {
         padding: rem(40);
+
+        @media (width <= 900px) {
+          padding: rem(24);
+        }
       }
 
       &__tags {
         @include sub24;
 
         margin-bottom: rem(32);
+
+        @media (width <= 900px) {
+          margin-bottom: rem(24);
+          font-size: rem(16);
+        }
       }
 
       &__title {
         @include heading5;
+
+        @media (width <= 900px) {
+          @include sub24;
+        }
       }
     }
   }

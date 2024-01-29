@@ -6,5 +6,9 @@
     @media (width <= 1200px) {
       margin-bottom: rem(46);
     }
+
+    @media (width <= 600px) {
+      margin-bottom: 0;
+    }
   }
 }

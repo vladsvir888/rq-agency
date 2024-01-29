@@ -1,5 +1,5 @@
 <!--- template --->
-<search class="search">
+<search class="search" webc:root="override">
   <form action="/" method="get" class="search__form">
     <div class="search__input-wrapper">
       <input class="input search__input" type="search" name="q" placeholder="Поиск">

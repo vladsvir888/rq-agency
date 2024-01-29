@@ -10,7 +10,10 @@
       </li>
       <li class="tags__item" aria-current="page">Новые возможности digital-рекламы обсудили за завтраком от AMDG</li>
     </app-tags>
-    <eleventy-image slot="image" class="hero-text-block__image" src="app/_images/news-detail/01.jpg" alt=""></eleventy-image>
+    <picture slot="image">
+      <source media="(max-width: 600px)" srcset="assets/images/news-detail/01-mobile.jpg" />
+      <img class="hero-text-block__image" src="assets/images/news-detail/01.jpg" alt="Chris standing up holding his daughter Elva" width="1440" height="597" />
+    </picture>
   </app-hero-text-block>
 
   <div class="container">

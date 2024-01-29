@@ -11,6 +11,11 @@
   background-image: linear-gradient(247deg, #391B5F 0%, #502E68 100%);
   border-radius: var(--bdrs12);
 
+  @media (width <= 600px) {
+    min-height: rem(200);
+    padding: rem(16);
+  }
+
   &__wrapper {
     display: flex;
     justify-content: space-between;

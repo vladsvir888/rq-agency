@@ -14,6 +14,7 @@ import initCasesSlider from '../_blocks/organisms/app-some-cases/app-some-cases'
 import initNewsSlider from '../_blocks/organisms/app-relevant-news/app-relevant-news';
 import initResultsSlider from '../_blocks/organisms/app-results/app-results';
 import initDialog from '../_blocks/molecules/app-dialog/app-dialog';
+import initFilterBlock from '../_blocks/molecules/app-filter-block/app-filter-block';
 
 document.addEventListener('DOMContentLoaded', () => {
   register();
@@ -30,4 +31,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initNewsSlider();
   initResultsSlider();
   initDialog();
+  initFilterBlock();
 });
