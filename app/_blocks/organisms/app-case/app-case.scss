@@ -4,12 +4,21 @@
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     gap: var(--gap30);
+
+    @media (width <= 900px) {
+      display: block;
+    }
   }
 
   &__top-wrapper {
     display: grid;
     row-gap: rem(90);
     grid-column: span 6;
+
+    @media (width <= 900px) {
+      margin-bottom: rem(30);
+      row-gap: rem(60);
+    }
   }
 
   &__project-card {
@@ -23,5 +32,14 @@
     column-gap: rem(30);
     padding: 0;
     color: var(--palette-primary);
+
+    @media (width <= 900px) {
+      margin-top: rem(92);
+    }
+
+    @media (width <= 600px) {
+      margin-top: rem(37);
+      font-size: rem(16);
+    }
   }
 }

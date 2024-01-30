@@ -1,9 +1,19 @@
 // style
 .about-project {
   display: grid;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: rem(191) 1fr;
   gap: rem(64);
   color: var(--palette-primary);
+
+  @media (width <= 900px) {
+    grid-template-columns: rem(111) 1fr;
+    align-items: center;
+  }
+
+  @media (width <= 600px) {
+    grid-template-columns: 1fr;
+    gap: rem(32);
+  }
 
   &__title {
     margin-bottom: rem(36);

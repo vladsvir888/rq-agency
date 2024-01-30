@@ -12,7 +12,8 @@
     </app-tags>
     <picture slot="image">
       <source media="(max-width: 600px)" srcset="assets/images/news-detail/01-mobile.jpg" />
-      <img class="hero-text-block__image" src="assets/images/news-detail/01.jpg" alt="Chris standing up holding his daughter Elva" width="1440" height="597" />
+      <source media="(max-width: 900px)" srcset="assets/images/news-detail/01-tablet.jpg" />
+      <img class="hero-text-block__image" src="assets/images/news-detail/01.jpg" alt="" width="1440" height="597" />
     </picture>
   </app-hero-text-block>
 
@@ -29,7 +30,7 @@
       </div>
       <h1 class="news-detail__title">Новые возможности digital-рекламы обсудили за завтраком от AMDG</h1>
     </div>
-    <div class="text-block news-detail__text-block">
+    <div class="news-detail__text-block">
       <p>
         9 августа состоялось одно из важнейших событий агентства – AMDG Business Breakfast. Best practices I полугодия 2023.
       </p>

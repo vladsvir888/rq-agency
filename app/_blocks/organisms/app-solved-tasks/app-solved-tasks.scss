@@ -5,10 +5,18 @@
 
     margin-bottom: rem(46);
     color: var(--palette-primary);
+
+    @media (width <= 900px) {
+      font-size: rem(20);
+    }
   }
 
   &__list {
     counter-reset: numeric-list;
+
+    @media (width <= 600px) {
+      --number-cols: 1;
+    }
   }
 
   &__card {

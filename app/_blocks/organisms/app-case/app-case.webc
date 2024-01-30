@@ -17,7 +17,11 @@
         Расширяем аудиторию бренда с помощью <br> репутации Кейс всемирно известного <br> производителя шин
       </h1>
     </div>
-    <eleventy-image slot="image" class="hero-text-block__image" src="app/_images/case/01.jpg" alt=""></eleventy-image>
+    <picture slot="image">
+      <source media="(max-width: 600px)" srcset="assets/images/case/01-mobile.jpg" />
+      <source media="(max-width: 900px)" srcset="assets/images/case/01-tablet.jpg" />
+      <img class="hero-text-block__image" src="assets/images/case/01.jpg" alt="" width="1440" height="597" />
+    </picture>
   </app-hero-text-block>
   <div class="container">
     <div class="section section--inner case__top">

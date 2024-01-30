@@ -1,13 +1,25 @@
 // style
 .how-to-work {
   &__list {
+    --number-cols: 4;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gap30);
 
     > * {
-      width: calc(100% / 4 - var(--gap30));
+      flex: 1 0 auto;
+      width: calc(100% / var(--number-cols) - var(--gap30));
+      text-align: center;
+
+      @media (width <= 1200px) {
+        --number-cols: 2;
+      }
+
+      @media (width <= 600px) {
+        --number-cols: 1;
+      }
     }
   }
 }

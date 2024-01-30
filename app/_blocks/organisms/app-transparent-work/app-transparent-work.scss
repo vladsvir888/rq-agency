@@ -1,11 +1,21 @@
 // style
 .transparent-work {
+  &__list {
+    @media (width <= 600px) {
+      --number-cols: 2;
+    }
+  }
+
   &__item {
     display: flex;
     flex-direction: column;
     row-gap: rem(24);
     align-items: center;
     padding: rem(16) rem(24);
+
+    @media (width <= 600px) {
+      padding: 0;
+    }
 
     &-img {
       height: rem(102);

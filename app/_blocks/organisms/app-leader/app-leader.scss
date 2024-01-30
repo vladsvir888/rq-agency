@@ -1,24 +1,82 @@
 // style
 .leader {
-  &__wrapper {
-    display: flex;
-    gap: var(--gap30);
+  @media (width <= 600px) {
+    overflow: hidden;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 23%;
+    grid-template-areas:
+      'header header'
+      'slider cards'
+      'slider slider-controls';
+    gap: rem(48) rem(30);
+
+    @media (width <= 900px) {
+      grid-template-columns: minmax(0, 1fr) 30%;
+      grid-template-areas:
+        'header slider-controls'
+        'slider slider'
+        'cards .';
+      gap: rem(20);
+    }
+
+    @media (width <= 600px) {
+      display: flex;
+      flex-direction: column;
+      row-gap: rem(32);
+    }
+  }
+
+  &__header {
+    --section-header-offset-bottom: 0;
+
+    grid-area: header;
   }
 
   &__slider {
-    width: 76%;
+    width: 100%;
+    grid-area: slider;
+
+    @media (width <= 600px) {
+      width: calc(100% + var(--container-padding));
+    }
   }
 
   &__info {
+    grid-area: cards;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 23%;
+    row-gap: rem(24);
 
-    &-wrapper {
-      display: flex;
-      flex-direction: column;
-      row-gap: rem(24);
+    @media (width <= 900px) {
+      flex-direction: row;
+      column-gap: rem(24);
+
+      > * {
+        flex: 1 0 auto;
+        width: calc(50% - #{rem(24)});
+      }
+    }
+  }
+
+  &__slider-controls {
+    grid-area: slider-controls;
+    justify-content: end;
+    max-width: rem(170);
+    margin-left: auto;
+
+    @media (width <= 600px) {
+      display: none;
+    }
+
+    .slider-controls {
+      &__pagination {
+        @media (width <= 900px) {
+          display: none;
+        }
+      }
     }
   }
 
@@ -32,6 +90,10 @@
       border-radius: var(--bdrs32) var(--bdrs4) var(--bdrs4) var(--bdrs4);
       aspect-ratio: 77 / 107;
       object-fit: cover;
+
+      @media (width <= 600px) {
+        margin-bottom: rem(24);
+      }
     }
 
     &-text {
@@ -39,6 +101,10 @@
 
       margin-bottom: rem(16);
       max-width: rem(190);
+
+      @media (width <= 600px) {
+        margin-bottom: rem(8);
+      }
     }
 
     &-subtext {

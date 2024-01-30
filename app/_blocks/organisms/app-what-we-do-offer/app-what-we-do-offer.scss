@@ -5,6 +5,14 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: rem(56);
+
+    @media (width <= 900px) {
+      margin-bottom: rem(48);
+    }
+
+    @media (width <= 600px) {
+      width: calc(100% + var(--container-padding));
+    }
   }
 
   &__slider {
@@ -12,6 +20,20 @@
     margin-right: 0;
     margin-left: 0;
     counter-reset: slider;
+
+    @media (width <= 900px) {
+      width: calc(100% - 160px);
+    }
+
+    @media (width <= 600px) {
+      width: 100%;
+    }
+
+    &-controls {
+      @media (width <= 600px) {
+        display: none;
+      }
+    }
   }
 
   &__slide {
@@ -33,6 +55,10 @@
     }
 
     &-title {
+      @media (width <= 600px) {
+        font-size: rem(12);
+      }
+
       &::before {
         @include sub18;
 
@@ -40,6 +66,10 @@
         margin-bottom: rem(24);
         counter-increment: slider;
         content: counter(slider, decimal-leading-zero);
+
+        @media (width <= 600px) {
+          margin-bottom: rem(16);
+        }
       }
     }
   }
@@ -48,6 +78,10 @@
     display: grid;
     row-gap: rem(36);
     color: var(--palette-primary);
+
+    @media (width <= 900px) {
+      row-gap: rem(24);
+    }
 
     &-title {
       @include heading5;

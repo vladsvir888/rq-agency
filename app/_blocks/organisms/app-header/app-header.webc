@@ -11,8 +11,11 @@
         </svg>
       </app-link>
       <app-button class="header__burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 36 25" fill="none" aria-hidden="true">
+        <svg class="header__burger-icon header__burger-icon--menu" xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 36 25" fill="none" aria-hidden="true">
           <path d="M2 24.5H34C35.1 24.5 36 23.6 36 22.5C36 21.4 35.1 20.5 34 20.5H2C0.9 20.5 0 21.4 0 22.5C0 23.6 0.9 24.5 2 24.5ZM2 14.5H34C35.1 14.5 36 13.6 36 12.5C36 11.4 35.1 10.5 34 10.5H2C0.9 10.5 0 11.4 0 12.5C0 13.6 0.9 14.5 2 14.5ZM0 2.5C0 3.6 0.9 4.5 2 4.5H34C35.1 4.5 36 3.6 36 2.5C36 1.4 35.1 0.5 34 0.5H2C0.9 0.5 0 1.4 0 2.5Z" fill="#350587"/>
+        </svg>
+        <svg class="header__burger-icon header__burger-icon--close" xmlns="http://www.w3.org/2000/svg" width="36" height="25" viewBox="0 0 24 25" fill="none" aria-hidden="none">
+          <path d="M23.4676 1.05063C22.7577 0.340729 21.6109 0.340729 20.901 1.05063L12 9.93345L3.09898 1.03242C2.38908 0.322526 1.24232 0.322526 0.532423 1.03242C-0.177474 1.74232 -0.177474 2.88908 0.532423 3.59898L9.43345 12.5L0.532423 21.401C-0.177474 22.1109 -0.177474 23.2577 0.532423 23.9676C1.24232 24.6775 2.38908 24.6775 3.09898 23.9676L12 15.0666L20.901 23.9676C21.6109 24.6775 22.7577 24.6775 23.4676 23.9676C24.1775 23.2577 24.1775 22.1109 23.4676 21.401L14.5666 12.5L23.4676 3.59898C24.1593 2.90728 24.1593 1.74232 23.4676 1.05063Z" fill="#350587"/>
         </svg>
       </app-button>
     </div>

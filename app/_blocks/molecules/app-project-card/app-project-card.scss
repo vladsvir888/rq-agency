@@ -10,11 +10,19 @@
   background-color: var(--palette-primary);
   border-radius: var(--bdrs32);
 
+  @media (width <= 600px) {
+    padding: rem(16);
+  }
+
   &__list {
     @include sub20;
 
     display: grid;
     row-gap: rem(16);
+
+    @media (width <= 900px) {
+      font-size: rem(16);
+    }
 
     &-item {
       display: flex;
@@ -29,6 +37,10 @@
       @include sub20;
 
       margin-bottom: rem(22);
+
+      @media (width <= 600px) {
+        font-size: rem(16);
+      }
     }
 
     &-list {

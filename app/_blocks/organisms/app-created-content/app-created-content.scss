@@ -12,6 +12,10 @@
     justify-content: space-between;
     align-items: center;
     gap: rem(20);
+
+    @media (width <= 1200px) {
+      justify-content: unset;
+    }
   }
 
   &__button {
@@ -35,6 +39,12 @@
 
     &[aria-pressed='false'] {
       color: var(--palette-secondary);
+    }
+  }
+
+  &__cards {
+    @media (width <= 600px) {
+      --number-cols: 1;
     }
   }
 
@@ -69,8 +79,22 @@
       color: #fff;
       transition: background-color var(--transition300ms);
 
+      @media (width <= 900px) {
+        left: rem(8);
+        bottom: rem(8);
+      }
+
+      @media (width <= 600px) {
+        font-size: rem(16);
+      }
+
       > svg {
         margin-right: rem(10);
+
+        @media (width <= 900px) {
+          width: rem(40);
+          height: rem(40);
+        }
       }
     }
   }

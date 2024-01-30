@@ -6,6 +6,10 @@
   background-color: var(--palette-primary);
   border-radius: var(--bdrs8);
 
+  @media (width <= 600px) {
+    padding: rem(24) rem(16);
+  }
+
   &__title {
     @include sub20;
   }

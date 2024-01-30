@@ -5,8 +5,19 @@ export default function initCasesSlider() {
   if (!slider) return;
 
   Object.assign(slider, {
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 30,
+    breakpoints: {
+      601: {
+        slidesPerView: 2,
+      },
+      901: {
+        slidesPerView: 3,
+      },
+      1201: {
+        slidesPerView: 4,
+      },
+    },
   });
 
   slider.initialize();

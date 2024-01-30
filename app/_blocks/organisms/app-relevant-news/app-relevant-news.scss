@@ -5,7 +5,15 @@
 
   &__slider {
     @media (width <= 900px) {
-      width: calc(100% + var(--container-padding) * 2);
+      width: calc(100% + var(--container-padding));
+    }
+  }
+
+  &__slide {
+    height: auto;
+
+    > * {
+      height: 100%;
     }
   }
 }

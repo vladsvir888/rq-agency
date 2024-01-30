@@ -15,6 +15,7 @@ import initNewsSlider from '../_blocks/organisms/app-relevant-news/app-relevant-
 import initResultsSlider from '../_blocks/organisms/app-results/app-results';
 import initDialog from '../_blocks/molecules/app-dialog/app-dialog';
 import initFilterBlock from '../_blocks/molecules/app-filter-block/app-filter-block';
+import initMenu from '../_blocks/organisms/app-header/app-header';
 
 document.addEventListener('DOMContentLoaded', () => {
   register();
@@ -32,4 +33,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initResultsSlider();
   initDialog();
   initFilterBlock();
+  initMenu();
 });

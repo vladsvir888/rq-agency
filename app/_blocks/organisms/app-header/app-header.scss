@@ -1,7 +1,30 @@
 // style
 .header {
+  $this: &;
+
   background-color: #fff;
   color: var(--palette-primary);
+
+  @media (width <= 1200px) {
+    &.open {
+      #{$this}__burger {
+        &-icon {
+          &--close {
+            display: block;
+          }
+
+          &--menu {
+            display: none;
+          }
+        }
+      }
+
+      #{$this}__menu {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
 
   &__container {
     display: flex;
@@ -69,6 +92,14 @@
     @media (width <= 1200px) {
       margin: 0 rem(16) rem(16);
       width: fit-content;
+    }
+  }
+
+  &__burger {
+    &-icon {
+      &--close {
+        display: none;
+      }
     }
   }
 }

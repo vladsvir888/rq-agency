@@ -48,7 +48,7 @@ permalink: "company.html"
 
   <app-services-block></app-services-block>
 
-  <app-confidence></app-confidence>
+  <!-- <app-confidence></app-confidence> -->
 
   <app-callback></app-callback>
 </app-base>

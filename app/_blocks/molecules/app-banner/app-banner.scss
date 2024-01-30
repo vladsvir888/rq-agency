@@ -8,8 +8,22 @@
   background-position: center right;
   background-size: contain;
 
+  @media (width <= 900px) {
+    padding: rem(60) 0 rem(144);
+  }
+
+  @media (width <= 600px) {
+    padding: rem(45) 0 rem(228);
+    background-size: rem(300);
+    background-position: bottom right;
+  }
+
   &__container {
     padding-left: rem(161);
+
+    @media (width <= 900px) {
+      padding-left: var(--container-padding);
+    }
   }
 
   &__title {
@@ -17,5 +31,14 @@
 
     color: var(--palette-primary);
     margin-bottom: rem(56);
+
+    @media (width <= 900px) {
+      max-width: rem(460);
+      margin-bottom: rem(24);
+    }
+
+    @media (width <= 600px) {
+      font-size: rem(20);
+    }
   }
 }

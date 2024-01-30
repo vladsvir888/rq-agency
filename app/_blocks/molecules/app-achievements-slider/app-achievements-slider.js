@@ -5,7 +5,7 @@ export default function initAchievementsSlider() {
   if (!slider) return;
 
   Object.assign(slider, {
-    slidesPerView: 1.35,
+    slidesPerView: 1.15,
     spaceBetween: 24,
     breakpoints: {
       601: {

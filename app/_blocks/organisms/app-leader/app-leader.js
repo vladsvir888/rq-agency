@@ -5,7 +5,7 @@ export default function initLeaderSlider() {
   if (!slider) return;
 
   Object.assign(slider, {
-    slidesPerView: 3,
+    slidesPerView: 1.6,
     spaceBetween: 30,
     navigation: {
       prevEl: document.querySelector('.slider-controls__button--prev'),
@@ -19,6 +19,11 @@ export default function initLeaderSlider() {
       prevSlideMessage: 'Предыдущий слайд',
       nextSlideMessage: 'Следующий слайд',
       paginationBulletMessage: 'Перейти к слайду {{index}}',
+    },
+    breakpoints: {
+      601: {
+        slidesPerView: 3,
+      },
     },
   });
 

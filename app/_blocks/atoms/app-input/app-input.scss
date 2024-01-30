@@ -9,6 +9,7 @@
   border-bottom: rem(1) solid var(--palette-primary);
   background-color: transparent;
   color: var(--palette-gray);
+  border-radius: 0;
 
   &::placeholder {
     color: inherit;

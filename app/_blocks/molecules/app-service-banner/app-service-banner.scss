@@ -6,22 +6,39 @@
   background-color: var(--palette-primary);
   background-image: url('../assets/images/graphics/service-banner.svg');
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: bottom right;
   background-size: contain;
+
+  @media (width <= 900px) {
+    padding: rem(60) 0;
+  }
 
   &__container {
     padding-left: rem(145);
+
+    @media (width <= 900px) {
+      padding-left: var(--container-padding);
+    }
   }
 
   &__title {
     @include heading2;
 
     margin-bottom: rem(42);
+
+    @media (width <= 900px) {
+      margin-bottom: rem(32);
+    }
   }
 
   &__text {
     @include heading5;
 
     margin-bottom: rem(56);
+
+    @media (width <= 900px) {
+      margin-bottom: rem(24);
+      font-size: rem(20);
+    }
   }
 }
