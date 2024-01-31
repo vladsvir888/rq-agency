@@ -18,6 +18,10 @@
   &--big {
     border-radius: var(--bdrs32);
 
+    @media (width <= 600px) {
+      border-radius: var(--bdrs16);
+    }
+
     &::before {
       border-radius: inherit;
     }

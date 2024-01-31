@@ -9,6 +9,10 @@
   background-position: left bottom;
   border-radius: var(--bdrs8);
 
+  @media (width <= 900px) {
+    padding: rem(16);
+  }
+
   &--secondary {
     background-color: var(--palette-secondary);
   }
@@ -42,6 +46,14 @@
 
   &__num {
     @include heading2;
+
+    @media (width <= 1400px) {
+      font-size: rem(40);
+    }
+
+    @media (width <= 900px) {
+      font-size: rem(30);
+    }
   }
 
   &__sub-num {
@@ -53,6 +65,10 @@
   &__text {
     @include base14;
 
-    margin-top: auto;
+    @media (width <= 900px) {
+      font-size: rem(12);
+    }
+
+    // margin-top: auto;
   }
 }

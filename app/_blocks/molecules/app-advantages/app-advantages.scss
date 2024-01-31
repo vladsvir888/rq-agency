@@ -2,23 +2,57 @@
 .advantages {
   $this: &;
 
+  --number-cols: 3;
+
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--number-cols), minmax(0, 1fr));
   gap: rem(30);
+  grid-auto-rows: minmax(rem(120), max-content);
 
-  &__column {
-    &--center {
-      display: flex;
-      flex-direction: column;
-      row-gap: rem(30);
+  @media (width <= 1400px) {
+    gap: rem(16);
+  }
+
+  @media (width <= 1200px) {
+    --number-cols: 2;
+  }
+
+  &__card {
+    &--1 {
+      translate: 0 rem(104);
+
+      @media (width <= 1200px) {
+        translate: 0 rem(54);
+      }
+
+      @media (width <= 600px) {
+        translate: 0 rem(13);
+      }
     }
 
-    &--left {
-      margin-top: rem(104);
+    &--3 {
+      grid-column: 2 / span 1;
+
+      @media (width <= 1200px) {
+        grid-column: unset;
+        translate: 0 rem(54);
+      }
+
+      @media (width <= 600px) {
+        translate: 0 rem(13);
+      }
     }
 
-    &--right {
-      margin-top: rem(46);
+    &--4 {
+      grid-column: 3 / span 1;
+      grid-row: 1 / span 1;
+      translate: 0 rem(46);
+
+      @media (width <= 1200px) {
+        grid-column: unset;
+        grid-row: unset;
+        translate: 0;
+      }
     }
   }
 }

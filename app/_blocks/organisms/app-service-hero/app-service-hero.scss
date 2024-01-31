@@ -10,6 +10,10 @@
 
   &__content {
     padding: rem(89) 0 rem(67);
+
+    @media (width <= 600px) {
+      padding: rem(65) 0;
+    }
   }
 
   &__tags {

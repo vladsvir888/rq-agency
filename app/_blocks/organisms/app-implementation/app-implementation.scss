@@ -15,10 +15,6 @@
     gap: rem(20);
     grid-column: 10 / -1;
 
-    @media (width <= 1400px) {
-      grid-column: 9 / -1;
-    }
-
     @media (width <= 1200px) {
       grid-auto-flow: column;
     }
@@ -40,48 +36,19 @@
   }
 
   &__advantage-card {
-    padding-left: rem(50);
-    padding-right: rem(50);
-
-    @media (width <= 1200px) {
-      padding-left: rem(24);
-      padding-right: rem(24);
-    }
+    padding-left: rem(47);
+    padding-right: rem(47);
 
     @media (width <= 767px) {
       text-align: center;
     }
 
-    @media (width <= 600px) {
-      padding: rem(16);
-    }
-
     &-num {
-      font-size: rem(90);
-
-      @media (width <= 1200px) {
-        font-size: rem(64);
-      }
-
-      @media (width <= 900px) {
-        font-size: rem(64);
-      }
-
-      @media (width <= 374px) {
-        font-size: rem(40);
-      }
+      font-size: rem(60);
     }
 
     &-text {
-      @include sub24;
-
-      @media (width <= 600px) {
-        font-size: rem(16);
-      }
-
-      @media (width <= 374px) {
-        font-size: rem(14);
-      }
+      @include sub20;
     }
   }
 
@@ -93,6 +60,10 @@
 
     @media (width <= 1200px) {
       margin-bottom: rem(48);
+    }
+
+    @media (width <= 600px) {
+      row-gap: rem(24);
     }
   }
 }

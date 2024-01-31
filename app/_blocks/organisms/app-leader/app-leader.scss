@@ -64,7 +64,6 @@
   &__slider-controls {
     grid-area: slider-controls;
     justify-content: end;
-    max-width: rem(170);
     margin-left: auto;
 
     @media (width <= 600px) {

@@ -5,49 +5,46 @@
       <h2 class="section__title">О компании</h2>
     </div>
     <div class="about__wrapper">
-      <div class="about__content">
-        <p>Мы предлагаем комплекс услуг, <br> направленный на формирование общественного мнения, коммуникацию с целевой аудиторией и рост присутствия бренда в интернете.</p>
-        <ul>
-          <li>
-            Помогаем потенциальному клиенту сделать первый заказ
-          </li>
-          <li>
-            Стимулируем совершать повторные заказы
-          </li>
-          <li>
-            Побуждаем клиента стать лояльным амбассадором бренда
-          </li>
-        </ul>
+      <div class="about__content-wrapper">
+        <div class="about__content">
+          <p>Мы предлагаем комплекс услуг, <br> направленный на формирование общественного мнения, коммуникацию с целевой аудиторией и рост присутствия бренда в интернете.</p>
+          <ul>
+            <li>
+              Помогаем потенциальному клиенту сделать первый заказ
+            </li>
+            <li>
+              Стимулируем совершать повторные заказы
+            </li>
+            <li>
+              Побуждаем клиента стать лояльным амбассадором бренда
+            </li>
+          </ul>
+        </div>
+        <app-link class="button--primary button--pill button--large about__more about__more--mobile" href="#">Узнать больше</app-link>
       </div>
       <div class="about__advantages">
         <app-advantages>
-          <div class="advantages__column advantages__column--left">
-            <app-advantage-card class="advantage-card--secondary">
-              <div slot="num" class="advantage-card__num">2000+</div>
-              <div slot="text" class="advantage-card__text">Международных и национальных проектов</div>
-            </app-advantage-card>
-          </div>
+          <app-advantage-card class="advantage-card--secondary advantages__card advantages__card--1">
+            <div slot="num" class="advantage-card__num">2000+</div>
+            <div slot="text" class="advantage-card__text">Международных и национальных проектов</div>
+          </app-advantage-card>
 
-          <div class="advantages__column advantages__column--center">
-            <app-advantage-card class="advantage-card--graphic-1">
-              <div slot="num" class="advantage-card__num">15+</div>
-              <div slot="text" class="advantage-card__text">Лет непрерывного развития</div>
-            </app-advantage-card>
+          <app-advantage-card class="advantage-card--graphic-1 advantages__card advantages__card--2">
+            <div slot="num" class="advantage-card__num">15+</div>
+            <div slot="text" class="advantage-card__text">Лет непрерывного развития</div>
+          </app-advantage-card>
 
-            <app-advantage-card class="advantage-card--graphic-2">
-              <div slot="num" class="advantage-card__num">250+</div>
-              <div slot="text" class="advantage-card__text">Сотрудников</div>
-            </app-advantage-card>
-          </div>
+          <app-advantage-card class="advantage-card--graphic-2 advantages__card advantages__card--3">
+            <div slot="num" class="advantage-card__num">250+</div>
+            <div slot="text" class="advantage-card__text">Сотрудников</div>
+          </app-advantage-card>
 
-          <div class="advantages__column advantages__column--right">
-            <app-advantage-card class="advantage-card--secondary">
-              <div slot="num" class="advantage-card__num">400+</div>
-              <div slot="text" class="advantage-card__text">Успешных digital PR проектов</div>
-            </app-advantage-card>
-          </div>
+          <app-advantage-card class="advantage-card--secondary advantages__card advantages__card--4">
+            <div slot="num" class="advantage-card__num">400+</div>
+            <div slot="text" class="advantage-card__text">Успешных digital PR проектов</div>
+          </app-advantage-card>
         </app-advantages>
-        <app-link class="button--primary button--pill button--large about__more" href="#">Узнать больше</app-link>
+        <app-link class="button--primary button--pill button--large about__more about__more--desktop" href="#">Узнать больше</app-link>
       </div>
     </div>
   </div>

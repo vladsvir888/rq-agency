@@ -13,6 +13,24 @@
     gap: var(--gap30);
     padding-top: rem(173);
     padding-bottom: rem(165);
+
+    @media (width <= 1200px) {
+      justify-content: space-between;
+    }
+
+    @media (width <= 900px) {
+      padding-top: rem(158);
+      padding-bottom: rem(134);
+    }
+
+    @media (width <= 767px) {
+      display: block;
+    }
+
+    @media (width <= 600px) {
+      padding-top: rem(65);
+      padding-bottom: rem(65);
+    }
   }
 
   &__tags {
@@ -24,10 +42,18 @@
     @include heading1;
 
     margin-bottom: rem(56);
+
+    @media (width <= 767px) {
+      margin-bottom: rem(32);
+    }
   }
 
   &__text {
     @include heading6;
+
+    @media (width <= 900px) {
+      font-size: rem(20);
+    }
 
     > p {
       &:not(:last-child) {
@@ -38,9 +64,18 @@
 
   &__content {
     width: 42%;
+
+    @media (width <= 767px) {
+      width: 100%;
+      margin-bottom: rem(32);
+    }
   }
 
   &__advantages {
     width: 53%;
+
+    @media (width <= 767px) {
+      width: 100%;
+    }
   }
 }

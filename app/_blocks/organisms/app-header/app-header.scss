@@ -29,7 +29,7 @@
   &__container {
     display: flex;
     align-items: center;
-    padding: rem(26) var(--container-padding);
+    padding: rem(26) rem(28) rem(26) var(--container-padding);
 
     @media (width <= 1200px) {
       padding: rem(16) var(--container-padding);

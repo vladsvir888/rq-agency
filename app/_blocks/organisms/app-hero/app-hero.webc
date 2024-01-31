@@ -9,7 +9,7 @@
             <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
             <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
           </div>
-          <app-link class="button--primary button--pill button--large" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
+          <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
           <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt=""></eleventy-image>
@@ -24,7 +24,7 @@
             <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
             <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
           </div>
-          <app-link class="button--primary button--pill button--large" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
+          <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
           <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy"></eleventy-image>
@@ -39,7 +39,7 @@
             <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
             <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
           </div>
-          <app-link class="button--primary button--pill button--large" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
+          <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
           <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy"></eleventy-image>

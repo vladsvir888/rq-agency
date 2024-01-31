@@ -22,31 +22,25 @@
       </div>
 
       <app-advantages class="company-hero__advantages">
-        <div class="advantages__column advantages__column--left">
-          <app-advantage-card class="advantage-card--secondary">
-            <div slot="num" class="advantage-card__num">2000+</div>
-            <div slot="text" class="advantage-card__text">Международных и национальных проектов</div>
-          </app-advantage-card>
-        </div>
+        <app-advantage-card class="advantage-card--secondary advantages__card advantages__card--1">
+          <div slot="num" class="advantage-card__num">2000+</div>
+          <div slot="text" class="advantage-card__text">Международных и национальных проектов</div>
+        </app-advantage-card>
 
-        <div class="advantages__column advantages__column--center">
-          <app-advantage-card class="advantage-card--graphic-3">
-            <div slot="num" class="advantage-card__num">15+</div>
-            <div slot="text" class="advantage-card__text">Лет непрерывного развития</div>
-          </app-advantage-card>
+        <app-advantage-card class="advantage-card--graphic-3 advantages__card advantages__card--2">
+          <div slot="num" class="advantage-card__num">15+</div>
+          <div slot="text" class="advantage-card__text">Лет непрерывного развития</div>
+        </app-advantage-card>
 
-          <app-advantage-card class="advantage-card--graphic-4">
-            <div slot="num" class="advantage-card__num">№1</div>
-            <div slot="text" class="advantage-card__text">Digital агентство в Беларуси </div>
-          </app-advantage-card>
-        </div>
+        <app-advantage-card class="advantage-card--graphic-4 advantages__card advantages__card--3">
+          <div slot="num" class="advantage-card__num">№1</div>
+          <div slot="text" class="advantage-card__text">Digital агентство в Беларуси </div>
+        </app-advantage-card>
 
-        <div class="advantages__column advantages__column--right">
-          <app-advantage-card class="advantage-card--secondary">
-            <div slot="num" class="advantage-card__num">400+</div>
-            <div slot="text" class="advantage-card__text">Успешных digital PR проектов</div>
-          </app-advantage-card>
-        </div>
+        <app-advantage-card class="advantage-card--secondary advantages__card advantages__card--4">
+          <div slot="num" class="advantage-card__num">400+</div>
+          <div slot="text" class="advantage-card__text">Успешных digital PR проектов</div>
+        </app-advantage-card>
       </app-advantages>
     </div>
   </div>

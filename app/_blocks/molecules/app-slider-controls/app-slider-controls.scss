@@ -40,6 +40,8 @@
     justify-content: center;
 
     > * {
+      flex-shrink: 0;
+
       &:not(.swiper-pagination-bullet-active) {
         border: rem(1) solid #fff;
       }

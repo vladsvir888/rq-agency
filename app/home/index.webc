@@ -5,9 +5,9 @@ permalink: "home.html"
 <app-base title="Главная" webc:nokeep>
   <h1 class="visually-hidden">Digital-PR агентство RQ Agency</h1>
 
-  <!-- <app-hero></app-hero> -->
+  <app-hero></app-hero>
 
-  <!-- <app-about></app-about> -->
+  <app-about></app-about>
 
   <app-achievements></app-achievements>
 
@@ -47,7 +47,7 @@ permalink: "home.html"
 
   <app-services-block></app-services-block>
 
-  <!-- <app-confidence></app-confidence> -->
+  <app-confidence></app-confidence>
 
   <app-callback></app-callback>
 </app-base>

@@ -20,6 +20,10 @@
     width: 100%;
     height: rem(597);
     object-fit: cover;
+
+    @media (width <= 600px) {
+      height: unset;
+    }
   }
 
   &__title {
