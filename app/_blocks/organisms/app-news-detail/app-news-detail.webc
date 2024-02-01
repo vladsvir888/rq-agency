@@ -11,8 +11,8 @@
       <li class="tags__item" aria-current="page">Новые возможности digital-рекламы обсудили за завтраком от AMDG</li>
     </app-tags>
     <picture slot="image">
-      <source media="(max-width: 600px)" srcset="assets/images/news-detail/01-mobile.jpg" />
-      <source media="(max-width: 900px)" srcset="assets/images/news-detail/01-tablet.jpg" />
+      <source media="(max-width: 600px)" srcset="assets/images/news-detail/01-mobile.webp, assets/images/news-detail/01-mobile.jpg" />
+      <source media="(max-width: 900px)" srcset="assets/images/news-detail/01-tablet.webp, assets/images/news-detail/01-tablet.jpg" />
       <img class="hero-text-block__image" src="assets/images/news-detail/01.jpg" alt="" width="1440" height="597" />
     </picture>
   </app-hero-text-block>

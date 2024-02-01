@@ -1,6 +1,14 @@
 // style
 .dialog {
   --width: #{rem(768)};
+  --sl-spacing-2x-large: 2.25rem;
+  --sl-panel-background-color: #fff;
+  --sl-overlay-background-color: rgba(0 0 0 / 20%);
+  --sl-border-radius-medium: var(--bdrs8);
+  --sl-shadow-x-large:
+    0 2px 4px 0 rgb(0 0 0 / 8%),
+    0 0 6px 0 rgb(0 0 0 / 2%);
+  --sl-z-index-dialog: 100;
 
   &:not(:defined) {
     display: none;
@@ -10,18 +18,14 @@
     padding: rem(64) rem(38) rem(23);
     background-image: url('../assets/images/graphics/dialog.svg');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right rem(-1) center;
     background-size: contain;
+    border-radius: var(--bdrs8);
 
     @media (width <= 600px) {
       padding: rem(32) rem(16);
       background-image: none;
     }
-  }
-
-  &::part(panel) {
-    border-radius: var(--bdrs8);
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%), 0 0 6px 0 rgb(0 0 0 / 2%);
   }
 
   &__header {

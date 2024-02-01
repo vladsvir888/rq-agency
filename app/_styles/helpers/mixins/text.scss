@@ -1,5 +1,5 @@
 @mixin base12 {
-  @include font(12, 15.6, 400)
+  @include font(12, 15.6, 400);
 }
 
 @mixin base14 {

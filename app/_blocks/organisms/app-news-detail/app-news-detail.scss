@@ -25,9 +25,9 @@
     justify-content: center;
     row-gap: rem(7);
     padding: 0 rem(14);
-    color: #CDCDCD;
+    color: #cdcdcd;
     background-color: var(--palette-primary);
-    border-top-left-radius: var(--bdrs8)
+    border-top-left-radius: var(--bdrs8);
   }
 
   &__date {
@@ -37,7 +37,7 @@
     align-items: center;
     padding: 0 rem(32);
     background-color: var(--palette-secondary);
-    border-top-right-radius: var(--bdrs8)
+    border-top-right-radius: var(--bdrs8);
   }
 
   &__title {

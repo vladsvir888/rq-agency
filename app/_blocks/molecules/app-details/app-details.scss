@@ -6,13 +6,13 @@
     display: none;
   }
 
-  &::part(base) {
-    border: none;
-  }
+  // &::part(base) {
+  //   border: none;
+  // }
 
-  &::part(header) {
-    padding: 0;
-  }
+  // &::part(header) {
+  //   padding: 0;
+  // }
 
   &::part(summary) {
     @include heading5;
@@ -21,6 +21,6 @@
   &::part(content) {
     @include sub20;
 
-    padding: 0;
+    // padding: 0;
   }
 }

@@ -21,7 +21,7 @@
     background-color: var(--palette-primary);
 
     @include hover {
-      background-color: #5912D1;
+      background-color: #5912d1;
     }
   }
 
@@ -30,7 +30,7 @@
     background-color: #fff;
 
     @include hover {
-      background-color: #E6DAFC;
+      background-color: #e6dafc;
     }
   }
 
@@ -42,9 +42,9 @@
     border: rem(1) solid #fff;
 
     @include hover {
-      border-color: #5912D1;
-      color: #5912D1;
-      background-color: #E6DAFC;
+      border-color: #5912d1;
+      color: #5912d1;
+      background-color: #e6dafc;
     }
   }
 

@@ -8,7 +8,7 @@
       <div class="callback__inputs">
         <input class="input" name="name" type="text" placeholder="Имя *" required>
         <input class="input" name="email" type="email" placeholder="Эл. Почта">
-        <input class="input" name="tel" type="tel" placeholder="+7 (999) 856-34-34 *" required>
+        <input class="input" name="tel" type="tel" placeholder="+7 (999) 856-34-34 *" pattern="\+\d\(\d\d\d\)\d\d\d-\d\d-\d\d" required>
         <input class="input" name="address_site" type="text" placeholder="Адрес вашего сайта">
         <textarea class="input callback__textarea" name="wishes" placeholder="Напишите ваши пожелания"></textarea>
       </div>

@@ -2,7 +2,7 @@
 .service-hero {
   margin-bottom: var(--section-offset-bottom);
   color: #fff;
-  background-color: #5F3BFF;
+  background-color: #5f3bff;
   background-image: url('../assets/images/graphics/hero.svg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -89,7 +89,7 @@
     max-width: rem(530);
     margin-left: auto;
     grid-column: span 2;
-    color: #BCBCBC;
+    color: #bcbcbc;
     text-align: right;
 
     @media (width <= 900px) {

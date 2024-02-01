@@ -32,7 +32,7 @@
 
           <div class="contacts__block">
             <h2 class="contacts__section-title">Телефон</h2>
-            <app-link class="button--decoration contacts__section-phone" href="tel:+7 (495) 153-04-10">+7 (495) 153-04-10</app-link>
+            <app-link class="button--decoration contacts__section-phone" href="tel:+74951530410">+7 (495) 153-04-10</app-link>
           </div>
         </section>
 
