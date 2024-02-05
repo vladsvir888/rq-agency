@@ -1,5 +1,5 @@
 <!--- template --->
-<article class="project-card" webc:root="override">
+<div class="project-card" webc:root="override">
   <dl class="project-card__list">
     <div class="project-card__list-item">
       <dt class="project-card__list-term">Клиент</dt>
@@ -103,4 +103,4 @@
       </li>
     </ul>
   </div>
-</article>
+</div>

@@ -1,6 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
-import { register } from 'swiper/element/bundle';
+import { register } from 'swiper/element';
+import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { MaskInput } from 'maska';
 import '@shoelace-style/shoelace/dist/components/details/details.js';
 import '@shoelace-style/shoelace/dist/components/dialog/dialog.js';
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       selector: '.hero__slider',
       options: {
+        modules: [Navigation, Pagination, A11y],
         spaceBetween: 25,
         navigation: {
           prevEl: document.querySelector('.slider-controls__button--prev'),
@@ -58,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       selector: '.leader__slider',
       options: {
+        modules: [Navigation, Pagination, A11y],
         slidesPerView: 1.6,
         spaceBetween: 30,
         navigation: {
@@ -83,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       selector: '.what-we-do-offer__slider',
       options: {
+        modules: [Navigation, A11y],
         slidesPerView: 2,
         navigation: {
           prevEl: document.querySelector('.slider-controls__button--prev'),
@@ -137,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       selector: '.results__slider',
       options: {
+        modules: [Navigation, Pagination, A11y],
         slidesPerView: 1,
         navigation: {
           prevEl: document.querySelector('.slider-controls__button--prev'),
@@ -145,6 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
         pagination: {
           el: '.slider-controls__pagination',
           clickable: true,
+        },
+        a11y: {
+          prevSlideMessage: 'Предыдущий слайд',
+          nextSlideMessage: 'Следующий слайд',
+          paginationBulletMessage: 'Перейти к слайду {{index}}',
         },
       },
     },

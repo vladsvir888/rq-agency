@@ -11,7 +11,7 @@
     <swiper-container class="results__slider" init="false">
       <swiper-slide class="results__slide">
         <figure class="results__figure">
-          <eleventy-image class="results__img" src="app/_images/results/01.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="results__img" src="app/_images/results/01.jpg" alt="" loading="lazy" sizes="1209px"></eleventy-image>
           <figcaption class="results__figcaption">
             Изменение рейтингов в течении 2-х месяцев
           </figcaption>
@@ -20,7 +20,7 @@
 
       <swiper-slide class="results__slide">
         <figure class="results__figure">
-          <eleventy-image class="results__img" src="app/_images/results/01.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="results__img" src="app/_images/results/01.jpg" alt="" loading="lazy" sizes="1209px"></eleventy-image>
           <figcaption class="results__figcaption">
             Изменение рейтингов в течении 2-х месяцев
           </figcaption>
@@ -29,7 +29,7 @@
 
       <swiper-slide class="results__slide">
         <figure class="results__figure">
-          <eleventy-image class="results__img" src="app/_images/results/01.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="results__img" src="app/_images/results/01.jpg" alt="" loading="lazy" sizes="1209px"></eleventy-image>
           <figcaption class="results__figcaption">
             Изменение рейтингов в течении 2-х месяцев
           </figcaption>

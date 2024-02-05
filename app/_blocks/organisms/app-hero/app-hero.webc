@@ -12,7 +12,7 @@
           <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt=""></eleventy-image>
+          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" sizes="705px"></eleventy-image>
           <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
         </div>
       </swiper-slide>
@@ -27,7 +27,7 @@
           <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy" sizes="705px"></eleventy-image>
           <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
         </div>
       </swiper-slide>
@@ -42,7 +42,7 @@
           <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
         </div>
         <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy" sizes="705px"></eleventy-image>
           <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
         </div>
       </swiper-slide>

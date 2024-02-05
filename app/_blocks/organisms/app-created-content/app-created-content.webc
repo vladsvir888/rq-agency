@@ -46,7 +46,7 @@
     <ul class="three-column-grid created-content__cards">
       <li class="created-content__card">
         <a class="created-content__card-link" href="#">
-          <eleventy-image class="created-content__card-img" src="app/_images/created-content/01.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="created-content__card-img" src="app/_images/created-content/01.jpg" alt="" loading="lazy" sizes="414px"></eleventy-image>
           <span class="created-content__card-text">
             <svg width="66" height="68" viewBox="0 0 66 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <rect width="66" height="68" rx="33" fill="white"/>
@@ -60,7 +60,7 @@
 
       <li class="created-content__card">
         <a class="created-content__card-link" href="#">
-          <eleventy-image class="created-content__card-img" src="app/_images/created-content/02.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="created-content__card-img" src="app/_images/created-content/02.jpg" alt="" loading="lazy" sizes="414px"></eleventy-image>
           <span class="created-content__card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="66" height="68" viewBox="0 0 66 68" fill="none" aria-hidden="true">
               <rect width="66" height="68" rx="33" fill="white"/>
@@ -73,7 +73,7 @@
 
       <li class="created-content__card">
         <a class="created-content__card-link" href="#">
-          <eleventy-image class="created-content__card-img" src="app/_images/created-content/03.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="created-content__card-img" src="app/_images/created-content/03.jpg" alt="" loading="lazy" sizes="414px"></eleventy-image>
           <span class="created-content__card-text">
             <svg xmlns="http://www.w3.org/2000/svg" width="66" height="68" viewBox="0 0 66 68" fill="none" aria-hidden="true">
               <rect width="66" height="68" rx="33" fill="white"/>
@@ -87,7 +87,7 @@
 
       <li class="created-content__card">
         <a class="created-content__card-link" href="#">
-          <eleventy-image class="created-content__card-img" src="app/_images/created-content/04.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="created-content__card-img" src="app/_images/created-content/04.jpg" alt="" loading="lazy" sizes="414px"></eleventy-image>
           <span class="created-content__card-text">
             <svg width="66" height="68" viewBox="0 0 66 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <rect width="66" height="68" rx="33" fill="white"/>
@@ -100,7 +100,7 @@
 
       <li class="created-content__card">
         <a class="created-content__card-link" href="#">
-          <eleventy-image class="created-content__card-img" src="app/_images/created-content/05.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="created-content__card-img" src="app/_images/created-content/05.jpg" alt="" loading="lazy" sizes="414px"></eleventy-image>
           <span class="created-content__card-text">
             <svg width="66" height="68" viewBox="0 0 66 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <rect width="66" height="68" rx="33" fill="white"/>
@@ -113,7 +113,7 @@
 
       <li class="created-content__card">
         <a class="created-content__card-link" href="#">
-          <eleventy-image class="created-content__card-img" src="app/_images/created-content/06.jpg" alt="" loading="lazy"></eleventy-image>
+          <eleventy-image class="created-content__card-img" src="app/_images/created-content/06.jpg" alt="" loading="lazy" sizes="414px"></eleventy-image>
           <span class="created-content__card-text">
             <svg width="66" height="68" viewBox="0 0 66 68" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <rect width="66" height="68" rx="33" fill="white"/>

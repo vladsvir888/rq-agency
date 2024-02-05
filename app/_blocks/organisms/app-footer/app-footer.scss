@@ -44,14 +44,12 @@
   &__address {
     grid-area: address;
 
-    &-town {
-      @include sub18;
-
-      margin-bottom: rem(18);
-    }
-
     &-others {
       @include base12;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 

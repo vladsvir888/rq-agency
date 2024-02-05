@@ -8,25 +8,25 @@
 
     <swiper-container class="leader__slider" init="false">
       <swiper-slide class="leader__slide">
-        <eleventy-image src="app/_images/leader/01.jpg" class="leader__slide-img" alt="" loading="lazy"></eleventy-image>
+        <eleventy-image src="app/_images/leader/01.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
         <div class="leader__slide-text">Екатерина Архангельская</div>
         <div class="leader__slide-subtext">Digital-директор</div>
       </swiper-slide>
 
       <swiper-slide class="leader__slide">
-        <eleventy-image src="app/_images/leader/02.jpg" class="leader__slide-img" alt="" loading="lazy"></eleventy-image>
+        <eleventy-image src="app/_images/leader/02.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
         <div class="leader__slide-text">Сергей Митрофанов</div>
         <div class="leader__slide-subtext">Head of SMM</div>
       </swiper-slide>
 
       <swiper-slide class="leader__slide">
-        <eleventy-image src="app/_images/leader/03.jpg" class="leader__slide-img" alt="" loading="lazy"></eleventy-image>
+        <eleventy-image src="app/_images/leader/03.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
         <div class="leader__slide-text">Влада Убожкова</div>
         <div class="leader__slide-subtext">Head of PR</div>
       </swiper-slide>
 
       <swiper-slide class="leader__slide">
-        <eleventy-image src="app/_images/leader/01.jpg" class="leader__slide-img" alt="" loading="lazy"></eleventy-image>
+        <eleventy-image src="app/_images/leader/01.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
         <div class="leader__slide-text">Екатерина Архангельская</div>
         <div class="leader__slide-subtext">Digital-директор</div>
       </swiper-slide>

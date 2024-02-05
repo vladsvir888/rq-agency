@@ -2,7 +2,7 @@
 <swiper-container class="achievements-slider" init="false">
   <swiper-slide class="achievements-slider__slide">
     <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy"></eleventy-image>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy" sizes="36px"></eleventy-image>
       <time slot="date" class="achievement-card__date">2021</time>
       <h3 slot="title" class="achievement-card__title">PR и контроль репутации</h3>
       <div slot="text" class="achievement-card__text">Победитель</div>
@@ -11,7 +11,7 @@
 
   <swiper-slide class="achievements-slider__slide">
     <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy"></eleventy-image>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy" sizes="100px"></eleventy-image>
       <time slot="date" class="achievement-card__date">2023</time>
       <h3 slot="title" class="achievement-card__title">Агентство полного цикла digital-услуг</h3>
       <div slot="text" class="achievement-card__text">1 место</div>
@@ -20,7 +20,7 @@
 
   <swiper-slide class="achievements-slider__slide">
     <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy"></eleventy-image>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy" sizes="55px"></eleventy-image>
       <time slot="date" class="achievement-card__date">2023</time>
       <h3 slot="title" class="achievement-card__title">Управление репутацией</h3>
       <div slot="text" class="achievement-card__text">2 место</div>
@@ -29,7 +29,7 @@
 
   <swiper-slide class="achievements-slider__slide">
     <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy"></eleventy-image>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy" sizes="36px"></eleventy-image>
       <time slot="date" class="achievement-card__date">2021</time>
       <h3 slot="title" class="achievement-card__title">PR и контроль репутации</h3>
       <div slot="text" class="achievement-card__text">Победитель</div>
@@ -38,46 +38,10 @@
 
   <swiper-slide class="achievements-slider__slide">
     <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy"></eleventy-image>
+      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy" sizes="100px"></eleventy-image>
       <time slot="date" class="achievement-card__date">2023</time>
       <h3 slot="title" class="achievement-card__title">Агентство полного цикла digital-услуг</h3>
       <div slot="text" class="achievement-card__text">1 место</div>
-    </app-achievement-card>
-  </swiper-slide>
-
-  <swiper-slide class="achievements-slider__slide">
-    <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy"></eleventy-image>
-      <time slot="date" class="achievement-card__date">2023</time>
-      <h3 slot="title" class="achievement-card__title">Управление репутацией</h3>
-      <div slot="text" class="achievement-card__text">2 место</div>
-    </app-achievement-card>
-  </swiper-slide>
-
-  <swiper-slide class="achievements-slider__slide">
-    <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/02.png" alt="" loading="lazy"></eleventy-image>
-      <time slot="date" class="achievement-card__date">2021</time>
-      <h3 slot="title" class="achievement-card__title">PR и контроль репутации</h3>
-      <div slot="text" class="achievement-card__text">Победитель</div>
-    </app-achievement-card>
-  </swiper-slide>
-
-  <swiper-slide class="achievements-slider__slide">
-    <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/01.png" alt="" loading="lazy"></eleventy-image>
-      <time slot="date" class="achievement-card__date">2023</time>
-      <h3 slot="title" class="achievement-card__title">Агентство полного цикла digital-услуг</h3>
-      <div slot="text" class="achievement-card__text">1 место</div>
-    </app-achievement-card>
-  </swiper-slide>
-
-  <swiper-slide class="achievements-slider__slide">
-    <app-achievement-card>
-      <eleventy-image slot="award" class="achievement-card__image" src="app/_images/achievements/03.png" alt="" loading="lazy"></eleventy-image>
-      <time slot="date" class="achievement-card__date">2023</time>
-      <h3 slot="title" class="achievement-card__title">Управление репутацией</h3>
-      <div slot="text" class="achievement-card__text">2 место</div>
     </app-achievement-card>
   </swiper-slide>
 </swiper-container>
