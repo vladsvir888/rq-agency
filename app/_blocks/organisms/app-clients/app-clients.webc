@@ -70,7 +70,7 @@
       </li>
     </app-filter-block>
 
-    <ul class="three-column-grid clients__list">
+    <ul class="four-column-grid clients__list">
       <li class="clients__item">
         <app-client-card>
           <eleventy-image slot="image" class="client-card__image" src="app/_images/clients/01.png" alt=""></eleventy-image>

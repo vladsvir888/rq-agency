@@ -12,6 +12,42 @@
         </app-link>
       </h2>
     </div>
+  </div>
+
+  <div class="confidence__list-wrapper">
+    <ul class="confidence__list">
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/01.png" alt="Apteka.ru" loading="lazy" sizes="74px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/02.png" alt="Дымов" loading="lazy" sizes="65px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/03.png" alt="Билайн" loading="lazy" sizes="231px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/04.png" alt="Fujifilm" loading="lazy" sizes="218px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/05.png" alt="Chocotravel" loading="lazy" sizes="233px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/06.png" alt="Samsung" loading="lazy" sizes="319px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/07.png" alt="Пятерочка" loading="lazy" sizes="211px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/08.png" alt="Pony express" loading="lazy" sizes="203px"></eleventy-image>
+      </li>
+    </ul>
 
     <ul class="confidence__list">
       <li class="confidence__item">
@@ -44,6 +80,144 @@
 
       <li class="confidence__item">
         <eleventy-image class="confidence__img" src="app/_images/confidence-logos/08.png" alt="Pony express" loading="lazy" sizes="203px"></eleventy-image>
+      </li>
+    </ul>
+
+    <ul class="confidence__list">
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/01.png" alt="Apteka.ru" loading="lazy" sizes="74px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/02.png" alt="Дымов" loading="lazy" sizes="65px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/03.png" alt="Билайн" loading="lazy" sizes="231px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/04.png" alt="Fujifilm" loading="lazy" sizes="218px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/05.png" alt="Chocotravel" loading="lazy" sizes="233px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/06.png" alt="Samsung" loading="lazy" sizes="319px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/07.png" alt="Пятерочка" loading="lazy" sizes="211px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/08.png" alt="Pony express" loading="lazy" sizes="203px"></eleventy-image>
+      </li>
+    </ul>
+  </div>
+
+  <div class="confidence__list-wrapper">
+    <ul class="confidence__list">
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/08.png" alt="Pony express" loading="lazy" sizes="203px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/07.png" alt="Пятерочка" loading="lazy" sizes="211px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/06.png" alt="Samsung" loading="lazy" sizes="319px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/05.png" alt="Chocotravel" loading="lazy" sizes="233px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/01.png" alt="Apteka.ru" loading="lazy" sizes="74px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/04.png" alt="Fujifilm" loading="lazy" sizes="218px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/02.png" alt="Дымов" loading="lazy" sizes="65px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/03.png" alt="Билайн" loading="lazy" sizes="231px"></eleventy-image>
+      </li>
+    </ul>
+
+    <ul class="confidence__list">
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/08.png" alt="Pony express" loading="lazy" sizes="203px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/07.png" alt="Пятерочка" loading="lazy" sizes="211px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/06.png" alt="Samsung" loading="lazy" sizes="319px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/05.png" alt="Chocotravel" loading="lazy" sizes="233px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/01.png" alt="Apteka.ru" loading="lazy" sizes="74px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/04.png" alt="Fujifilm" loading="lazy" sizes="218px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/02.png" alt="Дымов" loading="lazy" sizes="65px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/03.png" alt="Билайн" loading="lazy" sizes="231px"></eleventy-image>
+      </li>
+    </ul>
+
+    <ul class="confidence__list">
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/08.png" alt="Pony express" loading="lazy" sizes="203px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/07.png" alt="Пятерочка" loading="lazy" sizes="211px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/06.png" alt="Samsung" loading="lazy" sizes="319px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/05.png" alt="Chocotravel" loading="lazy" sizes="233px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/01.png" alt="Apteka.ru" loading="lazy" sizes="74px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/04.png" alt="Fujifilm" loading="lazy" sizes="218px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/02.png" alt="Дымов" loading="lazy" sizes="65px"></eleventy-image>
+      </li>
+
+      <li class="confidence__item">
+        <eleventy-image class="confidence__img" src="app/_images/confidence-logos/03.png" alt="Билайн" loading="lazy" sizes="231px"></eleventy-image>
       </li>
     </ul>
   </div>

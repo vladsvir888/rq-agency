@@ -2,8 +2,6 @@
 .what-we-do-offer {
   &__slider-wrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-bottom: rem(56);
 
     @media (width <= 900px) {
@@ -21,17 +19,31 @@
     margin-left: 0;
     counter-reset: slider;
 
-    @media (width <= 900px) {
-      width: calc(100% - 160px);
-    }
-
-    @media (width <= 600px) {
+    @media (width <= 767px) {
       width: 100%;
     }
 
     &-controls {
       @media (width <= 600px) {
         display: none;
+      }
+    }
+
+    &-buttons {
+      display: flex;
+      flex: 1 0 auto;
+
+      @media (width <= 767px) {
+        display: none;
+      }
+    }
+
+    &-button {
+      width: 50%;
+      background-color: var(--palette-primary);
+
+      &--prev {
+        rotate: 180deg;
       }
     }
   }

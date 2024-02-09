@@ -11,4 +11,9 @@
   &__search {
     align-self: center;
   }
+
+  &__list {
+    max-width: rem(1200);
+    margin: 0 auto;
+  }
 }

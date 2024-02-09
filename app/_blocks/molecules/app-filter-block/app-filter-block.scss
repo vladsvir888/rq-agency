@@ -2,6 +2,9 @@
 .filter-block {
   $this: &;
 
+  max-width: rem(1150);
+  margin: 0 auto;
+
   @at-root {
     #{$this}-wrapper {
       @media (width <= 600px) {

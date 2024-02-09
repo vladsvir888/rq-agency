@@ -1,0 +1,73 @@
+---
+permalink: "services-detail-5.html"
+---
+
+<app-base title="Мониторинг" webc:nokeep>
+  <app-service-hero title="Мониторинг">
+    <div slot="text" class="service-hero__text">
+      <p>
+        Мониторинг упоминаний и отзывов — важный инструмент, позволяющий контролировать бизнес, предотвращая негатив в его сторону и сохраняя <br> репутацию компании
+      </p>
+      <p>
+        Мы предлагаем комплекс работ по отслеживанию инфополя вашего бренда
+      </p>
+    </div>
+  </app-service-hero>
+
+  <app-solved-tasks></app-solved-tasks>
+
+  <app-transparent-work></app-transparent-work>
+
+  <app-what-we-do-offer></app-what-we-do-offer>
+
+  <app-banner>
+    <h2 slot="title" class="banner__title">
+      Узнать о мониторинге подробнее
+    </h2>
+    <app-link slot="button" class="button--primary button--pill button--large" href="#" target="_blank">Узнать подробнее</app-link>
+  </app-banner>
+
+  <app-why-us>
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-12.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Используем лучшие системы мониторинга, знаем американское и китайское ПО</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-10.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Отслеживаем закрытые чаты и группы</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-6.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Штатные аналитики и психологи</div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-11.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Агентство и сотрудники регулярно проходят сертификацию
+          по ключевым аналитическим сервисам </div>
+      </app-icon-card>
+    </li>
+
+    <li class="why-us__item">
+      <app-icon-card>
+        <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-2.svg" alt="" width="305" height="96" loading="lazy">
+        <div slot="text" class="icon-card__text">Запустили первый отраслевой рейтинг репутации в сети RQ Index</div>
+      </app-icon-card>
+    </li>
+  </app-why-us>
+
+  <app-service-banner></app-service-banner>
+
+  <app-some-cases></app-some-cases>
+
+  <app-relevant-news></app-relevant-news>
+</app-base>

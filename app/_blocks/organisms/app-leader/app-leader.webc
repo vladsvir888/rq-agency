@@ -10,7 +10,7 @@
       <swiper-slide class="leader__slide">
         <eleventy-image src="app/_images/leader/01.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
         <div class="leader__slide-text">Екатерина Архангельская</div>
-        <div class="leader__slide-subtext">Digital-директор</div>
+        <div class="leader__slide-subtext">Управляющий директор</div>
       </swiper-slide>
 
       <swiper-slide class="leader__slide">
@@ -26,9 +26,9 @@
       </swiper-slide>
 
       <swiper-slide class="leader__slide">
-        <eleventy-image src="app/_images/leader/01.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
-        <div class="leader__slide-text">Екатерина Архангельская</div>
-        <div class="leader__slide-subtext">Digital-директор</div>
+        <eleventy-image src="app/_images/leader/04.jpg" class="leader__slide-img" alt="" loading="lazy" sizes="308px"></eleventy-image>
+        <div class="leader__slide-text">Анна Богуминская</div>
+        <div class="leader__slide-subtext">Head of ORM</div>
       </swiper-slide>
     </swiper-container>
 

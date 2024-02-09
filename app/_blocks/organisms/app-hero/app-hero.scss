@@ -1,35 +1,36 @@
 // style
 .hero {
-  &__container {
-    position: relative;
-  }
+  $this: &;
 
-  &__slider {
+  overflow-x: hidden;
+
+  &__wrapper {
     width: calc(100% + var(--container-padding));
-
-    @media (width <= 767px) {
-      width: calc(100% + var(--container-padding) * 2);
-      margin-left: calc(var(--container-padding) * -1);
-    }
-  }
-
-  &__slide {
     display: grid;
     grid-template-columns: 45% 53%;
     column-gap: rem(40);
+
+    @media (width <= 1400px) {
+      align-items: center;
+    }
 
     @media (width <= 1200px) {
       column-gap: rem(20);
     }
 
     @media (width <= 767px) {
-      grid-template-columns: 1fr;
+      width: calc(100% + var(--container-padding) * 2);
+      margin-left: calc(var(--container-padding) * -1);
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
 
-      &::after {
-        position: absolute;
-        inset: 0;
-        background-image: linear-gradient(180deg, #fff 0%, #350587 0.01%, rgba(53 5 135 / 0%) 100%);
-        content: '';
+  &__slider {
+    width: 100%;
+
+    @at-root #{$this} {
+      &__slider-wrapper {
+        position: relative;
       }
     }
   }
@@ -38,18 +39,17 @@
     margin-top: rem(127);
     color: var(--palette-primary);
 
+    @media (width <= 1400px) {
+      margin-top: 0;
+    }
+
     @media (width <= 1200px) {
       margin-top: rem(64);
       margin-bottom: rem(64);
     }
 
     @media (width <= 767px) {
-      position: relative;
-      z-index: 1;
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
-      margin: rem(81) rem(16) rem(137);
-      color: #fff;
+      margin: rem(40) rem(16);
     }
   }
 
@@ -88,17 +88,18 @@
     }
   }
 
+  &__download-button {
+    @media (width <= 900px) {
+      font-size: rem(16);
+    }
+  }
+
   &__img-wrapper {
     position: relative;
     margin-top: calc(var(--header-height) * -1);
 
     > picture {
       height: 100%;
-    }
-
-    @media (width <= 767px) {
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
     }
   }
 
@@ -126,42 +127,27 @@
     }
 
     @media (width <= 900px) {
-      margin: rem(130) 0 0;
-    }
-
-    @media (width <= 767px) {
-      display: none;
+      margin: rem(82) 0 0;
+      width: 100%;
     }
   }
 
   &__controls {
-    position: relative;
+    position: absolute;
+    bottom: rem(24);
+    right: rem(60);
     z-index: 1;
-    max-width: rem(124);
-    margin-left: auto;
-    margin-top: rem(-96);
 
     @media (width <= 600px) {
-      max-width: unset;
-      margin-left: unset;
-      margin-top: rem(-38);
+      right: unset;
+      left: 50%;
+      translate: -50% 0;
 
       .slider-controls {
         &__buttons {
           display: none;
         }
       }
-    }
-  }
-
-  &__download-button {
-    @media (width <= 900px) {
-      font-size: rem(16);
-    }
-
-    @media (width <= 600px) {
-      color: var(--palette-primary);
-      background-color: #fff;
     }
   }
 }

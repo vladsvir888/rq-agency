@@ -2,6 +2,7 @@
 .callback {
   &__form {
     max-width: rem(921);
+    padding-left: var(--section-header-offset-left);
   }
 
   &__inputs {

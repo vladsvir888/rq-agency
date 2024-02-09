@@ -48,6 +48,14 @@
       text: 'Детальная услуг (PR)'
     },
     {
+      href: "services-detail-4.html",
+      text: 'Детальная услуг (Digital PR)'
+    },
+    {
+      href: "services-detail-5.html",
+      text: 'Детальная услуг (Мониторинг)'
+    },
+    {
       href: "news-detail.html",
       text: 'Новость'
     },

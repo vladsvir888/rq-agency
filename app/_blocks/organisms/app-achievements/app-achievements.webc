@@ -1,9 +1,21 @@
 <!--- template --->
 <section class="section achievements">
-  <div class="container">
+  <div class="container achievements__container">
     <div class="section__header">
       <h2 class="section__title achievements__title">Наши достижения</h2>
     </div>
-    <app-achievements-slider></app-achievements-slider>
+    <div class="achievements__slider-wrapper">
+      <app-achievements-slider></app-achievements-slider>
+      <app-button class="achievements__button achievements__button--prev">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M24 47C36.7026 47 47 36.7026 47 24C47 11.2975 36.7026 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7026 11.2975 47 24 47ZM27.5778 29.7449L25.656 31.6667L17.4782 23.4889L25.656 15.3111L27.5778 17.2329L21.3354 23.4889L27.5778 29.7449Z" fill="white"/>
+        </svg>
+      </app-button>
+      <app-button class="achievements__button achievements__button--next">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M24 47C36.7026 47 47 36.7026 47 24C47 11.2975 36.7026 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7026 11.2975 47 24 47ZM19.4 17.2329L21.3218 15.3111L29.4996 23.4889L21.3218 31.6667L19.4 29.7449L25.6424 23.4889L19.4 17.2329Z" fill="white"/>
+        </svg>
+      </app-button>
+    </div>
   </div>
 </section>

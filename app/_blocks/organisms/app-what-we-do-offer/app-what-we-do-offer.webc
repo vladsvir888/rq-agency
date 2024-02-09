@@ -40,22 +40,21 @@
         </swiper-slide>
       </swiper-container>
 
-      <app-slider-controls class="slider-controls--secondary what-we-do-offer__slider-controls">
-        <app-button slot="button-prev" class="slider-controls__button slider-controls__button--prev">
-          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="65" viewBox="0 0 64 65" fill="none" aria-hidden="true">
-            <rect width="64" height="64" transform="translate(64 64.5) rotate(-180)" fill="white"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M30 62.5C46.5686 62.5 60 49.0685 60 32.5C60 15.9315 46.5686 2.5 30 2.5C13.4315 2.5 -2.99994e-09 15.9315 -6.70056e-09 32.5C-1.04012e-08 49.0685 13.4315 62.5 30 62.5ZM34.6667 39.9933L32.16 42.5L21.4933 31.8333L32.16 21.1667L34.6667 23.6733L26.5245 31.8333L34.6667 39.9933Z" fill="#350587"/>
+      <div class="what-we-do-offer__slider-buttons">
+        <app-button class="what-we-do-offer__slider-button what-we-do-offer__slider-button--prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="59" height="74" viewBox="0 0 59 74" aria-hidden="true">
+            <path fill="none" stroke="#fff" d="M57,29.2748092 L95,65.7956425 L57,101.274809 M36,65.5 L95,65.5" transform="translate(-36 -28)"/>
           </svg>
         </app-button>
-        <app-button slot="button-next" class="slider-controls__button slider-controls__button--next">
-          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="65" viewBox="0 0 64 65" fill="none" aria-hidden="true">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M32 62.5C48.5685 62.5 62 49.0685 62 32.5C62 15.9315 48.5685 2.5 32 2.5C15.4315 2.5 2 15.9315 2 32.5C2 49.0685 15.4315 62.5 32 62.5ZM26 23.6733L28.5067 21.1667L39.1733 31.8333L28.5067 42.5L26 39.9933L34.1422 31.8333L26 23.6733Z" fill="#350587"/>
+        <app-button class="what-we-do-offer__slider-button what-we-do-offer__slider-button--next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="59" height="74" viewBox="0 0 59 74" aria-hidden="true">
+            <path fill="none" stroke="#fff" d="M57,29.2748092 L95,65.7956425 L57,101.274809 M36,65.5 L95,65.5" transform="translate(-36 -28)"/>
           </svg>
         </app-button>
-      </app-slider-controls>
+      </div>
     </div>
 
-    <div class="what-we-do-offer__content">
+    <div webc:if="content" class="what-we-do-offer__content">
       <h3 class="what-we-do-offer__content-title">Управление репутацией (ORM)</h3>
       <div class="what-we-do-offer__content-text">
         Online Reputation Management — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.

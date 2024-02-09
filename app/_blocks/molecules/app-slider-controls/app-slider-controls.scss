@@ -24,13 +24,6 @@
     column-gap: rem(28);
   }
 
-  &__button {
-    &.swiper-button-disabled {
-      cursor: default;
-      fill-opacity: 0.4;
-    }
-  }
-
   &__pagination {
     --swiper-pagination-color: #fff;
     --swiper-pagination-bullet-inactive-color: transparent;

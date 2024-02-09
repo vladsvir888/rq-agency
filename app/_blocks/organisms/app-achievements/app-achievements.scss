@@ -19,4 +19,23 @@
   &__title {
     color: #fff;
   }
+
+  &__slider-wrapper {
+    position: relative;
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    z-index: 1;
+
+    &--prev {
+      left: rem(10);
+    }
+
+    &--next {
+      right: rem(10);
+    }
+  }
 }

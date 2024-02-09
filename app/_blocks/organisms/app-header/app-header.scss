@@ -2,8 +2,17 @@
 .header {
   $this: &;
 
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
   background-color: #fff;
   color: var(--palette-primary);
+  transition: box-shadow var(--transition300ms);
+
+  &[sticky] {
+    box-shadow: 0 rem(2) rem(5) rgb(0 0 0 / 10%);
+  }
 
   @media (width <= 1200px) {
     &.open {

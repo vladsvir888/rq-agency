@@ -35,7 +35,7 @@
         <div class="footer__address-text">
           125124, м. Белорусская, 3-я улица Ямского Поля, <br> дом 2, корпус 26, г. Москва
         </div>
-        <app-link class="button--decoration footer__address-phone" href="tel:+74951530660 ">+7 (495) 153-06-60 </app-link>
+        <app-link class="button--decoration footer__address-phone" href="tel:+74951530410">+7 (495) 153-04-10</app-link>
         <app-link class="button--underline" href="mailto:Info@amdg.ru">Info@amdg.ru</app-link>
       </div>
     </div>

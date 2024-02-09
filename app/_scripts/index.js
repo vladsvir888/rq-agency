@@ -9,7 +9,7 @@ import createSlider from './helpers/createSlider';
 import '../_blocks/organisms/app-contacts/app-contacts';
 import initDialog from '../_blocks/molecules/app-dialog/app-dialog';
 import initFilterBlock from '../_blocks/molecules/app-filter-block/app-filter-block';
-import initMenu from '../_blocks/organisms/app-header/app-header';
+import { initMenu, initStickyHeader } from '../_blocks/organisms/app-header/app-header';
 
 document.addEventListener('DOMContentLoaded', () => {
   register();
@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       selector: '.achievements-slider',
       options: {
+        modules: [Navigation, A11y],
         slidesPerView: 1.15,
         spaceBetween: 24,
         breakpoints: {
@@ -34,6 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
           1201: {
             slidesPerView: 3.15,
           },
+        },
+        navigation: {
+          prevEl: document.querySelector('.achievements__button--prev'),
+          nextEl: document.querySelector('.achievements__button--next'),
+        },
+        a11y: {
+          prevSlideMessage: 'Предыдущий слайд',
+          nextSlideMessage: 'Следующий слайд',
         },
       },
     },
@@ -89,16 +98,15 @@ document.addEventListener('DOMContentLoaded', () => {
         modules: [Navigation, A11y],
         slidesPerView: 2,
         navigation: {
-          prevEl: document.querySelector('.slider-controls__button--prev'),
-          nextEl: document.querySelector('.slider-controls__button--next'),
+          prevEl: document.querySelector('.what-we-do-offer__slider-button--prev'),
+          nextEl: document.querySelector('.what-we-do-offer__slider-button--next'),
         },
         a11y: {
           prevSlideMessage: 'Предыдущий слайд',
           nextSlideMessage: 'Следующий слайд',
-          paginationBulletMessage: 'Перейти к слайду {{index}}',
         },
         breakpoints: {
-          601: {
+          901: {
             slidesPerView: 3,
           },
           1201: {
@@ -163,4 +171,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initDialog();
   initFilterBlock();
   initMenu();
+  initStickyHeader();
 });

@@ -10,6 +10,11 @@
   transition-property: background-color, color, border-color, text-decoration-color;
   transition-duration: var(--transition300ms);
 
+  &.swiper-button-disabled {
+    cursor: default;
+    fill-opacity: 0.4;
+  }
+
   &--decoration {
     @include hover {
       text-decoration: underline;

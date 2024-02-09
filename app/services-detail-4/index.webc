@@ -1,0 +1,25 @@
+---
+permalink: "services-detail-4.html"
+---
+
+<app-base title="Digital PR" webc:nokeep>
+  <app-service-hero title="Digital PR">
+    <div slot="text" class="service-hero__text">
+      <p>
+        Комплекс услуг, направленный на создание и улучшение <br> имиджа вашего бренда
+      </p>
+    </div>
+  </app-service-hero>
+
+  <app-solved-tasks></app-solved-tasks>
+
+  <app-transparent-work></app-transparent-work>
+
+  <app-what-we-do-offer></app-what-we-do-offer>
+
+  <app-service-banner></app-service-banner>
+
+  <app-some-cases></app-some-cases>
+
+  <app-relevant-news></app-relevant-news>
+</app-base>

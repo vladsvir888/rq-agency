@@ -13,7 +13,7 @@ permalink: "services-detail-1.html"
 
   <app-transparent-work></app-transparent-work>
 
-  <app-what-we-do-offer></app-what-we-do-offer>
+  <app-what-we-do-offer :content="true"></app-what-we-do-offer>
 
   <app-banner>
     <h2 slot="title" class="banner__title">

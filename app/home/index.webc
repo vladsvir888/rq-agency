@@ -18,25 +18,25 @@ permalink: "home.html"
     <li class="icons-block__item">
       <app-icon-card>
         <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-1.svg" alt="" width="305" height="96" loading="lazy">
-        <div slot="text" class="icon-card__text">Разработали программу сертификации специалистов ORM Expert для RSD</div>
+        <div slot="text" class="icon-card__text">Разработали программу сертификации специалистов ORM Expert для RDC</div>
       </app-icon-card>
     </li>
     <li class="icons-block__item">
       <app-icon-card>
         <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-2.svg" alt="" width="305" height="96" loading="lazy">
-        <div slot="text" class="icon-card__text">Запустили обучающий курс «Управление репутацией в сети» с Adindex</div>
+        <div slot="text" class="icon-card__text">Создали обучающий курс «Управление репутацией» с Adindex</div>
       </app-icon-card>
     </li>
     <li class="icons-block__item">
       <app-icon-card>
         <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-3.svg" alt="" width="305" height="96" loading="lazy">
-        <div slot="text" class="icon-card__text">Проводим обучение в РУДН</div>
+        <div slot="text" class="icon-card__text">C 2013 года преподаем обучающие курсы и проводим мастер-классы в ведущих вузах страны</div>
       </app-icon-card>
     </li>
     <li class="icons-block__item">
       <app-icon-card>
         <img slot="icon" class="icon-card__icon" src="assets/images/icons/list-icon-4.svg" alt="" width="305" height="96" loading="lazy">
-        <div slot="text" class="icon-card__text">Проводим первый отраслевой рейтинг репутации в сети RQ Index</div>
+        <div slot="text" class="icon-card__text">Создали обучающий курс «Управление репутацией» с Adindex</div>
       </app-icon-card>
     </li>
   </app-icons-block>

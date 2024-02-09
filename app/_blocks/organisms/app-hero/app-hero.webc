@@ -1,65 +1,46 @@
 <!--- template --->
 <div class="section hero">
-  <div class="container hero__container">
-    <swiper-container class="hero__slider" init="false">
-      <swiper-slide class="hero__slide">
-        <div class="hero__content">
-          <div class="hero__title">Digital-PR агентство RQ Agency</div>
-          <div class="hero__text">
-            <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
-            <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
-          </div>
-          <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
+  <div class="container">
+    <div class="hero__wrapper">
+      <div class="hero__content">
+        <div class="hero__title">Digital-PR агентство RQ Agency</div>
+        <div class="hero__text">
+          <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
+          <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
         </div>
-        <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" sizes="705px"></eleventy-image>
-          <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
-        </div>
-      </swiper-slide>
+        <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
+      </div>
+      <div class="hero__slider-wrapper">
+        <swiper-container class="hero__slider" init="false">
+          <swiper-slide class="hero__slide">
+            <div class="hero__img-wrapper">
+              <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" sizes="705px"></eleventy-image>
+              <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
+            </div>
+          </swiper-slide>
 
-      <swiper-slide class="hero__slide">
-        <div class="hero__content">
-          <div class="hero__title">Digital-PR агентство RQ Agency</div>
-          <div class="hero__text">
-            <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
-            <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
-          </div>
-          <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
-        </div>
-        <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy" sizes="705px"></eleventy-image>
-          <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
-        </div>
-      </swiper-slide>
+          <swiper-slide class="hero__slide">
+            <div class="hero__img-wrapper">
+              <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" sizes="705px"></eleventy-image>
+              <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
+            </div>
+          </swiper-slide>
+        </swiper-container>
 
-      <swiper-slide class="hero__slide">
-        <div class="hero__content">
-          <div class="hero__title">Digital-PR агентство RQ Agency</div>
-          <div class="hero__text">
-            <p>RQ Agency - бренд в группе международного digital-агентства AMDG с фокусом на Digital PR.</p>
-            <p>Мы одними из первых в России освоили это направление и работаем с репутацией с 2013 года</p>
-          </div>
-          <app-link class="button--primary button--pill button--large hero__download-button" href="assets/presentation.txt" download="Презентация">Скачать презентацию</app-link>
-        </div>
-        <div class="hero__img-wrapper">
-          <eleventy-image class="hero__img" src="app/_images/hero/01.jpg" alt="" loading="lazy" sizes="705px"></eleventy-image>
-          <div class="hero__img-text">Опубликован промежуточнй рейтинг репутации банков за H1 2023</div>
-        </div>
-      </swiper-slide>
-    </swiper-container>
-
-    <app-slider-controls class="hero__controls">
-      <app-button slot="button-prev" class="slider-controls__button slider-controls__button--prev">
-        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M24 47C36.7026 47 47 36.7026 47 24C47 11.2975 36.7026 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7026 11.2975 47 24 47ZM27.5778 29.7449L25.656 31.6667L17.4782 23.4889L25.656 15.3111L27.5778 17.2329L21.3354 23.4889L27.5778 29.7449Z" fill="white"/>
-        </svg>
-      </app-button>
-      <app-button slot="button-next" class="slider-controls__button slider-controls__button--next">
-        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M24 47C36.7026 47 47 36.7026 47 24C47 11.2975 36.7026 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7026 11.2975 47 24 47ZM19.4 17.2329L21.3218 15.3111L29.4996 23.4889L21.3218 31.6667L19.4 29.7449L25.6424 23.4889L19.4 17.2329Z" fill="white"/>
-        </svg>
-      </app-button>
-      <div slot="pagination" class="slider-controls__pagination"></div>
-    </app-slider-controls>
+        <app-slider-controls class="hero__controls">
+          <app-button slot="button-prev" class="slider-controls__button slider-controls__button--prev">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 47C36.7026 47 47 36.7026 47 24C47 11.2975 36.7026 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7026 11.2975 47 24 47ZM27.5778 29.7449L25.656 31.6667L17.4782 23.4889L25.656 15.3111L27.5778 17.2329L21.3354 23.4889L27.5778 29.7449Z" fill="white"/>
+            </svg>
+          </app-button>
+          <app-button slot="button-next" class="slider-controls__button slider-controls__button--next">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 47C36.7026 47 47 36.7026 47 24C47 11.2975 36.7026 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7026 11.2975 47 24 47ZM19.4 17.2329L21.3218 15.3111L29.4996 23.4889L21.3218 31.6667L19.4 29.7449L25.6424 23.4889L19.4 17.2329Z" fill="white"/>
+            </svg>
+          </app-button>
+          <div slot="pagination" class="slider-controls__pagination"></div>
+        </app-slider-controls>
+      </div>
+    </div>
   </div>
 </div>
