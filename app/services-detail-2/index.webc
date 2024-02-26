@@ -15,7 +15,7 @@ permalink: "services-detail-2.html"
 
   <app-created-content></app-created-content>
 
-  <app-what-we-do-offer :content="true"></app-what-we-do-offer>
+  <app-what-we-do-offer></app-what-we-do-offer>
 
   <app-banner>
     <h2 slot="title" class="banner__title">

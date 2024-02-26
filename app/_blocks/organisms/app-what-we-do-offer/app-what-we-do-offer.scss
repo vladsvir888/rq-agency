@@ -49,20 +49,19 @@
   }
 
   &__slide {
+    cursor: pointer;
     height: auto;
     padding: rem(10) rem(10) rem(25);
     color: var(--palette-primary);
+    transition: background-color var(--transition300ms), color var(--transition300ms);
 
-    &--primary {
-      background-color: var(--palette-primary);
-    }
-
-    &--secondary {
+    @include hover {
       background-color: var(--palette-secondary);
+      color: #fff;
     }
 
-    &--primary,
-    &--secondary {
+    &--active {
+      background-color: var(--palette-primary);
       color: #fff;
     }
 
@@ -112,7 +111,13 @@
     }
 
     &-button {
-      justify-self: end;
+      display: flex;
+      margin-left: auto;
+      margin-top: rem(36);
+
+      @media (width <= 900px) {
+        margin-top: rem(24);
+      }
     }
   }
 }

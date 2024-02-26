@@ -113,6 +113,30 @@ document.addEventListener('DOMContentLoaded', () => {
             slidesPerView: 5,
           },
         },
+        on: {
+          click(swiper) {
+            const { clickedIndex, clickedSlide } = swiper;
+            const prevActiveSlide = document.querySelector('.what-we-do-offer__slide--active');
+
+            if (prevActiveSlide) {
+              prevActiveSlide.classList.remove('what-we-do-offer__slide--active');
+            }
+
+            clickedSlide.classList.add('what-we-do-offer__slide--active');
+
+            const prevActiveContent = document.querySelector('.what-we-do-offer__content:not([hidden]');
+
+            if (prevActiveContent) {
+              prevActiveContent.hidden = true;
+            }
+
+            const currentActiveContent = document.querySelector(`.what-we-do-offer__content[data-slide-index="${clickedIndex}"]`);
+
+            if (currentActiveContent) {
+              currentActiveContent.hidden = false;
+            }
+          },
+        },
       },
     },
     {

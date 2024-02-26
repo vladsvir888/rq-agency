@@ -7,10 +7,10 @@
 
     <div class="what-we-do-offer__slider-wrapper">
       <swiper-container class="what-we-do-offer__slider" init="false">
-        <swiper-slide class="what-we-do-offer__slide what-we-do-offer__slide--primary">
+        <swiper-slide class="what-we-do-offer__slide what-we-do-offer__slide--active">
           <div class="what-we-do-offer__slide-title">Управление репутацией (ORM)</div>
         </swiper-slide>
-        <swiper-slide class="what-we-do-offer__slide what-we-do-offer__slide--secondary">
+        <swiper-slide class="what-we-do-offer__slide">
           <div class="what-we-do-offer__slide-title">SERM</div>
         </swiper-slide>
         <swiper-slide class="what-we-do-offer__slide">
@@ -23,10 +23,10 @@
           <div class="what-we-do-offer__slide-title">Создание инфополя</div>
         </swiper-slide>
 
-        <swiper-slide class="what-we-do-offer__slide what-we-do-offer__slide--primary">
+        <swiper-slide class="what-we-do-offer__slide">
           <div class="what-we-do-offer__slide-title">Управление репутацией (ORM)</div>
         </swiper-slide>
-        <swiper-slide class="what-we-do-offer__slide what-we-do-offer__slide--secondary">
+        <swiper-slide class="what-we-do-offer__slide">
           <div class="what-we-do-offer__slide-title">SERM</div>
         </swiper-slide>
         <swiper-slide class="what-we-do-offer__slide">
@@ -54,12 +54,76 @@
       </div>
     </div>
 
-    <div webc:if="content" class="what-we-do-offer__content">
-      <h3 class="what-we-do-offer__content-title">Управление репутацией (ORM)</h3>
+    <div class="what-we-do-offer__content" data-slide-index="0">
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 1 (ORM)</h3>
       <div class="what-we-do-offer__content-text">
-        Online Reputation Management — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+        Online Reputation Management 1 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
       </div>
-      <app-button class="button--pill button--large button--primary what-we-do-offer__content-button">Заказать</app-button>
     </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="1" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 2 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 2 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="2" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 3 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 3 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="3" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 4 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 4 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="4" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 5 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 5 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="5" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 6 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 6 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="6" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 7 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 7 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="7" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 8 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 8 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="8" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 9 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 9 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <div class="what-we-do-offer__content" data-slide-index="9" hidden>
+      <h3 class="what-we-do-offer__content-title">Управление репутацией 10 (ORM)</h3>
+      <div class="what-we-do-offer__content-text">
+        Online Reputation Management 10 — комплексный инструмент репутационного маркетинга. Формируем положительный имидж бренда или персоны на всех видах площадок в интернете, создаем острова контента на отзовиках, энциклопедиях и гео-сервисах. Поможем отразить информационные атаки. Работаем в реальном времени.
+      </div>
+    </div>
+
+    <app-button class="button--pill button--large button--primary what-we-do-offer__content-button">Заказать</app-button>
   </div>
 </section>
