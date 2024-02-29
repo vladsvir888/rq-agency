@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html :lang="lang || 'ru'">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title @text="title">Название документа</title>
-  <meta name="description" :content="description || 'Мета-описание'">
+    <title @text="title">Название документа</title>
+    <meta name="description" :content="description || 'Мета-описание'" />
 
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="icon" href="assets/favicon.ico" sizes="32x32">
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-  <link rel="manifest" href="assets/manifest.webmanifest">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="icon" href="assets/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="assets/manifest.webmanifest" />
 
-  <link rel="stylesheet" href="styles/main.css" webc:keep>
-  <script webc:if="map" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:keep defer></script>
-  <script src="scripts/main.js" defer webc:keep></script>
-</head>
-<body>
-  <app-header></app-header>
-  <main>
-    <slot></slot>
-  </main>
-  <app-footer></app-footer>
-</body>
+    <link rel="stylesheet" href="styles/main.css" webc:keep />
+    <script webc:if="map" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" webc:keep defer></script>
+    <script src="scripts/main.js" defer webc:keep></script>
+  </head>
+  <body>
+    <app-header></app-header>
+    <main>
+      <slot></slot>
+    </main>
+    <app-footer></app-footer>
+  </body>
 </html>

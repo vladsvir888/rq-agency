@@ -15,6 +15,10 @@
     fill-opacity: 0.4;
   }
 
+  &.swiper-button-lock {
+    display: none;
+  }
+
   &--decoration {
     @include hover {
       text-decoration: underline;

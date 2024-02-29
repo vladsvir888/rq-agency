@@ -34,8 +34,10 @@
     "extends @shopify/browserslist-config"
   ],
   "dependencies": {
+    "@justinribeiro/lite-youtube": "^1.5.0",
     "@shoelace-style/shoelace": "^2.13.1",
     "maska": "^2.1.11",
+    "petite-vue": "^0.3.0",
     "swiper": "^11.0.5"
   },
   "engines": {

@@ -2,9 +2,9 @@ const path = require('node:path');
 const Image = require('@11ty/eleventy-img');
 
 module.exports = function (config) {
-  config.addTemplateFormats(['jpg', 'jpeg', 'png', 'svg']);
+  config.addTemplateFormats(['jpg', 'jpeg', 'png', 'svg', 'gif']);
 
-  config.addExtension(['jpg', 'jpeg', 'png', 'svg'], {
+  config.addExtension(['jpg', 'jpeg', 'png', 'svg', 'gif'], {
     read: false,
 
     compile: async function (inputContent, inputPath) {
