@@ -5,7 +5,7 @@ permalink: "dialog.html"
 <app-base title='Диалоговое окно "начнем знакомство"' webc:nokeep>
   <div class="container">
     <div class="section section--inner">
-      <app-button class="button--pill button--large button--primary js-dialog-button">Показать</app-button>
+      <app-button class="button--pill button--large button--primary js-dialog-button" data-dialog="callback">Показать</app-button>
     </div>
 
     <app-dialog></app-dialog>

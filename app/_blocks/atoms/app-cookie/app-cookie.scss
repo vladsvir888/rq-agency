@@ -1,0 +1,96 @@
+// style
+.cookie-block {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: rem(40) 0;
+  background-color: #fff;
+  box-shadow: 2px -4px 15px 0px rgba(44, 44, 44, 0.10);
+  backdrop-filter: blur(7.5px);
+
+  @media (width <= 1400px) {
+    padding: rem(20) 0;
+  }
+
+  @media (width <= 600px) {
+    padding: rem(10) 0;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: rem(10);
+
+    @media (width <= 767px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__text {
+    @include base12;
+
+    color: var(--palette-primary);
+    max-width: rem(500);
+
+    @media (width <= 1200px) {
+      max-width: rem(400);
+    }
+
+    @media (width <= 767px) {
+      max-width: 100%;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: rem(10) rem(70);
+
+    @media (width <= 1400px) {
+      gap: rem(10);
+    }
+
+    @media (width <= 1024px) {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    @media (width <= 767px) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__reject-button {
+    border-color: var(--palette-primary);
+    color: var(--palette-primary);
+  }
+
+  &__buttons {
+    display: flex;
+    column-gap: rem(30);
+
+    @media (width <= 1400px) {
+      column-gap: rem(15);
+    }
+
+    @media (width <= 600px) {
+      column-gap: rem(10);
+    }
+  }
+
+  &__more {
+    @include base12;
+
+    color: var(--palette-primary);
+  }
+
+  &__button {
+    @media (width <= 600px) {
+      padding: 0 rem(16);
+    }
+  }
+}

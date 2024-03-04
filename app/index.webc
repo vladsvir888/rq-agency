@@ -66,6 +66,10 @@
     {
       href: "dialog.html",
       text: 'Диалоговое окно "начнем знакомство"'
+    },
+    {
+      href: "conditions-personal-data.html",
+      text: 'Условия обработки персональных данных'
     }
   ];
   const date = new Date();

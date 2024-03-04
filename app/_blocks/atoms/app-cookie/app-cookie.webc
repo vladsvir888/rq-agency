@@ -1,0 +1,15 @@
+<!--- template --->
+<div class="cookie-block" hidden>
+  <div class="container cookie-block__container">
+    <div class="cookie-block__text">
+      Сайт использует файлы cookie для обеспечения удобства пользователей сайта, его улучшения, предоставления персонализированных рекомендаций.
+    </div>
+    <div class="cookie-block__wrapper">
+      <div class="cookie-block__buttons">
+        <app-button class="button--primary button--medium button--pill cookie-block__button">Принять</app-button>
+        <app-button class="button--outline button--medium button--pill cookie-block__button cookie-block__reject-button">Отклонить</app-button>
+      </div>
+      <app-button class="cookie-block__more button--underline js-dialog-button" data-dialog="cookie">Подробнее о настройках файлов Cookie</app-button>
+    </div>
+  </div>
+</div>

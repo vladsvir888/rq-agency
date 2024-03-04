@@ -152,3 +152,7 @@ main {
   padding: 0 var(--container-padding);
   margin: 0 auto;
 }
+
+.sl-scroll-lock {
+  overflow: hidden !important;
+}

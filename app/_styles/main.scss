@@ -21,15 +21,18 @@
 
 // utils
 @import 'utils/grid.scss';
+@import 'utils/text-block.scss';
 
 // atoms
 @import '../_blocks/atoms/app-input/app-input.scss';
 @import '../_blocks/atoms/app-button/app-button.scss';
+@import '../_blocks/atoms/app-cookie/app-cookie.scss';
 
 // utils
 @import 'utils/section.scss';
 
 // molecules
+@import '../_blocks/molecules/app-cookie-dialog/app-cookie-dialog.scss';
 @import '../_blocks/molecules/app-dialog/app-dialog.scss';
 @import '../_blocks/molecules/app-details/app-details.scss';
 @import '../_blocks/molecules/app-project-card/app-project-card.scss';

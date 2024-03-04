@@ -15,6 +15,7 @@ import '../_blocks/organisms/app-contacts/app-contacts';
 import initDialog from '../_blocks/molecules/app-dialog/app-dialog';
 import initFilterBlock from '../_blocks/molecules/app-filter-block/app-filter-block';
 import { initMenu, initStickyHeader } from '../_blocks/organisms/app-header/app-header';
+import initCookie from '../_blocks/atoms/app-cookie/app-cookie';
 
 document.addEventListener('DOMContentLoaded', () => {
   register();
@@ -234,4 +235,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initFilterBlock();
   initMenu();
   initStickyHeader();
+  initCookie();
 });
