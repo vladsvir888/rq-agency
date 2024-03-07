@@ -21,6 +21,10 @@
             </p>
           </slot>
         </div>
+
+        <app-button webc:if="callbackButton" class="button--pill button--large button--secondary company-hero__button">Заказать</app-button>
+
+        <div webc:if="note" class="company-hero__note">*По данным исследования AliExpress Россия и Data Insight.</div>
       </div>
 
       <app-advantages :@last-advantage-card="lastAdvantageCard" class="company-hero__advantages">

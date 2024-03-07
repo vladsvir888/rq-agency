@@ -3,7 +3,7 @@ permalink: "services-detail-1.html"
 ---
 
 <app-base title="ORM" webc:nokeep>
-  <app-company-hero title="ORM" last-crumb-text="Услуги">
+  <app-company-hero title="ORM" last-crumb-text="Услуги" :callback-button="true" :note="true">
     <p slot="content">
       Управление репутацией в сети (ORM) — оперативное выявление и комплексная нейтрализация неактуальной информации о компании, услуге, продукте, личности в digital пространстве.
     </p>
