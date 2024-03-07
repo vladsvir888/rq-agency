@@ -11,11 +11,11 @@
   transition-duration: var(--transition300ms);
 
   &.swiper-button-disabled {
-    cursor: default;
+    cursor: no-drop;
     fill-opacity: 0.4;
   }
 
-  &.swiper-button-lock {
+  &.swiper-button-lock:not(.what-we-do-offer__slider-button) {
     display: none;
   }
 
