@@ -5,10 +5,11 @@
       <h2 class="section__title">
         <app-link class="section__title-link">
           Нам доверяют
-          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" aria-hidden="true">
-            <rect width="46" height="46" rx="23" fill="#350587"/>
-            <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+          <span class="section__title-icon-wrapper">
+            <svg class="section__title-icon" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" aria-hidden="true">
+              <path d="M13.0005 32.6153L33 13M33 13L13 13M33 13L33 33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
         </app-link>
       </h2>
     </div>

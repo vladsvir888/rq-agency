@@ -48,6 +48,29 @@
       @media (width <= 600px) {
         column-gap: rem(16);
       }
+
+      @include hover {
+        #{$this}__title-icon-wrapper {
+          background-color: #fff;
+          color: var(--palette-primary);
+        }
+      }
+    }
+
+    &-icon-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: rem(46);
+      height: rem(46);
+      background-color: var(--palette-primary);
+      border-radius: 50%;
+      color: #fff;
+      transition: color var(--transition300ms), background-color var(--transition300ms);
+    }
+
+    &-icon {
+      stroke: currentColor;
     }
   }
 

@@ -178,25 +178,6 @@
       }
     }
 
-    &-icon {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-width: rem(66);
-      min-height: rem(66);
-      border-radius: 50%;
-      background-color: var(--palette-primary);
-
-      @media (width <= 992px) {
-        top: rem(10);
-        left: rem(10);
-      }
-    }
-
     &-pagination-wrapper {
       position: absolute;
       bottom: 0;

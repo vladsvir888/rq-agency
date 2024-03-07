@@ -3,7 +3,7 @@ permalink: "company.html"
 ---
 
 <app-base title="Компания" webc:nokeep>
-  <app-company-hero></app-company-hero>
+  <app-company-hero :last-advantage-card="true"></app-company-hero>
 
   <app-how-to-work></app-how-to-work>
 

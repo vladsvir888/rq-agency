@@ -18,7 +18,7 @@
             <div class="contacts__section-text">
               125124, м. Белорусская, 3-я улица Ямского Поля, дом 2, корпус 26, г. Москва
             </div>
-            <div class="contacts__section-text">
+            <div class="contacts__section-text contacts__section-text--2">
               RQ agency - часть группы <app-link class="button--decoration" href="https://amdg.by/" target="_blank">AMDG</app-link>
             </div>
           </div>
@@ -89,7 +89,7 @@
         </section>
       </div>
       <rq-agency-map>
-        <div id="map" class="map contacts__map" data-map-coords="55.76, 37.64"></div>
+        <div id="map" class="map contacts__map" data-map-coords="55.782228, 37.582511"></div>
       </rq-agency-map>
     </div>
   </div>

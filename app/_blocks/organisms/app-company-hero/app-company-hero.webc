@@ -1,27 +1,29 @@
 <!--- template --->
 <div class="company-hero">
   <div class="container company-hero__container">
-    <app-tags class="company-hero__tags">
+    <app-tags :@last-crumb-text="lastCrumbText" class="company-hero__tags">
       <li class="tags__item">
         <app-link class="button--decoration tags__link" href="#">Главная</app-link>
       </li>
-      <li class="tags__item" aria-current="page">О компании</li>
+      <li class="tags__item" aria-current="page" @text="lastCrumbText">О компании</li>
     </app-tags>
 
     <div class="company-hero__wrapper">
       <div class="company-hero__content">
-        <h1 class="company-hero__title">RQ Agency</h1>
+        <h1 class="company-hero__title" @text="title">RQ Agency</h1>
         <div class="company-hero__text">
-          <p>
-            Новое отражение коммуникационного бизнеса AMDG.
-          </p>
-          <p>
-            AMDG — международное digital-агентство, предоставляющее полный комплекс услуг для продвижения бизнеса в интернете. За 16 лет работы реализовали более 2000 проектов международных и национальных рекламодателей.
-          </p>
+          <slot name="content">
+            <p>
+              Новое отражение коммуникационного бизнеса AMDG.
+            </p>
+            <p>
+              AMDG — международное digital-агентство, предоставляющее полный комплекс услуг для продвижения бизнеса в интернете. За 16 лет работы реализовали более 2000 проектов международных и национальных рекламодателей.
+            </p>
+          </slot>
         </div>
       </div>
 
-      <app-advantages class="company-hero__advantages">
+      <app-advantages :@last-advantage-card="lastAdvantageCard" class="company-hero__advantages">
         <app-advantage-card class="advantage-card--secondary advantages__card advantages__card--1">
           <div slot="num" class="advantage-card__num">2000+</div>
           <div slot="text" class="advantage-card__text">Международных и национальных проектов</div>
@@ -37,7 +39,7 @@
           <div slot="text" class="advantage-card__text">Digital агентство в Беларуси </div>
         </app-advantage-card>
 
-        <app-advantage-card class="advantage-card--secondary advantages__card advantages__card--4">
+        <app-advantage-card webc:if="lastAdvantageCard" class="advantage-card--secondary advantages__card advantages__card--4">
           <div slot="num" class="advantage-card__num">400+</div>
           <div slot="text" class="advantage-card__text">Успешных digital PR проектов</div>
         </app-advantage-card>
