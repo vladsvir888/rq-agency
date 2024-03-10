@@ -1,4 +1,8 @@
-# ⚡ 11ty Boilerplate
+# ⚡ RQ agency
+
+## Deploy
+
+https://rq-agency.netlify.app/
 
 ## Available Scripts
 
